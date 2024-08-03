@@ -268,6 +268,12 @@ header {
 
 .política {
     display: flex;
+    margin-bottom: 55px;
+}
+
+.letters-politica {
+    margin-top: 20px;
+    margin-left: 130px;
 }
 
 .img-politica {
@@ -276,4 +282,18 @@ header {
 
 .img-politica img {
     margin-right: -1000px;
+}
+
+.letters-pol {
+    width: 680px;
+}
+
+.letters-pol p{
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.icon-pol {
+    margin-right: 40px;
 }
