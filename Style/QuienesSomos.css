@@ -243,3 +243,37 @@ header {
     top: 15px;
     right: 20px;
 }
+
+.parrafo {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.parrafo p {
+    margin-left: 155px;
+}
+
+.principal-politica {
+    position: relative;
+    width: 1824px;
+    height: 770px;
+    background-color: rgba(42, 41, 41, 0.33);
+    border-radius: 63px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.política {
+    display: flex;
+}
+
+.img-politica {
+    margin-top: -105px;
+}
+
+.img-politica img {
+    margin-right: -1000px;
+}
