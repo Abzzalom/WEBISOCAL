@@ -147,18 +147,6 @@ header {
     border-radius: 74px;
 }
 
-.caja-val:nth-child(1) {
-    margin-left: 195px;
-    margin-top: 46px;
-}
-
-.caja-val .valor {
-    /* border: 1px solid black; */
-    display: flex;
-    justify-content: end;
-    align-items: end;
-}
-
 .caja-val .valor img:nth-child(1) {
     margin-top: -25px;
     margin-right: -20px;
@@ -169,15 +157,8 @@ header {
     top: 0;
     /* border: 1px solid black; */
     width: 100%;
-    display: flex;
-    justify-content: end;
-    align-items: end;
     margin-top: 25px; 
     z-index: 1;
-}
-
-.caja-val-menos img {
-    margin-right: 20px;
 }
 
 .caja-valores {
@@ -189,17 +170,12 @@ header {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
     border-radius: 52px;
     margin-top: 25px;
-    width: 521px;
-    height: 171px;
     /* border: 1px solid black; */
-    right: 65px;
 }
 
 .letters-val {
-    text-align: right;
-    width: 308px;
-    margin-top: 20px;
-    margin-left: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
 }
 
 .letters-val h1{
@@ -216,7 +192,7 @@ header {
     margin-bottom: 5px;
 }
 
-.letter-val p {
+.letters-val p {
     font-size: 20px;
     font-weight: 400;
     word-wrap: break-word;
@@ -227,9 +203,9 @@ header {
     position: absolute;
     top: 0;
     width: 100%;
-    display: flex;
+    /* display: flex;
     justify-content: end;
-    align-items: end;
+    align-items: end; */
     z-index: 1;
     margin-top: 19px;
 }
@@ -241,7 +217,7 @@ header {
 .caja-icon .icon {
     position: absolute;
     top: 15px;
-    right: 20px;
+    /* right: 20px; */
 }
 
 .parrafo {
@@ -269,6 +245,8 @@ header {
 .política {
     display: flex;
     margin-bottom: 55px;
+    justify-content: right;
+    align-items: center;
 }
 
 .letters-politica {
@@ -296,4 +274,99 @@ header {
 
 .icon-pol {
     margin-right: 40px;
+}
+
+/* CAROUSEL */
+
+.carousel-container {
+    width: 80%;
+    max-width: 1200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    min-width: 25%;
+    position: relative;
+    margin-right: 40px;
+}
+
+.carousel-item img {
+    width: 100%;
+    display: block;
+    transition: filter 0.5s ease;
+}
+
+.carousel-item:hover img {
+    filter: grayscale(100%) brightness(0.5) sepia(1) hue-rotate(-50deg);
+}
+
+.carousel-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 0, 0, 0.5); /* Fondo rojo transparente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.carousel-item:hover .overlay {
+    opacity: 1;
+}
+
+.carousel-item .content {
+    text-align: center;
+}
+
+.carousel-item .content h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.carousel-item .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.carousel-item .social-icon {
+    color: #fff;
+    font-size: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.carousel-item .social-icon:hover {
+    transform: scale(1.2);
+}
+
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.carousel-indicators li {
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #999;
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.carousel-indicators .active {
+    background-color: #333;
 }
