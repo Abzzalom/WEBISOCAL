@@ -1,0 +1,152 @@
+body {
+  background-color: #212121;
+}
+
+header {
+  background-color: #2a2929;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.contenedor-metro {
+  position: relative;
+  margin-top: 160px;
+  /* width: 1798px; */
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.fondo-transparente {
+  position: absolute;
+  top: 0;
+  /* border: 1px solid black; */
+  width: 100%;
+  margin-left: 22rem;
+}
+
+.letters-metro {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: left;
+  margin-left: 40rem;
+  margin-top: 8rem;
+}
+
+.letters-metro h1 {
+  font-size: 132px;
+  font-weight: bold;
+}
+
+.letters-metro h3 {
+  color: white;
+  font-size: 26px;
+  font-weight: 400;
+  width: 780px;
+  text-align: left;
+  margin-top: -35px;
+}
+
+.isotipo-banner-metro {
+  position: absolute;
+  top: 0;
+  /* border: 1px solid black; */
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin-top: 10rem;
+  margin-right: 50rem;
+}
+
+.isotipo-banner-metro img {
+  width: 521px;
+  height: 407px;
+}
+
+/* CALIBRACIONES */
+
+.colibraciones, .ensayos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.colibraciones h2, .ensayos h2 {
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.container-calibraciones {
+    background-color: rgba(39.30, 39.14, 39.14, 0.93);
+    box-shadow: 4px 4px 4px; 
+    border-radius: 65px; 
+    width: 1797px;
+    margin-left: 10rem;
+    margin-top: 40px;
+}
+
+.magnitud, .ensayos-e {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.eclipse, .eclipse2 {
+    border-radius: 100%;
+    background: #313131;
+    width: 326px;
+    height: 332px;
+    border: 6px #C41622 solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letters-cal, .letters-ensayos {
+    background-color: #313131;
+    border-radius: 18px;
+    width: 430px;
+    margin-top: 25px;
+}
+
+.letters-cal h3 {
+    color: white;
+    font-size: 27px;
+    font-weight: 500;
+    padding: 10px 0px 10px 0px;
+}
+
+.ensayos {
+  margin-top: 10px;
+}
+
+.primera, .segunda {
+    padding: 45px;
+    justify-content: space-between;
+}
+
+.container-ensayos {
+  width: 1797px;
+  background: rgba(39.30, 39.14, 39.14, 0.93);
+  border-radius: 65px; 
+  border: 4px #DF0707 solid;
+  margin-left: 10rem;
+  margin-top: 40px;
+}
+
+.letters-ensayos h3 {
+  color: #C41622;
+  text-align: center;
+  font-size: 26px;
+}
