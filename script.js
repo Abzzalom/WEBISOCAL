@@ -63,3 +63,9 @@ document.querySelector('.prev').addEventListener('click', () => moveSlide(-1));
 setInterval(() => {
     moveSlide(1);
 }, 5000);
+
+/* boton */
+function toggleDropdown() {
+    var dropdown = document.getElementById("myDropdown");
+    dropdown.style.display = (dropdown.style.display === "block") ? "none" : "block";
+}
