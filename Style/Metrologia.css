@@ -27,6 +27,11 @@ header {
   margin-left: 22rem;
 }
 
+.fondo-transparente img {
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
 .letters-metro {
   position: absolute;
   top: 0;
@@ -43,7 +48,7 @@ header {
 
 .letters-metro h3 {
   color: white;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 400;
   width: 780px;
   text-align: left;
@@ -63,8 +68,8 @@ header {
 }
 
 .isotipo-banner-metro img {
-  width: 521px;
-  height: 407px;
+  width: 531px;
+  height: 417px;
 }
 
 /* CALIBRACIONES */
@@ -88,7 +93,7 @@ header {
 
 .container-calibraciones {
     background-color: rgba(39.30, 39.14, 39.14, 0.93);
-    box-shadow: 4px 4px 4px; 
+    /* box-shadow: 4px 4px 4px;  */
     border-radius: 65px; 
     width: 1797px;
     margin-left: 10rem;
@@ -105,8 +110,8 @@ header {
 .eclipse, .eclipse2 {
     border-radius: 100%;
     background: #313131;
-    width: 326px;
-    height: 332px;
+    width: 310px;
+    height: 310px;
     border: 6px #C41622 solid;
     display: flex;
     justify-content: center;
@@ -116,19 +121,20 @@ header {
 .letters-cal, .letters-ensayos {
     background-color: #313131;
     border-radius: 18px;
-    width: 430px;
+    width: 420px;
     margin-top: 25px;
 }
 
 .letters-cal h3 {
     color: white;
-    font-size: 27px;
+    font-size: 28px;
     font-weight: 500;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
 }
 
 .ensayos {
-  margin-top: 10px;
+  margin-top: 60px;
 }
 
 .primera, .segunda {
@@ -146,7 +152,7 @@ header {
 }
 
 .letters-ensayos h3 {
-  color: #C41622;
+  color: white;
   text-align: center;
   font-size: 26px;
 }
