@@ -74,79 +74,98 @@ header {
 
 /* CALIBRACIONES */
 
-.colibraciones, .ensayos {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
+.colibraciones,
+.ensayos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
 }
 
-.colibraciones h2, .ensayos h2 {
-    font-size: 100px;
-    font-weight: bold;
-    color: white;
-    margin-top: 15px;
-    margin-bottom: 25px;
+.colibraciones h2,
+.ensayos h2 {
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 
 .container-calibraciones {
-    background-color: rgba(39.30, 39.14, 39.14, 0.93);
-    /* box-shadow: 4px 4px 4px;  */
-    border-radius: 65px; 
-    width: 1797px;
-    margin-left: 10rem;
-    margin-top: 40px;
+  background-color: rgba(39.3, 39.14, 39.14, 0.93);
+  /* box-shadow: 4px 4px 4px;  */
+  border-radius: 65px;
+  width: 1797px;
+  margin-left: 10rem;
+  margin-top: 40px;
 }
 
-.magnitud, .ensayos-e {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.magnitud,
+.ensayos-e {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.eclipse, .eclipse2 {
-    border-radius: 100%;
-    background: #313131;
-    width: 310px;
-    height: 310px;
-    border: 6px #C41622 solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.eclipse,
+.eclipse2 {
+  /* border-radius: 100%; */
+  background: #313131;
+  width: 310px;
+  height: 310px;
+  border-color: linear-gradient(
+    359deg,
+    rgba(70, 13, 17, 1) 0%,
+    rgba(255, 6, 23, 1) 65%
+  );;
+  /* border: 6px #C41622 solid; */
+  border: 6px solid transparent;
+  /* border-image: linear-gradient(
+    359deg,
+    rgba(70, 13, 17, 1) 0%,
+    rgba(255, 6, 23, 1) 65%
+  ); */
+  border-image-slice: 10;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.letters-cal, .letters-ensayos {
-    background-color: #313131;
-    border-radius: 18px;
-    width: 420px;
-    margin-top: 25px;
+.letters-cal,
+.letters-ensayos {
+  background-color: #313131;
+  border-radius: 18px;
+  width: 420px;
+  margin-top: 25px;
 }
 
 .letters-cal h3 {
-    color: white;
-    font-size: 28px;
-    font-weight: 500;
-    padding: 10px 10px 10px 10px;
-    text-align: center;
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
 }
 
 .ensayos {
   margin-top: 60px;
 }
 
-.primera, .segunda {
-    padding: 45px;
-    justify-content: space-between;
+.primera,
+.segunda {
+  padding: 45px;
+  justify-content: space-between;
 }
 
 .container-ensayos {
   width: 1797px;
-  background: rgba(39.30, 39.14, 39.14, 0.93);
-  border-radius: 65px; 
-  border: 4px #DF0707 solid;
+  background: rgba(39.3, 39.14, 39.14, 0.93);
+  border-radius: 65px;
+  border: 4px #df0707 solid;
   margin-left: 10rem;
   margin-top: 40px;
 }
