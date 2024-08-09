@@ -297,7 +297,7 @@ header {
 
 .carousel-container {
     width: 100%;
-    /* max-width: 1600px; */
+    max-width: 1600px;
     overflow: hidden;
     position: relative;
     margin-top: 40px;
@@ -317,15 +317,20 @@ header {
     /* min-width: 25%; */
     position: relative;
     margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
 }
 
 .carousel-item img {
-    width: 453px;
-    height: 453px;
+    width: 353px;
+    height: 353px;
     border-radius: 100%;
     display: block;
     transition: filter 0.5s ease;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     border: 10px #EB010D solid;
     margin-bottom: 10px;
 }
@@ -339,8 +344,19 @@ header {
 .carousel-item h2, .carousel-item h3 {
     color: #fff;
     margin-bottom: 10px;
+    /* font-size: 35px; */
+    /* font-weight: bold; */
+}
+
+.letters-carousel h2 {
     font-size: 35px;
-    font-weight: bold;
+    font-weight: 600;
+}
+
+.letters-carousel h3 {
+    font-size: 25px;
+    /* font-weight: 600; */
+    font-weight: 400;
 }
 
 .carousel-indicators {

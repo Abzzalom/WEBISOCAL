@@ -121,7 +121,7 @@ header {
     rgba(70, 13, 17, 1) 0%,
     rgba(255, 6, 23, 1) 65%
   );;
-  /* border: 6px #C41622 solid; */
+  /* border: 6px #C41622 solid; */ 
   border: 6px solid transparent;
   /* border-image: linear-gradient(
     359deg,
