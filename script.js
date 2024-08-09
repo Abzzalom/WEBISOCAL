@@ -72,3 +72,13 @@ function toggleDropdown() {
     var dropdown = document.getElementById("myDropdown");
     dropdown.style.display = (dropdown.style.display === "block") ? "none" : "block";
 }
+
+/* chatbot*/
+function toggleChat() {
+  var chatBox = document.getElementById('chatBox');
+  if (chatBox.style.display === 'none' || chatBox.style.display === '') {
+      chatBox.style.display = 'flex';
+  } else {
+      chatBox.style.display = 'none';
+  }
+}
