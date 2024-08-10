@@ -135,6 +135,10 @@ header {
   align-items: center;
 }
 
+.letters-cal {
+  position: relative;
+}
+
 .letters-cal,
 .letters-ensayos {
   background-color: #313131;
@@ -174,4 +178,48 @@ header {
   color: white;
   text-align: center;
   font-size: 26px;
+}
+
+/* SUBMENÚ */
+
+.menu {
+  background: linear-gradient(359deg, rgba(70, 13, 17, 1) 0%, rgba(255, 6, 23, 1) 65%);
+  border-radius: 17px;
+  width: 100%;
+}
+
+.submenu {
+  display: none;
+  border-radius: 17px;
+  position: absolute;
+  top: 100%; /* Justo debajo del elemento letters-cal */
+  left: 0;
+  background-color: #2D2D2D;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px 50PX;
+  margin-top: 10px;
+  z-index: 10; /* Asegúrate de que el submenú esté por encima de los demás elementos */
+  /* width: 90%; */
+}
+
+.submenu ul {
+  list-style-type: disc; 
+  color: #C41622; 
+  font-size: 40px;
+}
+
+.submenu ul li {
+  margin-bottom: 12px;
+}
+
+.submenu ul li a{
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  /* line-height: 1.2; */
+}
+
+.letters-cal:hover .submenu {
+  display: block;
 }

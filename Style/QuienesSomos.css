@@ -291,22 +291,27 @@ header {
 
 .icon-pol {
     margin-right: 40px;
+    border: 1px solid black;
+    /* width: 100%; */
 }
 
 /* CAROUSEL */
 
 .carousel-container {
     width: 100%;
-    max-width: 1600px;
-    overflow: hidden;
+    /* max-width: 1600px; */
+    overflow: visible;
     position: relative;
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* border: 1px solid #000; */
-    margin-bottom: 20px;
+    margin-bottom: 170px;
 }
 
 .carousel {
-    /* width: 100%; */
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -314,30 +319,44 @@ header {
     
 }
 
-.carousel-item {
-    /* min-width: 25%; */
-    position: relative;
-    margin-right: 120px;
+.container-carousel-item {
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid black; */
+    width: 100%;
 }
 
+.carousel-item {
+    /* min-width: 25%; */
+    position: relative;
+    /* border: 1px solid black; */
+    /* border-radius: 100%; */
+    /* margin-right: 250px; */
+    background: linear-gradient(359deg, rgba(70, 13, 17, 1) 0%, rgba(255, 6, 23, 1) 65%);
+    border-radius: 50%;
+    width: 360px;
+    height: 360px;
+}
+
+
 .carousel-item img {
-    width: 353px;
-    height: 353px;
+    width: 350px;
+    height: 350px;
     border-radius: 100%;
     display: block;
     transition: filter 0.5s ease;
-    /* margin-right: 20px; */
-    border: 10px #EB010D solid;
-    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
 .letters-carousel {
-    width: 408px;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid black;
     /* background-color: #212121; */
     /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }

@@ -25,7 +25,7 @@ window.onscroll = () => {
     header.classList.remove("sticky");
   }
   /* Scroll Top Button */
-  if (pos > 300) {
+  if (pos > 400) {
     scrollTopBtn.style.display = "grid";
   } else {
     scrollTopBtn.style.display = "none";
@@ -57,8 +57,11 @@ function moveSlide(direction) {
     showSlide(currentIndex + direction);
 }
 
+document.querySelector('.prev').addEventListener('click', () => moveSlide(6));
+document.querySelector('.prev2').addEventListener('click', () => moveSlide(1));
 document.querySelector('.next').addEventListener('click', () => moveSlide(1));
-document.querySelector('.prev').addEventListener('click', () => moveSlide(-1));
+document.querySelector('.next2').addEventListener('click', () => moveSlide(+2));
+document.querySelector('.next3').addEventListener('click', () => moveSlide(-5));
 
 setInterval(() => {
     moveSlide(1);
@@ -68,4 +71,14 @@ setInterval(() => {
 function toggleDropdown() {
     var dropdown = document.getElementById("myDropdown");
     dropdown.style.display = (dropdown.style.display === "block") ? "none" : "block";
+}
+
+/* chatbot*/
+function toggleChat() {
+  var chatBox = document.getElementById('chatBox');
+  if (chatBox.style.display === 'none' || chatBox.style.display === '') {
+      chatBox.style.display = 'flex';
+  } else {
+      chatBox.style.display = 'none';
+  }
 }

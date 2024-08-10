@@ -18,17 +18,38 @@
     <!------ Stylesheet ------>
     <link rel="stylesheet" href="./Style/inicio.css" />
     <!------ Queries ------>
-    <link rel="stylesheet" href="./queries.css" />
+    <link rel="stylesheet" href="queries.css" />
   </head>
+
+   
+  <a href="#" class="whatsapp-button" onclick="toggleChat()">
+    <img src="img/WSP.png" alt="WhatsApp Chat">
+</a>
+
+<!-- Caja de chat -->
+<div class="chat-box" id="chatBox" >
+    <div class="chat-header">WhatsApp ISOCAL</div>
+    <div class="chat-content">
+        <p  class="boxx">Hola, ¿en qué te podemos ayudar?</p>
+    </div>
+    <div class="chat-footer">
+      <a href="https://wa.me/+51963558137" target="_blank" class="whatsapp-button2">Chatea con nosotros en WhatsApp</a>
+  </div>
+</div>
   <body>
+   
+
     <!------ Scroll To Top Button ------>
     <button id="scroll-top">
       <i class="fas fa-arrow-up"></i>
     </button>
+   
+
+
     <!------ Header ------>
     <header>
       <nav>
-        <img src="img/iso.svg" alt="Logo" id="logo">
+        <img src="img/CAL.png" alt="Logo" id="logo">
         <i class="fas fa-bars" id="ham-menu"></i>
         <ul id="nav-bar">
           <li>
@@ -60,29 +81,48 @@
      <div class="slider">
       <div class="slides">
           <div class="slide">
-              <img src="./img/banner/ban1.svg" alt="Imagen 1">
-              <div class="caption">
-                  <h2>Título 1</h2>
-                  <p>Descripción de la imagen 1</p>
+              <img src="./img/banner/banner1.svg" alt="Imagen 1">
+              <div class="caption" >
+                  <h1  class="tex-ban-1"  >RED DE LABORATORIOS <HR class="ruler">ACREDITADOS</HR></h1>
+                  <p class="subtex-ban-1"  >POR INACAL / DM (PERÚ) y A2LA (EE. UU.) </p>
+                  <p   class="subtex-ban-1"  >Somos la solución a todas tus necesidades </p>
+                  <p class="subtex-ban-1"  > de ensayo y calibración.</p>
+                  
               </div>
           </div>
           <div class="slide">
-              <img src="./img/banner/ban1.svg" alt="Imagen 2">
+              <img src="./img/banner/banner2.svg" alt="Imagen 2">
               <div class="caption">
-                  <h2>Título 2</h2>
-                  <p>Descripción de la imagen 2</p>
+                  <h1  class="tex-ban-1" >EXACTITUD <HR class="ruler">INIGUALABLE</h1>
+                  <p   class="subtex-ban-1" >La mayoría de nuestros servicios de calibración</p>
+                  <p   class="subtex-ban-1" >mejoran la exactitudde sus mediciones en un 38.3%. </p>
               </div>
           </div>
           <div class="slide">
               <img src="./img/banner/ban1.svg" alt="Imagen 3">
               <div class="caption">
-                  <h2>Título 3</h2>
-                  <p>Descripción de la imagen 3</p>
+                  <h1 class="tex-ban-1"  >TODAS LAS MAGNITUDES </h1>
+                  <h1 class="tex-ban-1"  >ACREDITADAS EN UN <hr class="ruler">SOLO LUGAR</h1>
+                  <p class="subtex-ban-1">Todas las magnitudes acreditadas que existen </p>
+                  <p class="subtex-ban-1">en el país, ahora las encuentras en un solo lugar.</p>
               </div>
           </div>
+          <div class="slide">
+            <img src="./img/banner/ban1.svg" alt="Imagen 4">
+            <div class="caption">
+                <h1 class="tex-ban-1"  >CAPACITACIONES Y <hr class="ruler">AUDITORÍAS</h1>
+                <p class="subtex-ban-1">Estamos para ayudarte a implementar, cumplir o mejorar </p>
+                <p class="subtex-ban-1">el cumplimiento de los requisitos de las normas ISO o</p>
+                <p class="subtex-ban-1">regulaciones gubernamentales.</p>
+            </div>
+        </div>
       </div>
-      <button class="prev" onclick="moveSlide(-1)">❮</button>
-      <button class="next" onclick="moveSlide(1)">❯</button>
+  
+      <button class="prev" onclick="moveSlide(0)">ㅤ</button>
+      <button class="prev2" onclick="moveSlide(0)">ㅤ</button>
+      <button class="next" onclick="moveSlide(0)">ㅤ</button>
+      <button class="next2" onclick="moveSlide(0)">ㅤ</button>
+      <button class="next3" onclick="moveSlide(0)">ㅤ</button>
   </div>
 
 
@@ -112,11 +152,11 @@
       <div class="row">
         <div class="column">
           <h2 class="metrologia">
-            <p class="isocal-se-ha">METROLOGÍA</p>
+            <p class="isocal-se-ha-M">METROLOGÍA</p>
             <img class="isotipo-mesa-de-trabajo-1-8"  loading="lazy"  alt=""  src="./img/isotipo.svg"/>      
           </h2>
 
-          <img src="./img/servicios/recurso-2.svg" /> <img
+          <img class="ser-metro"  src="./img/servicios/ser1.svg" /> <img
           class=""
           loading="lazy"
           alt=""
@@ -127,11 +167,11 @@
         <div class="column">
           <h2 class="consultoria">
             <p class="isocal-se-ha">CONSULTORÍA</p>
-            <img class="isotipo-mesa-de-trabajo-1-8"  loading="lazy"  alt=""  src="./img/isotipo.svg"/>      
+            <img class="isotipo-mesa-de-trabajo-1-8-2"  loading="lazy"  alt=""  src="./img/isotipo.svg"/>      
           </h2>
 
           
-          <img src="./img/servicios/recursoc.svg" />
+          <img src="./img/servicios/ser2.svg" />
         </div>
       
 
@@ -145,9 +185,9 @@
         <div class="column">
           <h2 class="auditoria">
             <p class="isocal-se-ha">AUDITORÍA</p>
-            <img class="isotipo-mesa-de-trabajo-1-8"  loading="lazy"  alt=""  src="./img/isotipo.svg"/>      
+            <img class="isotipo-mesa-de-trabajo-1-8-3"  loading="lazy"  alt=""  src="./img/isotipo.svg"/>      
           </h2>
-          <img src="./img/servicios/recursoa.svg" />    
+          <img src="./img/servicios/ser3.svg" />    
         </div>
       </div>
 
@@ -159,7 +199,7 @@
     <section class="" id="">
       <div class="frame-parent4">
         <div class="nuestros-servicios-wrapper">
-          <h2 class="nuestros-servicios1">
+          <h2 class="nuestros-contac">
             CONTÁCTANOS
           </h2>
           <img
@@ -184,10 +224,10 @@
         <div >
           <img class="isoform"  src="./img/isotipo.svg" alt="Logo">
         </div>
-          <div><h2>CONTÁCTANOS</h2></div>
+          <div ><h2>CONTÁCTANOS</h2></div>
          
-          <div>
-          <label for="nombre">Contactanos, uno de nuestros expertos  te atenderá:</label>
+          <div  class="contac">
+          <label for="nombre">ㅤContactanos, uno de nuestros expertos  te atenderá:</label>
         </div>
           <div class="input-container" > 
           <input placeholder="Nombre y apellidos" class="mi-caja"  type="text" id="mi-caja" name="nombre" required>
@@ -214,7 +254,7 @@
             </div>
         </div>
 
-          <label for="privacidad">○ Acepto la Política de Privacidad y los Términos y Condiciones</label>
+          <label for="privacidad">ㅤ○ Acepto la Política de Privacidad y los Términos y Condiciones</label>
   
           <button class="button-env" type="submit">ENVIAR</button>
       </form>
@@ -242,6 +282,7 @@
       <p class="section-desc"></p>
       <div >
         <img class="isoform2"  src="./img/isotipo.svg" alt="Logo">
+        <img class="isoform3"  src="./img/isotipo.svg" alt="Logo">
       </div>
       <h2 class="section-descT">TESTIMONIOS</h2>
       
@@ -262,7 +303,7 @@
             Lograron satisfacción de expectativas. Sin duda, queremos seguir trabajando juntos.”
 
           </p>
-          <div class="testa">
+          <div class="testa-1">
           <h3 >Msc. Ana  Chonón</h3>
           <h4>Gte. General SECAMET</h4>
         </div>
@@ -289,14 +330,15 @@
             <img src="img/testimonios/pucp.svg" />
           </div>
           <div class="testimonial-imagestre3">
-            <img src="img/testimonios/estrellas.svg" />
+          <img src="img/testimonios/estrellas.svg" />
+
           </div>
           <p>
             Recibimos servicios de calibración de ISOCAL que superaron nuestras expectativas de calidad. 
             Estamos agradecidos de encontrar un excelente proveedor que satisface todas nuestras necesidades de metrología.
           </p>
             <div class="testa">
-              <h3 >Dr. José Luis Hideki Sakihama</h3>
+              <h3 >Dr. José Luis Hideki </h3>
               <h4>Jefe del Laboratorio de Materiales</h4>
             </div>
         </div>
