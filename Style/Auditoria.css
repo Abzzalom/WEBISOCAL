@@ -1,0 +1,9 @@
+body {
+    background-color: #212121;
+  }
+  
+  header {
+    background-color: #2a2929;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+  }
