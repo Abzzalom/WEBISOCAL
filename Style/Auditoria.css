@@ -37,7 +37,7 @@ body {
     border-top-left-radius: 80px;
     border-bottom-left-radius: 80px;
     margin-top: 5px;
-    margin-left: 120px;
+    margin-left: 110px;
   }
 
   .isotipo-aud {
@@ -97,5 +97,56 @@ body {
     font-weight: 700;
     color: white;
     margin-top: 25px;
+  }
+
+  .container_diag {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 54px;
+  }
+
+  .container_diag .diag {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(42, 41, 41);
+    border-radius: 60px;
+    width: 1552px;
+    height: 830px;
+  }
+
+  .list_aud_diag {
+    margin-right: 120px;
+  }
+
+  .list {
+    width: 660px;
+    height: 120px;
+    border-radius: 52px;
+    border: 3px solid #FF0000;
+    margin-bottom: 20px;
+  }
+
+  .letters_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .separate {
+    background-color: #C41622;
+    width: 462px;
+    height: 2px;
+  }
+
+  .letters_list p{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 10px;
   }
 
