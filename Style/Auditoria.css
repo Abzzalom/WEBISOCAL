@@ -83,16 +83,16 @@ body {
 
   /* AUDITORIAS */
 
-  .aud_diag {
+  .aud_diag, .aud_inter {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 20px;
   }
 
-  .aud_diag h2 {
+  .aud_diag h2, .aud_inter h2 {
     font-size: 90px;
     font-weight: 700;
     color: white;
@@ -125,6 +125,7 @@ body {
 
   .list {
     width: 660px;
+    background-color: #313131;
     height: 120px;
     border-radius: 52px;
     border: 3px solid #FF0000;
@@ -148,5 +149,9 @@ body {
     font-size: 30px;
     font-weight: 600;
     margin-left: 10px;
+  }
+
+  .list_aud_inter {
+    margin-left: 120px;
   }
 
