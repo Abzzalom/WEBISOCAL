@@ -1,0 +1,279 @@
+/*body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}*/
+body {
+    margin: 4%;
+    font-family: "Poppins", sans-serif;
+    background-color: #212121;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column; /* Cambia a columna para apilar verticalmente */
+    justify-content: center;
+    align-items: center;
+    height: 390vh; /* Asegura que el contenido esté centrado verticalmente */
+    overflow: auto; /* Permite el scroll si el contenido es más grande que la ventana */
+}
+
+.banner-container {
+    position: relative;
+    width: 100%; /* Ajusta el ancho según sea necesario */
+    max-width: 1200px; /* Limita el ancho máximo */
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: -70px;
+    margin-top: 70px;
+}
+
+.banner-container-1 {
+    position: relative;
+    width: 100%; /* Ajusta el ancho según sea necesario */
+    max-width: 1200px; /* Limita el ancho máximo */
+    height: 100%;
+   /* overflow: hidden;*/
+    margin-bottom: -70px;
+}
+
+
+
+
+
+
+.banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Asegura que el banner esté detrás del contenido */
+}
+
+.banner5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Asegura que el banner esté detrás del contenido */
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 50px;
+    box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+
+.banner5 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 50px;
+    box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.content {
+    position: relative;
+    z-index: 1; /* Asegura que el contenido esté por encima del banner */
+    width: 100%;
+}
+
+.content-3 {
+    position: relative;
+    z-index: 1; /* Asegura que el contenido esté por encima del banner */
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    margin-left: 25px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    flex-direction: row-reverse;
+}
+
+.container-Por {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+
+
+
+.image-section {
+    flex: 1;
+    padding: 20px;
+    margin-top: 60px; /* Mueve la sección de imagen 20px hacia abajo */
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.image-sectionpor {
+    margin-top: 50px;
+}
+
+.image-sectionpor img {
+    width: 200px;
+   
+}
+
+
+.card {
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 260px;
+    position: relative;
+    z-index: 1;
+    margin-top: -300px;
+    margin-left: -28px;
+}
+
+.card h2{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.card p{
+    font-size: 10px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+
+
+
+.image-iso {
+    margin-top: 30px; /* Mueve la sección de imagen 20px hacia abajo */
+}
+
+.image-iso img {
+    margin-top: 60px;
+    max-width: 80%;
+}
+
+.image-iso2 {
+    margin-top: 30px; /* Mueve la sección de imagen 20px hacia abajo */
+    margin-left: 20px;
+
+}
+
+.image-iso2 img {
+    margin-top: 60px;
+    max-width: 80%;
+}
+
+
+.image-isotip {
+    margin-top: 10px; /* Mueve la sección de imagen 20px hacia abajo */
+}
+
+.image-isotip img {
+    max-width: 6%;
+    margin-left: 92%;
+    margin-top: -50px;
+}
+
+.image-isotip2 {
+    margin-top: 10px; /* Mueve la sección de imagen 20px hacia abajo */
+}
+
+.image-isotip2 img {
+    max-width: 7%;
+    margin-left: 3%;
+    margin-top: -50px;
+}
+
+
+
+.text-section {
+    flex: 1;
+    padding: 20px;
+    margin-top: -40px;
+}
+
+.text-section h1 {
+    font-size: 6em;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 3px;
+}
+
+.text-section p {
+    font-size: 1.45em;
+    margin-bottom: -20px;
+
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #222222;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 110px;
+    margin-top: 4rem;
+    font-size: 20px;
+    border: 2px solid #c5222e;
+}
+
+.cta-button:hover {
+    background :  linear-gradient(34deg, rgba(74,0,0,1) 0%, rgba(176,1,1,1) 61%);;
+    border: none;
+}
+
+
+.circle img {
+    width: 119px;
+    margin-top: 10px;
+
+}
+
+.fondoti img{
+    padding: 20px;
+    margin-top: 50px;
+    width: 50rem;
+
+}
+
+.fondoti h1{
+margin-top: -90px;
+margin-left: 30px;
+}
+
+
+footer {
+    padding: 9rem 5rem;
+    background: #212121;
+    padding: 1rem 1rem;
+    margin-top: 13rem;
+}
+
+
