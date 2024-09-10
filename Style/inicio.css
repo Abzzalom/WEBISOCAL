@@ -27,17 +27,14 @@
   box-sizing: border-box;
 
 }
-*:not(i) {
-  font-family: "Poppins", sans-serif;
-}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
 /*------ Utility Classes ------*/
 
-section,
-footer {
+section{
   padding: 9rem 5rem;
   background:#212121;
   padding:1rem 9rem;
@@ -483,7 +480,7 @@ section.hero {
     justify-content: space-evenly;
     width: 170px;
   position: absolute;
-    top: 1885px;
+    top: 1895px;
     left: 0;
 }
 
@@ -493,7 +490,7 @@ section.hero {
     justify-content: space-evenly;
     width: 170px;
   position: absolute;
-  top: 1885px;
+  top: 1895px;
     left: 0;
 }
 
@@ -503,7 +500,7 @@ section.hero {
     justify-content: space-evenly;
     width: 170px;
   position: absolute;
-  top: 1885px;
+  top:1895px;
     left: 0;
 }
 
@@ -575,7 +572,7 @@ section.hero {
 }
 /*------ Section: Footer ------*/
 footer {
-  background-color:#212121;;
+
 }
 footer h3 {
   margin: 0;
@@ -1257,12 +1254,11 @@ background: linear-gradient(90deg, rgba(133,0,7,1) 0%, rgba(186,23,35,1) 100%);
 .isoform2 {
   float: right;
   display: flex;
-      margin-left: 870px;
   justify-content: space-evenly;
-      width: 40px;
-      position: absolute;
-      top: 1832px;
-      left: 0;
+  width: 40px;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 45%;
 }
 .isoform3{
   float: right;
@@ -1485,3 +1481,62 @@ p a[href="/terminos-y-condiciones"] {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25vw; /* Tamaño de fuente relativo al ancho de la ventana */
+}
+
+/* Contenedor principal */
+.container {
+  width: 60vw; /* Ancho relativo al ancho de la ventana */
+  margin: 0 auto;
+  padding: 2vh; /* Padding relativo a la altura de la ventana */
+  box-sizing: border-box;
+}
+
+/* Div contenedores */
+.div-container {
+  width: 100%;
+  padding: 2vh; /* Padding relativo a la altura de la ventana */
+  margin-bottom: 2vh; /* Margen inferior relativo a la altura de la ventana */
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 1.25vw; /* Tamaño de fuente relativo al ancho de la ventana */
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .div-container {
+    padding: 1vh; /* Ajuste del padding relativo a la altura de la ventana */
+    font-size: 1vw; /* Tamaño de fuente relativo al ancho de la ventana */
+    
+  }
+}
+
+/* Ajustes para pantallas muy pequeñas */
+@media (max-width: 480px) {
+  .div-container {
+    padding: 2vh; /* Ajuste del padding relativo a la altura de la ventana */
+    font-size: 1.75vw; /* Tamaño de fuente relativo al ancho de la ventana */
+  }
+}
+
+
+
+.chat-footer a{
+  font-size: 10PX;
+
+}
