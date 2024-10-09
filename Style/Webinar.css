@@ -99,21 +99,8 @@ h1 .iso-blg {
     z-index: 1;
 }
 
-.nab-icon-section li::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+.nab-icon-section li:hover {
     background: linear-gradient(to right, #4A0000, #a50606);
-    z-index: -1;
-    transform: translateX(-100%);
-    transition: transform 0.5s ease;
-}
-
-.nab-icon-section li:hover::before {
-    transform: translateX(0);
 }
 
 .nab-icon-section .icon-nab1 {
