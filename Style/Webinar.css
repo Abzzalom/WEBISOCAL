@@ -351,3 +351,88 @@ footer {
     padding: 20px 0;
     text-align: center;
 }
+
+
+/*CURSOS MODULO*/
+/*CONEDOR PRINCIPAL DEL MODULO DE CURSOS*/
+
+.principal-cursos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 25px;
+    margin-top: 4rem;
+}
+
+.curso {
+    background: linear-gradient(to top, #700, rgb(209, 6, 6));
+    border-radius: 10px;
+    padding: 0.3rem; /*modificar el borde del contendor de los cursos*/
+    color: white;
+    text-align: center;
+    transition: transform 0.8s ease
+}
+
+.curso:hover {
+    transform: scale(1.04);
+}
+
+.sub_curso {
+    background-color: #212121;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.sub_curso img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.categoria {
+    display: block;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border: 3px solid #a00;
+    width: 28%;
+    border-radius: 5px;
+    margin: 2rem;
+}
+
+.sub_curso h3{
+    color: #fff;
+    text-align: start;
+    margin: 0 2rem;
+}
+
+.fecha-c {
+    font-weight: 500;
+    font-size: 13px;
+    text-align: start;
+    margin: 2rem;
+}
+
+.fecha-c span{
+    margin-left: 0.5rem;
+    color: #C41922;
+}
+
+.fecha-c i{
+    background: linear-gradient(to right, #660303, #C41922);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.sub_curso button {
+    width: 92%;
+    margin-bottom: 2rem;
+    background: linear-gradient(to right, #4A0000, #B00101);
+    font-weight: 500;
+    padding: 0.7rem 0;
+}
+
+.sub_curso button:hover {
+    background: linear-gradient(to right, #561717, #a42a2a);
+}
