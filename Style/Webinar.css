@@ -99,21 +99,9 @@ h1 .iso-blg {
     z-index: 1;
 }
 
-.nab-icon-section li::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+.nab-icon-section li:hover {
     background: linear-gradient(to right, #4A0000, #a50606);
-    z-index: -1;
-    transform: translateX(-100%);
-    transition: transform 0.5s ease;
-}
-
-.nab-icon-section li:hover::before {
-    transform: translateX(0);
+    cursor: pointer;
 }
 
 .nab-icon-section .icon-nab1 {
@@ -363,4 +351,328 @@ footer {
     background-color: #222;
     padding: 20px 0;
     text-align: center;
+}
+
+
+/*CURSOS MODULO*/
+/*CONEDOR PRINCIPAL DEL MODULO DE CURSOS*/
+
+.principal-cursos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 25px;
+    margin-top: 4rem;
+}
+
+.curso {
+    background: linear-gradient(to top, #700, rgb(209, 6, 6));
+    border-radius: 10px;
+    padding: 0.3rem; /*modificar el borde del contendor de los cursos*/
+    color: white;
+    text-align: center;
+    transition: transform 0.8s ease
+}
+
+.curso:hover {
+    transform: scale(1.04);
+}
+
+/*CONTENDOR SECUNDARIO GRIS DEL CUADRO*/
+.sub_curso {
+    background-color: #212121;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.sub_curso img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.categoria {
+    display: block;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border: 3px solid #a00;
+    width: 28%;
+    border-radius: 5px;
+    margin: 2rem;
+}
+
+.sub_curso h3{
+    color: #fff;
+    text-align: start;
+    margin: 0 2rem;
+}
+
+.fecha-c {
+    font-weight: 500;
+    font-size: 13px;
+    text-align: start;
+    margin: 2rem;
+}
+
+.fecha-c span{
+    margin-left: 0.5rem;
+    color: #C41922;
+}
+
+.fecha-c i{
+    background: linear-gradient(to right, #660303, #C41922);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+/*ESTILO DEL BOTON DEL CUADRO DE LOS CURSOS*/
+
+.sub_curso button {
+    width: 92%;
+    margin-bottom: 2rem;
+    background: linear-gradient(to right, #4A0000, #B00101);
+    font-weight: 500;
+    padding: 0.7rem 0;
+}
+
+.sub_curso button:hover {
+    background: linear-gradient(to right, #561717, #a42a2a);
+}
+
+/*SECCION PRINCIPAL DE SESIONES*/
+.principal-sesion {
+    padding: 3.5rem;
+    margin-top: 3rem;
+    border-radius: 25px;
+    background-color: #2A2929;
+    width: 95%;
+    margin-left: 3rem;
+}
+
+.categoria-2{
+    display: block;
+    color: white;
+    font-weight: 500;
+    font-size: 28px;
+    border: 3px solid #a00;
+    width: 30%;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    padding: 0.8rem 0;
+    text-align: center;
+}
+
+.principal-sesion .encabezado {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.principal-sesion .encabezado img {
+    width: 45%;
+}
+
+.principal-sesion h1 {
+    margin-bottom: 10px;
+    padding-right:22rem;
+    font-size: 6rem;
+    line-height: 1.2;
+}
+
+.principal-sesion .rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 3rem;
+}
+
+.principal-sesion .rating span{
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: #7B7B7B;
+}
+
+.bells{
+    display: block;
+    font-weight: 600;
+    font-size: 22px;
+    border: 3px solid #a00;
+    padding: 0 0.3rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 1.5rem;
+}
+
+.principal-sesion .rating i {
+    color: #ffc107;
+}
+
+.principal-sesion .fecha-publicacion {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    color: #C41622;
+}
+
+/*linea divisora*/
+.hr {
+    width: 70%;
+    margin-left: 20rem;
+    background: #C41622;
+    border: none;
+    height: 2px;
+}
+
+.principal-sesion .sesiones {
+    margin-top: 5rem;
+}
+
+.principal-sesion .sesiones h2 {
+    font-size: 4.5rem;
+    text-align: center;
+    padding: 0 9rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 5rem;
+}
+
+
+/*COLUMNAS DIVIDIDAS*/
+.contenido-curso {
+    display: flex;
+    margin-top: 20px;
+}
+
+.duracion-columna {
+    flex: 0 0 25%;
+    padding-right: 20px;
+}
+
+.sesiones-columna {
+    flex: 0 0 75%;
+}
+
+.duracion {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.icono-reloj::before {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+    color: #D0D0D0;
+}
+
+.tiempo-total {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.tiempo-total span{
+    background-color: #3f3f3f;
+    text-align: center;
+    padding: 0.3rem 0.9rem;
+    border-radius: 50%;
+    font-size: 2.9rem;
+}
+
+.tiempo-total i {
+    background: linear-gradient(to right, #660303, #C41922);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*end*/
+
+
+.sesion {
+    background-color: #444;
+    margin-bottom: 1.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.sesion-info {
+    display: flex;
+    align-items: center;
+}
+
+.sesion-video {
+    background-color: #0066cc;
+    width: 24rem;
+    height: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.sesion-video iframe {
+    width: 24rem;
+    height: 14rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.icono-play::before {
+    content: "▶";
+    color: #99ff99;
+}
+
+.sesion-detalle h3 {
+    margin: 0;
+    text-align: start;
+    width: 25%;
+    color: #fff;
+    border-bottom: 2px solid #a50606 ;
+    margin-bottom: 1rem;
+}
+
+.sesion-detalle p {
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    font-size: 2.2rem;
+    color: #fff;
+}
+.sesion-detalle i{
+    background: linear-gradient(to right, #660303, #C41922);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+}
+
+.duracion-sesion {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.sesion a {
+    margin-right: 1.5rem;
+    width: 12%;
+}
+
+.btn-ver {
+    background: linear-gradient(to right, #660303, #C41922);
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    padding: 5px 15px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 8rem;
+    margin-right: 1.5rem;
+}
+
+.btn-ver:hover{
+    background: linear-gradient(to right, #561717, #a42a2a);
 }
