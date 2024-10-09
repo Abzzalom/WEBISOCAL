@@ -16,9 +16,22 @@ header {
     margin-top: 168px;
 }
 
+.img1{
+    max-width: 95%;
+    height: auto;
+    margin-left: 2%;
+}
+
 .dos {
     margin-top: 93px;
     position: relative;
+    
+}
+
+.dos img{
+    max-width: 89%;
+    height: auto;
+    margin-left: 6.5%;
 }
 
 .letter {
@@ -75,8 +88,32 @@ header {
     position: relative;
 }
 
+.caja1 {
+    width: 90%;
+    height: 95%;
+}
+
+.caja2 {
+    width: 90%;
+    height: 95%;
+}
+
+.caja-v {
+    position: relative;
+}
+
+.caja-v1 {
+    width: 90%;
+    max-width: 89%;
+    height: auto;
+    margin-left: 6%;
+
+}
+
+
 .caja:nth-child(1) {
     margin-right: 171px;
+    margin-left: 90px;
 }
 
 .letter-cajas {
@@ -336,14 +373,14 @@ header {
     /* margin-right: 250px; */
     background: linear-gradient(359deg, rgba(70, 13, 17, 1) 0%, rgba(255, 6, 23, 1) 65%);
     border-radius: 50%;
-    width: 360px;
-    height: 360px;
+    width: 260px;
+    height: 260px;
 }
 
 
 .carousel-item img {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     border-radius: 100%;
     display: block;
     transition: filter 0.5s ease;
@@ -369,12 +406,12 @@ header {
 }
 
 .letters-carousel h2 {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 600;
 }
 
 .letters-carousel h3 {
-    font-size: 25px;
+    font-size: 19px;
     /* font-weight: 600; */
     font-weight: 400;
 }
@@ -399,3 +436,8 @@ header {
 .carousel-indicators .active {
     background-color: white;
 }
+
+.fot-marge{
+    margin: 4%;
+
+  }

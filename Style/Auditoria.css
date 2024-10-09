@@ -23,6 +23,13 @@ body {
     align-items: center;
   }
 
+  .banner-aud img{
+    max-width: 100%; /* La imagen no será más ancha que el contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+
+  }
+
+
   .transparencia, .isotipo-aud {
     position: absolute;
     top: 0;
@@ -93,7 +100,7 @@ body {
   }
 
   .aud_diag h2, .aud_inter h2 {
-    font-size: 90px;
+    font-size: 47px;
     font-weight: 700;
     color: white;
     margin-top: 25px;
@@ -114,24 +121,42 @@ body {
     justify-content: center;
     align-items: center;
     background: rgb(42, 41, 41);
-    border-radius: 60px;
-    width: 1552px;
-    height: 830px;
+    border-radius: 35px;
+    width: 128rem;
+    height: 56rem;
+    max-width: 90%;
   }
+
+.cont-red{
+  width: 130rem;
+  height: 58rem;
+  max-width: 92%;
+}
 
   .list_aud_diag {
     margin-right: 120px;
   }
 
+  .image_aud_diag img{
+    width: 38rem;
+
+  }
+
+
   .list {
-    width: 660px;
+    width: 440px;
     background-color: #313131;
-    height: 120px;
+    height: 74px;
     border-radius: 52px;
     border: 3px solid #FF0000;
     margin-bottom: 20px;
   }
 
+.list img{
+  margin-left: 6px;
+  width: 15%;
+
+}
   .letters_list {
     display: flex;
     flex-direction: column;
@@ -146,7 +171,7 @@ body {
   }
 
   .letters_list p{
-    font-size: 30px;
+    font-size: 16px;
     font-weight: 600;
     margin-left: 10px;
   }
