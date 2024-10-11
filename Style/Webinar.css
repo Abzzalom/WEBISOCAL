@@ -96,13 +96,30 @@ h1 .iso-blg {
     margin-top: 0.2rem;
     overflow: hidden;
     position: relative;
+}
+
+.nab-icon-section li img,
+.nab-icon-section li span {
+    position: relative;
     z-index: 1;
 }
 
-.nab-icon-section li:hover {
+.nab-icon-section li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
     background: linear-gradient(to right, #4A0000, #a50606);
-    cursor: pointer;
+    transition: left 0.5s ease-in-out;
+    z-index: 1;
 }
+
+.nab-icon-section li:hover::before {
+    left: 0;
+}
+
 
 .nab-icon-section .icon-nab1 {
     width: 4.4rem;
@@ -146,7 +163,7 @@ h1 .iso-blg {
     padding: 4px;
     margin-top: -10px;
     border-radius: 25px;
-    background: linear-gradient(to right, #4A0000, #a50606);
+    background: linear-gradient(to top, #4A0000, #a50606); /*-------------correccion -----------*/
 }
 
 .p2-fondo {
@@ -467,7 +484,7 @@ footer {
 .principal-sesion .encabezado {
     display: flex;
     align-items: flex-start;
-    gap: 10px;
+    gap: 1px;
     margin-bottom: 20px;
 }
 
