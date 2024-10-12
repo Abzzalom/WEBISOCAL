@@ -75,7 +75,7 @@ h1 .iso-blg {
     width: 23%;
     text-decoration: none;
     background: linear-gradient(to right, #4A0000, #a50606);
-    border-radius: 12px;
+    border-radius: 7px;
 }
 
 .nab-icon-section img{
@@ -86,9 +86,9 @@ h1 .iso-blg {
 .nab-icon-section li {
     text-align: center;
     padding: 8px 10px;
-    background-color: #1E1E1E;
+    background-color: #2a2a2a;
     color: white;
-    border-radius: 12px;
+    border-radius: 6px;
     width: 97%;
     height: 93.5%;
     font-size: 2.3rem;
@@ -366,7 +366,7 @@ h4 {
 
 footer {
     background-color: #222;
-    padding: 20px 0;
+    padding: 4rem 4rem;
     text-align: center;
 }
 
