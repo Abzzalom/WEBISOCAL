@@ -693,3 +693,200 @@ footer {
 .btn-ver:hover{
     background: linear-gradient(to right, #561717, #a42a2a);
 }
+
+/*----------------------*/
+.principal-post {
+    padding: 0.5rem;
+    margin-top: 3rem;
+    border-radius: 25px;
+    background: linear-gradient(to top, #4A0000, #a50606);
+    width: 98%;
+    margin-left: 1rem;
+}
+
+.sub-post {
+    width: 100%;
+    background-color: #2A2929;
+    padding: 2.5rem;
+    border-radius: 20px;
+}
+
+.sub-post h2 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: white;
+}
+.posts-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.cont-post {
+    border-right: 3px solid #4E4E4E;
+    display: flex; /* Activa Flexbox */
+    gap: 15px; 
+    justify-content: center;
+    padding: 10px;
+}
+
+.cont-post-2{
+    display: flex; /* Activa Flexbox */
+    gap: 15px; 
+    justify-content: center;
+    padding: 10px;
+}
+
+.cont-post-2 img {
+    width: 38%;
+}
+
+.cont-post img {
+    width: 40%;
+}
+.conenido-postR {
+    margin-top: -2rem;
+}
+
+.conenido-postR h3{
+    text-align: left;
+    color: #fff;
+}
+
+.conenido-postR p{
+    font-size: 1rem;
+}
+/*---------------------*/
+
+.principal-fam {
+    padding: 3.5rem;
+    margin-top: 3rem;
+    border-radius: 25px;
+    background-color: #2A2929;
+    width: 95%;
+    margin-left: 3rem;
+    text-align: center;
+}
+
+
+.title-fam {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.title-fam h1 {
+    font-size: 6rem;
+    font-weight: 600;
+}
+.title-fam img {
+    width: 5rem;
+    margin-right: 1rem;
+}
+
+/*LINEAS Y FECHA*/
+.lins {
+    margin-top: -3rem;
+    margin-bottom: 0.3rem;
+}
+.lineas {
+    display: inline-block;
+    width: 100px;
+    border: none;
+    height: 4px;
+    background: #C41922;
+    margin: 0 10px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+}
+
+.circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #474747;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.date-time {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 2rem;
+}
+
+
+.date-time i {
+    background: linear-gradient(to right, #660303, #C41922);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 0.5rem;
+}
+/*FIN*/
+.line-2 {
+    margin-top: 3rem;
+    border: none;
+    background: #C41622;
+    height: 0.3rem;
+    border-radius: 3px;
+    width: 64%;
+    margin-left: 25rem;
+}
+
+.principal-fam ul {
+    width: 80%;
+    margin-top: 5rem;
+    text-align: start;
+    margin-left: 15rem;
+}
+
+.principal-fam li {
+    list-style: none;
+    color: #C41622;
+}
+
+.principal-fam li i {
+    font-size: 1.5rem;
+    margin-right: 3rem;
+}
+
+.principal-fam ul li p {
+    margin: 2rem 1rem 2rem 5rem;
+}
+
+.share-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px;
+    gap: 5px;
+    margin-top: 12rem;
+    padding-bottom: 2rem;
+}
+
+.share-text {
+    color: white;
+    margin: 0;
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+.social-buttons {
+    display: flex;
+}
+
+.share-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.share-button img {
+    width: 4rem;
+    height: 4rem;
+}
+/*--------------------*/
