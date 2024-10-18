@@ -1311,12 +1311,14 @@ background: linear-gradient(90deg, rgba(133,0,7,1) 0%, rgba(186,23,35,1) 100%);
 }
 
 .dropdown button {
-  background :linear-gradient(90deg, rgba(133, 0, 7, 1) 0%, rgba(186, 23, 35, 1) 100%);;
+  background: linear-gradient(90deg, rgba(133, 0, 7, 1) 0%, rgba(186, 23, 35, 1) 100%);
   color: #ffffff;
   border: none;
-  width: 139%;
+  width: 98%;
   cursor: pointer;
-  margin: 12px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
 }
 
 .dropdown-content {
@@ -1650,3 +1652,50 @@ body {
   margin: 2.6%;
 
 }
+
+.services23{
+
+  background: rgb(255, 0, 0);
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
+    width: 98%;
+
+    margin-bottom: 17px;
+    padding: 12px;
+    opacity: 0; /* Para hacer que el select sea invisible */
+    outline: none; /* Eliminar el borde azul */
+    -webkit-appearance: none; /* Para Safari */
+    -moz-appearance: none; /* Para Firefox */
+    appearance: none; /* Para otros navegadores */
+}
+
+select{
+  color: white;
+  outline: none; /* Eliminar el borde azul */
+
+}
+select:focus {
+  outline: none; /* Eliminar el borde azul */
+  box-shadow: none; /* Eliminar cualquier sombra */
+}
+
+select option:checked {
+  background-color: #666666; /* Color plomo oscuro */
+  color: white;
+  outline: none; /* Eliminar el borde azul */
+}
+
+
+
+  .fon{
+    background:#444444;
+    color: white;
+    font-size: 140%;
+    outline: none; /* Eliminar el borde azul */
+    -webkit-appearance: none; /* Para Safari */
+    -moz-appearance: none; /* Para Firefox */
+    appearance: none; /* Para otros navegadores */
+  }
+
+  

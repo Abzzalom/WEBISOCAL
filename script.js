@@ -82,3 +82,9 @@ function toggleChat() {
       chatBox.style.display = 'none';
   }
 }
+
+/* boton seleccionable*/
+document.getElementById('services').addEventListener('change', function() {
+  const selectedOption = this.options[this.selectedIndex].text;
+  document.getElementById('selected-service-btn').innerText = selectedOption;
+});

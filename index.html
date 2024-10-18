@@ -204,7 +204,7 @@
 
     </div>
     
-      <form >
+      <form action="https://formsubmit.co/tvabsalon8@gmail.com" method="POST">
        
           <div ><h2>CONTÁCTANOS<i class="icon-iso"><img src="../img/isotipo.svg" ></i></h2></div>
          
@@ -226,19 +226,22 @@
           <input  placeholder="Correo Electronico" class="mi-caja-ema" type="email" id="correo" name="correo" required>
           </div>
           <div class="dropdown">
-            <button class="dropbtn" onclick="toggleDropdown()">Servicios de Metrologia y Consultoria</button>
-            <div class="dropdown-content" id="myDropdown">
-                <a href="#">Calibraciones</a>
-                <a href="#">Capacitaciones</a>
-                <a href="#">Ensayos</a>
-                <a href="#">Auditorias</a>
-                <!-- Agrega más enlaces aquí -->
-            </div>
-        </div>
+          <label for="services"></label>
+          <select  class="services23"  id="services">
+          <option class="fon"   value="Calibraciones">Calibraciones</option>
+          <option class="fon"  value="Capacitaciones">Capacitaciones</option>
+          <option class="fon"  value="Ensayos">Ensayos</option>
+          <option class="fon"  value="Auditorías">Auditorías</option>
+          </select>
+          <button type="button" id="selected-service-btn">Servicios de Metrologia y Consultoria</button>
+
+          </div>
 
           <label for="privacidad">ㅤ○ Acepto la Política de Privacidad y los Términos y Condiciones</label>
   
           <button class="button-env" type="submit">ENVIAR</button>
+
+          <input type="hidden" name="_next" value="index.html">
       </form>
     </section>
     </section>
