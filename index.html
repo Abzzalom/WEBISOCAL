@@ -62,7 +62,7 @@
             <a href="../Pages/NuestrosServicios.html">Nuestros Servicios</a>
           </li>
           <li>
-            <a href="#testimonial">Blog</a>
+            <a href="../Pages/blou.html">Blog</a>
           </li>
         </ul>
       </nav>
@@ -100,14 +100,16 @@
             <img src="./img/ba04.png" alt="Imagen 4">
             <div class="caption">
             </div>
-        </div>
+          </div>
       </div>
-  
-      <button class="prev" onclick="moveSlide(0)">ㅤ</button>
-      <button class="prev2" onclick="moveSlide(0)">ㅤ</button>
-      <button class="next" onclick="moveSlide(0)">ㅤ</button>
-      <button class="next2" onclick="moveSlide(0)">ㅤ</button>
-      <button class="next3" onclick="moveSlide(0)">ㅤ</button>
+      <div class="navigation"  id="navigation">
+
+        <button class="prev" onclick="moveSlide(0)">ㅤ</button>
+        <button class="prev2" onclick="moveSlide(0)">ㅤ</button>
+        <button class="next" onclick="moveSlide(0)">ㅤ</button>
+        <button class="next2" onclick="moveSlide(0)">ㅤ</button>
+        <button class="next3" onclick="moveSlide(0)">ㅤ</button>
+      </div>
   </div>
 
 
@@ -194,19 +196,17 @@
       </div>
       <p class="section-desc1"> </p>
 
-      <div class="gray-box"></div> <!-- Caja de color plomo -->
+    <section class="contacc"> 
+   
       <div class="video-container">
         <!-- Aquí incrusta tu video de Facebook -->
         <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FMetrindust.LaboratoriodeCalibracion%2Fvideos%2F627080869268028%2F&show_text=false&width=476&t=0" width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
 
     </div>
     
-      <form >
+      <form action="https://formsubmit.co/tvabsalon8@gmail.com" method="POST">
        
-        <div >
-          <img class="isoform"  src="./img/isotipo.svg" alt="Logo">
-        </div>
-          <div ><h2>CONTÁCTANOS</h2></div>
+          <div ><h2>CONTÁCTANOS<i class="icon-iso"><img src="../img/isotipo.svg" ></i></h2></div>
          
           <div  class="contac">
           <label for="nombre">ㅤContactanos, uno de nuestros expertos  te atenderá:</label>
@@ -226,21 +226,24 @@
           <input  placeholder="Correo Electronico" class="mi-caja-ema" type="email" id="correo" name="correo" required>
           </div>
           <div class="dropdown">
-            <button class="dropbtn" onclick="toggleDropdown()">Servicios de Metrologia y Consultoria</button>
-            <div class="dropdown-content" id="myDropdown">
-                <a href="#">Calibraciones</a>
-                <a href="#">Capacitaciones</a>
-                <a href="#">Ensayos</a>
-                <a href="#">Auditorias</a>
-                <!-- Agrega más enlaces aquí -->
-            </div>
-        </div>
+          <label for="services"></label>
+          <select  class="services23"  id="services">
+          <option class="fon"   value="Calibraciones">Calibraciones</option>
+          <option class="fon"  value="Capacitaciones">Capacitaciones</option>
+          <option class="fon"  value="Ensayos">Ensayos</option>
+          <option class="fon"  value="Auditorías">Auditorías</option>
+          </select>
+          <button type="button" id="selected-service-btn">Servicios de Metrologia y Consultoria</button>
+
+          </div>
 
           <label for="privacidad">ㅤ○ Acepto la Política de Privacidad y los Términos y Condiciones</label>
   
           <button class="button-env" type="submit">ENVIAR</button>
+
+          <input type="hidden" name="_next" value="index.html">
       </form>
-     
+    </section>
     </section>
 
   
@@ -260,12 +263,10 @@
         <p class="section-desc"></p>
       
 
-    <div class="section-desc">
+       <div class="section-desc">
       <p class="section-desc"></p>
-      <div >
-        <img class="isoform2"  src="./img/isotipo.svg" alt="Logo">
-      </div>
-      <h2 class="section-descT">TESTIMONIOS</h2>
+      
+      <h2 class="section-descT">TESTIMONIOS<i class="icon-iso2"><img src="../img/isotipo.svg" ></i></h2>
       
       <p class="section-desctes"> </p>
     </div>
@@ -273,6 +274,7 @@
 
       <div class="row">
         <div class="column1">
+          <div class="column2"> 
           <div class="testimonial-image">
             <img src="img/testimonios/secamet.svg" />
           </div>
@@ -282,14 +284,16 @@
           <p>
             “ISOCAL se ha convertido en un socio estratégico. Nos han brindado calibraciones, ensayos y capacitaciones. 
             Lograron satisfacción de expectativas. Sin duda, queremos seguir trabajando juntos.”
-
+           ㅤ
           </p>
           <div class="testa-1">
           <h3 >Msc. Ana  Chonón</h3>
           <h4>Gte. General SECAMET</h4>
         </div>
         </div>
+        </div>
         <div class="column1">
+          <div class="column2"> 
           <div class="testimonial-image">
             <img src="img/testimonios/ams.svg" />
           </div>
@@ -298,15 +302,18 @@
           </div>
           <p>
             "Los servicios de metrología y consultoría que hemos recibido de ISOCAL han resultado ser de lo mejor que hemos experimentado en el mercado. 
-            Estoy complacido de trabajar y seguir trabajando con ellos." 
+            Estoy muy complacido de trabajar y seguir trabajando con ellos." 
+            ㅤ
           </p>
             <div class="testa">
               <h3 >Msc. Ana  Chonón</h3>
               <h4>Gte. General SECAMET</h4>
             </div>
+            </div>
         </div>
 
         <div class="column1" >
+          <div class="column2"> 
           <div class="testimonial-image">
             <img src="img/testimonios/pucp.svg" />
           </div>
@@ -316,20 +323,21 @@
           </div>
           <p>
             Recibimos servicios de calibración de ISOCAL que superaron nuestras expectativas de calidad. 
-            Estamos agradecidos de encontrar un excelente proveedor que satisface todas nuestras necesidades de metrología.
+            Estamos agradecidos son un excelente proveedor que satisface todas nuestras necesidades de metrología. 
+            ㅤ
           </p>
             <div class="testa">
               <h3 >Dr. José Luis Hideki </h3>
               <h4>Jefe del Laboratorio de Materiales</h4>
             </div>
         </div>
-
+        </div>
       </div>
     </section>
 
-    
+    <h2> ㅤ ㅤ ㅤ ㅤ ㅤ </h2>
     <!------ Footer ------>
-   
+      <div class="fot-marge">
       <footer>
         <div class="footer-content">
             <!-- Logo de la empresa -->
@@ -355,7 +363,7 @@
         <p class="footer-copyright">
           Copyright © 2024 - ISOCAL - Todos los derechos reservados.
         </p>
-   
+      </div>
     <!------ Script ------>
     <script src="script.js"></script>
   </body>

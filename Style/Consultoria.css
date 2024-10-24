@@ -17,7 +17,7 @@ body{
     flex-direction: column; /* Cambia a columna para apilar verticalmente */
     justify-content: center;
     align-items: center;
-    height: 420vh; /* Asegura que el contenido esté centrado verticalmente */
+    height: 450vh; /* Asegura que el contenido esté centrado verticalmente */
     overflow: auto; /* Permite el scroll si el contenido es más grande que la ventana */
 }
 
@@ -29,6 +29,8 @@ body{
     overflow: hidden;
     margin-bottom: -70px;
     margin-top: 70px;
+    max-width: 100%; /* La imagen no será más ancha que el contenedor */
+   
 }
 
 .banner-container-1 {
@@ -143,7 +145,7 @@ body{
 }
 
 .image-section-1 img {
-    max-width: 120%;
+    max-width: 160%;
     height: auto;
     border-radius: 40px;
     margin-top: -40px;
@@ -287,14 +289,16 @@ footer {
     padding: 9rem 5rem;
     background: #212121;
     padding: 1rem 1rem;
-    margin-top: 13rem;
     margin: 0 auto;
     width: 90%;
+    MARGIN-TOP: 5REM;
 }
 
 
 .list_aud_diag {
     margin-right:50px;
+    display: flex;
+    flex-direction: column;
   }
 
   .list {
@@ -317,6 +321,8 @@ footer {
 .list_aud_diag_1 {
     margin-left: -95px;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
   }
 
   .list1 {
@@ -375,7 +381,7 @@ footer {
 .fondoti h1{
 margin-top: 20px;
 margin-left: 30px;
-font-size: 6.5rem;
+font-size: 4rem;
 text-align: center;
 }
 
