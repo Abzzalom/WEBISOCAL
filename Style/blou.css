@@ -306,19 +306,6 @@ main.seccion {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .seccion {
     padding-bottom: 25px;
     clear: both; /* Asegura que la sección se coloque debajo de otros elementos */
@@ -511,9 +498,8 @@ main{
     position: absolute;
     
     height: auto;
-
     right: 100px; /* Cambia de left a right */
-    margin-top:-43rem;
+    margin-top:-52rem;
     width: 20%;
     box-sizing: content-box;
 }
@@ -749,9 +735,8 @@ footer p {
 
 
 .container-principal {
-    margin: 15rem auto;
-    padding: 0 20px;
-    width: 95%;
+    margin: 5rem auto;
+    width: 100%;
     margin-bottom: 2rem;
 }
 
@@ -764,7 +749,7 @@ a {
     height: 350px;
     overflow: hidden;
     border-radius: 30px;
-    margin-top: 6.2rem;
+    margin-top: 6.8rem;
 }
 
 .img img {
