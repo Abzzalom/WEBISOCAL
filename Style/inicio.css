@@ -31,6 +31,7 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  font-family: "Poppins";
 }
 /*------ Utility Classes ------*/
 
@@ -442,9 +443,16 @@ margin-bottom: 0%;
 
 .contacc{
   padding: 1rem 6rem;
-
 }
 
+.tact{
+color: transparent;
+}
+
+.pv{
+  font-family: "Poppins";
+
+}
 
 
 .courses .column p {
@@ -470,6 +478,7 @@ margin-bottom: 0%;
 .testimonial h2,
 .testimonial .section-desc {
   color: var(--white-shade-1);
+  color: transparent;
 }
 
 .slider h2,
@@ -825,6 +834,7 @@ button.next3 {
   padding: 10px;
   cursor: pointer;
   border-radius: 50%;
+  color: transparent;
 }
 
 
@@ -839,7 +849,7 @@ button.prev {
   width: 10px;
   height: 10px;
   position: sticky;
-
+  color: transparent;
 }
 
 
@@ -899,6 +909,7 @@ button.next3:hover {
   border-radius: 50%;
   width: 10px;
   height: 10px;
+  color: transparent;
 }
 
 
@@ -912,6 +923,7 @@ button.next {
   width: 10px;
   height: 10px;
   position: sticky;
+  color: transparent;
 }
 
 button.next2 {
@@ -924,6 +936,7 @@ button.next2 {
   width: 10px;
   height: 10px;
   position: sticky;
+  color: transparent;
   
 }
 
@@ -937,7 +950,7 @@ button.next3 {
   width: 10px;
   height: 10px;
   position: sticky;
-  
+  color: transparent;
 }
 
 
@@ -961,7 +974,7 @@ button.next3 {
   position: relative;
   font-size: inherit;
   font-weight: 700;
-  font-family: inherit;
+  font-family: "Poppins";
   display: inline-block;
   flex-shrink: 0;
   z-index: 1;
