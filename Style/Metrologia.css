@@ -288,7 +288,9 @@ header {
   display: block;
 }
 
-
+footer {
+  padding: 1rem 4rem;
+}
 
 
 

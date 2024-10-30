@@ -26,6 +26,7 @@ body {
   .banner-aud img{
     max-width: 100%; /* La imagen no será más ancha que el contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
+    padding: 0.5rem 3rem;
 
   }
 
