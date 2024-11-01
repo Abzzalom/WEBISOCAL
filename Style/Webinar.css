@@ -806,6 +806,7 @@ footer {
     display: inline-block;
     width: 10px;
     height: 10px;
+    margin-left: 0.5rem;
     background-color: #474747;
     border-radius: 50%;
     vertical-align: middle;
