@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ISOCAL</title>
     <!------ Font Awesome ------>
@@ -18,7 +19,8 @@
     <!------ Stylesheet ------>
     <link rel="stylesheet" href="./Style/inicio.css" />
     <!------ Queries ------>
-    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
 
    
@@ -206,11 +208,11 @@
    
       <div class="video-container">
         <!-- Aquí incrusta tu video de Facebook -->
-        <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FMetrindust.LaboratoriodeCalibracion%2Fvideos%2F627080869268028%2F&show_text=false&width=476&t=0" width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+        <iframe class="fba" src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FMetrindust.LaboratoriodeCalibracion%2Fvideos%2F627080869268028%2F&show_text=false&width=476&t=0" width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
 
-    </div>
+     </div>
     
-      <form action="https://formsubmit.co/tvabsalon8@gmail.com" method="POST">
+      <form  id="frm-Email" method="POST">
        
           <div ><h2>CONTÁCTANOS<i class="icon-iso"><img src="../img/isotipo.svg" ></i></h2></div>
          
@@ -218,26 +220,26 @@
           <label for="nombre"><a class="tact" >ㅤ</a>Contactanos, uno de nuestros expertos  te atenderá:</label>
         </div>
           <div class="input-container" > 
-          <input placeholder="Nombre y apellidos" class="mi-caja"  type="text" id="mi-caja" name="nombre" required>
+          <input placeholder="Nombre y apellidos" class="mi-caja"  type="text" id="from_name" name="from_name" required>
         </div>
           <div class="input-container">
             <label for="telefono"></label>
-            <input placeholder="Teléfono"class="mi-caja-te" type="tel" id="telefono" name="telefono">
+            <input placeholder="Teléfono"class="mi-caja-te" type="tel" id="phone_id" name="phone_id">
   
             <label for="ruc"></label>
-            <input placeholder="RUC"class="mi-caja-ru" type="text" id="ruc" name="ruc">
+            <input placeholder="RUC"class="mi-caja-ru" type="text" id="ruc_id" name="ruc_id">
           </div>
           <div class="input-container">
-          <label for="correo"></label>
-          <input  placeholder="Correo Electronico" class="mi-caja-ema" type="email" id="correo" name="correo" required>
+          <label for="email_id"></label>
+          <input  placeholder="Correo Electronico" class="mi-caja-ema" type="email" id="email_id" name="email_id" required>
           </div>
           <div class="dropdown">
-          <label for="services "name="servicio" ></label>
-          <select  class="services23" name="servicio"  id="services">
-          <option class="fon"  name="servicio"  value="Calibraciones">Calibraciones</option>
-          <option class="fon"  name="servicio"  value="Capacitaciones">Capacitaciones</option>
-          <option class="fon"  name="servicio"  value="Ensayos">Ensayos</option>
-          <option class="fon"  name="servicio"  value="Auditorías">Auditorías</option>
+          <label for="services "name="message" id="message" ></label>
+          <select  class="services23" name="message"  id="services">
+          <option class="fon" id="message"  name="servicio"  value="Calibraciones">Calibraciones</option>
+          <option class="fon" id="message"  name="servicio"  value="Capacitaciones">Capacitaciones</option>
+          <option class="fon" id="message"  name="servicio"  value="Ensayos">Ensayos</option>
+          <option class="fon" id="message" name="servicio"  value="Auditorías">Auditorías</option>
           </select>
           <button type="button" id="selected-service-btn">Servicios de Metrologia y Consultoria</button>
 
@@ -249,6 +251,7 @@
 
           <input type="hidden" name="_next" value="index.html">
       </form>
+    </section>
     </section>
     </section>
 
