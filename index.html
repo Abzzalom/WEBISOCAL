@@ -23,88 +23,106 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
 
-   
-  <a href="#" class="whatsapp-button" onclick="toggleChat()">
-    <img src="img/WSP.png" alt="WhatsApp Chat">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ISOCAL</title>
+  <!------ Font Awesome ------>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <!------ Google Fonts ------>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <!------ Stylesheet ------>
+  <link rel="stylesheet" href="./Style/inicio.css" />
+  <!------ Queries ------>
+
+</head>
+
+
+<a href="#" class="whatsapp-button" onclick="toggleChat()">
+  <img src="img/WSP.png" alt="WhatsApp Chat">
 </a>
 
 <!-- Caja de chat -->
-<div class="chat-box" id="chatBox" >
-    <div class="chat-header">WhatsApp ISOCAL</div>
-    <div class="chat-content">
-        <p  class="boxx">Hola, ¿en qué te podemos ayudar?</p>
-    </div>
-    <div class="chat-footer">
-      <a href="https://wa.me/+51963558137" target="_blank" class="whatsapp-button2">Chatea con nosotros en WhatsApp</a>
+<div class="chat-box" id="chatBox">
+  <div class="chat-header">WhatsApp ISOCAL</div>
+  <div class="chat-content">
+    <p class="boxx">Hola, ¿en qué te podemos ayudar?</p>
+  </div>
+  <div class="chat-footer">
+    <a href="https://wa.me/+51963558137" target="_blank" class="whatsapp-button2">Chatea con nosotros en WhatsApp</a>
   </div>
 </div>
-  <body>
-   
 
-    <!------ Scroll To Top Button ------>
-    <button id="scroll-top">
-      <i class="fas fa-arrow-up"></i>
-    </button>
-   
+<body>
 
 
-    <!------ Header ------>
-    <header>
-      <nav>
-        <img src="img/CAL.png" alt="Logo" id="logo">
-        <i class="fas fa-bars" id="ham-menu"></i>
-        <ul id="nav-bar">
-          <li>
-            <a href="index.html">Inicio</a>
-          </li>
-          <li>
-            <a href="./Pages/QuienesSomos.html">Quienes Somos</a>
-          </li>
-          <li>
-            <a href="../Pages/NuestrosServicios.html">Nuestros Servicios</a>
-          </li>
-          <li>
-            <a href="../Pages/blou.html">Blog</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    
-    
+  <!------ Scroll To Top Button ------>
+  <button id="scroll-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
 
 
-    
-    <!------ Section: Features ------>
-    <section class="features" id="features">
+
+  <!------ Header ------>
+  <header>
+    <nav>
+      <a href="index.html">
+      <img src="img/CAL.png" alt="Logo" id="logo">
+      </a>
+      <i class="fas fa-bars" id="ham-menu"></i>
+      <ul id="nav-bar">
+        <li>
+          <a href="index.html" class="active">INICIO</a>
+        </li>
+        <li>
+          <a href="./Pages/QuienesSomos.html">QUIENES SOMOS</a>
+        </li>
+        <li>
+          <a href="./Pages/NuestrosServicios.html">NUESTROS SERVICIOS</a>
+        </li>
+        <li>
+          <a href="./Pages/blou.html">BLOG</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
 
-      <!------ slider ------>
-     <div class="slider">
+
+
+
+
+  <!------ Section: Features ------>
+  <section class="features" id="features">
+
+
+    <!------ slider ------>
+    <div class="slider">
       <div class="slides">
-          <div class="slide">
-              <img src="./img/ba01.png" alt="Imagen 1">
-              <div class="caption" >
-                  
-              </div>
+        <div class="slide">
+          <img src="./img/ba01.webp" alt="Imagen 1">
+          <div class="caption">
+
           </div>
-          <div class="slide">
-              <img src="./img/ba02.png" alt="Imagen 2">
-              <div class="caption">
-              </div>
+        </div>
+        <div class="slide">
+          <img src="./img/ba02.webp" alt="Imagen 2">
+          <div class="caption">
           </div>
-          <div class="slide">
-              <img src="./img/ba03.png" alt="Imagen 3">
-              <div class="caption">
-              </div>
+        </div>
+        <div class="slide">
+          <img src="./img/ba03.webp" alt="Imagen 3">
+          <div class="caption">
           </div>
-          <div class="slide">
-            <img src="./img/ba04.png" alt="Imagen 4">
-            <div class="caption">
-            </div>
+        </div>
+        <div class="slide">
+          <img src="./img/ba04.webp" alt="Imagen 4">
+          <div class="caption">
           </div>
+        </div>
       </div>
-      <div class="navigation"  id="navigation">
+      <div class="navigation" id="navigation">
 
         <button class="prev" onclick="moveSlide(0)">ㅤ</button>
         <button class="prev2" onclick="moveSlide(0)">ㅤ</button>
@@ -112,58 +130,48 @@
         <button class="next2" onclick="moveSlide(0)">ㅤ</button>
         <button class="next3" onclick="moveSlide(0)">ㅤ</button>
       </div>
-  </div>
-
-
-  
-
-  <!------ footer banners verticales------>
- <section>
-  <div class="frame-parent4">
-    <div class="nuestros-servicios-wrapper">
-      <h2 class="nuestros-servicios1">
-        NUESTROS SERVICIOS
-      </h2>
-      <img
-      class="logo-fondo-transparente-mesa-d"
-      loading="lazy"
-      alt=""
-      src="./img/isotipo.svg"
-    />
     </div>
-  
-  </div>
+
+
+
+
+    <!------ footer banners verticales------>
+    <section>
+      <div class="frame-parent4">
+        <div class="nuestros-servicios-wrapper">
+          <h2 class="nuestros-servicios1">
+            NUESTROS SERVICIOS
+          </h2>
+          <img class="logo-fondo-transparente-mesa-d" loading="lazy" alt="" src="./img/isotipo.svg" />
+        </div>
+
+      </div>
 
     </section>
     <!------ Section: Courses ------>
     <section class="courses" id="courses">
-     
+
       <div class="row">
         <div class="column">
           <h2 class="metrologia">
-            <p class="isocal-se-ha-M"></p> 
+            <p class="isocal-se-ha-M"></p>
           </h2>
-          <a class="links"    href="./Pages/Metrologia.html" target="_blank">
-          <img class="ser-metro" src="./img/metrolo.png" /></a> <img
-          class=""
-          
-          loading="lazy"
-          alt=""
-          src="./public/isotipo-mesa-de-trabajo-1-8@2x.png" />
-          <a ></a>
+          <a href="/Pages/Metrologia.html">
+          <img class="ser-metro" src="./img/metrolo.webp" />
+          </a>
         </div>
 
 
         <div class="column">
           <h2 class="consultoria">
-            <p class="isocal-se-ha"></p>   
+            <p class="isocal-se-ha"></p>
           </h2>
 
-          <a class="links"    href="./Pages/Consultoro.html" target="_blank">
-          <img src="./img/consultoria22.png" />
-         </a> 
+          <a href="/Pages/Consultoro.html">
+          <img src="./img/consult.webp" />
+          </a>
         </div>
-      
+
 
 
 
@@ -174,32 +182,26 @@
 
         <div class="column">
           <h2 class="auditoria">
-            <p class="isocal-se-ha"></p> 
+            <p class="isocal-se-ha"></p>
           </h2>
-
-          <a class="links"    href="./Pages/Auditoria.html" target="_blank">
-          <img src="./img/AUDITORIAAA.png" alt="Auditoría" />
-         </a> 
+          <a href="/Pages/Auditoria.html">
+          <img src="./img/audit.webp" />
+          </a>
         </div>
       </div>
 
-        
+
     </section>
-    
+
 
     <!------ Section: Testimonial ------>
     <section class="" id="">
       <div class="frame-parent4">
         <div class="nuestros-servicios-wrapper">
           <h2 class="nuestros-contac">
-            CONTACTANOS
+            CONTÁCTANOS
           </h2>
-          <img
-          class="logo-fondo-transparente-mesa-d"
-          loading="lazy"
-          alt=""
-          src="./img/isotipo.svg"
-        />
+          <img class="logo-fondo-transparente-mesa-d" loading="lazy" alt="" src="./img/isotipo.svg">
         </div>
       </div>
       <p class="section-desc1"> </p>
@@ -222,6 +224,10 @@
           <div class="input-container" > 
           <input placeholder="Nombre y apellidos" class="mi-caja"  type="text" id="from_name" name="from_name" required>
         </div>
+
+        <form  method="POST">
+
+          
           <div class="input-container">
             <label for="telefono"></label>
             <input placeholder="Teléfono"class="mi-caja-te" type="tel" id="phone_id" name="phone_id">
@@ -250,105 +256,106 @@
           <button class="button-env" type="submit">ENVIAR</button>
 
           <input type="hidden" name="_next" value="index.html">
-      </form>
-    </section>
+        </form>
+      </section>
     </section>
     </section>
 
-  
 
-     <!------ Section: Testimonial ------>
-     <section class="testimonial" id="testimonial">
+
+    <!------ Section: Testimonial ------>
+    <section class="testimonial" id="testimonial">
       <section>
         <div class="frame-parent4">
           <div class="nuestros-servicios-wrapper">
             <h2 class="nuestros-servicios2">
-              
+
             </h2>
-            
+
           </div>
+
+        </div>
         
-        </div>
-        <p class="section-desc"></p>
-      
-
-       <div class="section-desc">
-      <p class="section-desc"></p>
-      
-      <h2 class="section-descT">TESTIMONIOS<i class="icon-iso2"><img src="../img/isotipo.svg" ></i></h2>
-      
-      <p class="section-desctes"> </p>
-    </div>
 
 
-      <div class="row">
-        <div class="column1">
-          <div class="column2"> 
-          <div class="testimonial-image">
-            <img src="img/testimonios/secamet.svg" />
-          </div>
-          <div class="testimonial-imagestre">
-            <img src="img/testimonios/estrellas.svg" />
-          </div>
-          <p>
-            “ISOCAL se ha convertido en un socio estratégico. Nos han brindado calibraciones, ensayos y capacitaciones. 
-            Lograron satisfacción de expectativas. Sin duda, queremos seguir trabajando juntos.”
-           ㅤ
-          </p>
-          <div class="testa-1">
-          <h3 >Msc. Ana  Chonón</h3>
-          <h4>Gte. General SECAMET</h4>
+        <div class="section-desc">
+          
+
+          <h2 class="section-descT">TESTIMONIOS<i class="icon-iso2"><img src="./img/isotipo.svg"></i></h2>
+
+          <p class="section-desctes"> </p>
         </div>
-        </div>
-        </div>
-        <div class="column1">
-          <div class="column2"> 
-          <div class="testimonial-image">
-            <img src="img/testimonios/ams.svg" />
-          </div>
-          <div class="testimonial-imagestre2">
-            <img src="img/testimonios/estrellas.svg" />
-          </div>
-          <p>
-            "Los servicios de metrología y consultoría que hemos recibido de ISOCAL han resultado ser de lo mejor que hemos experimentado en el mercado. 
-            Estoy muy complacido de trabajar y seguir trabajando con ellos." 
-            ㅤ
-          </p>
-            <div class="testa">
-              <h3 >Msc. Ana  Chonón</h3>
-              <h4>Gte. General SECAMET</h4>
+
+
+        <div class="row">
+          <div class="column1">
+            <div class="column2">
+              <div class="testimonial-image">
+                <img src="img/secamet.png" />
+              </div>
+              <div class="testimonial-imagestre">
+                <img src="img/testimonios/estrellas.webp" />
+              </div>
+              <p>
+                “ISOCAL se ha convertido en un socio estratégico. Nos han brindado calibraciones, ensayos y
+                capacitaciones.
+                Lograron satisfacción de expectativas. Sin duda, queremos seguir trabajando juntos.”
+                ㅤ
+              </p>
+              <div class="testa-1">
+                <h3>Msc. Ana Chonón</h3>
+                <h4>Gte. General SECAMET</h4>
+              </div>
             </div>
-            </div>
-        </div>
-
-        <div class="column1" >
-          <div class="column2"> 
-          <div class="testimonial-image">
-            <img src="img/testimonios/pucp.svg" />
           </div>
-          <div class="testimonial-imagestre3">
-          <img src="img/testimonios/estrellas.svg" />
-
-          </div>
-          <p>
-            Recibimos servicios de calibración de ISOCAL que superaron nuestras expectativas de calidad. 
-            Estamos agradecidos son un excelente proveedor que satisface todas nuestras necesidades de metrología. 
-            ㅤ
-          </p>
-            <div class="testa">
-              <h3 >Dr. José Luis Hideki </h3>
-              <h4>Jefe del Laboratorio de Materiales</h4>
+          <div class="column1">
+            <div class="column2">
+              <div class="testimonial-image">
+                <img src="img/AMS.png" />
+              </div>
+              <div class="testimonial-imagestre2">
+                <img src="img/testimonios/estrellas.webp" />
+              </div>
+              <p>
+                "Los servicios de metrología y consultoría que hemos recibido de ISOCAL han resultado ser de lo mejor
+                que hemos experimentado en el mercado.
+                Estoy muy complacido de trabajar y seguir trabajando con ellos."
+                ㅤ
+              </p>
+              <div class="testa">
+                <h3>Msc. Ana Chonón</h3>
+                <h4>Gte. General SECAMET</h4>
+              </div>
             </div>
-        </div>
-        </div>
-      </div>
-    </section>
+          </div>
 
-    <h2> ㅤ ㅤ ㅤ ㅤ ㅤ </h2>
-    <!------ Footer ------>
+          <div class="column1">
+            <div class="column2">
+              <div class="testimonial-image">
+                <img src="img/PUCP.png" />
+              </div>
+              <div class="testimonial-imagestre3">
+                <img src="img/testimonios/estrellas.webp" />
+              </div>
+              <p>
+                Recibimos servicios de calibración de ISOCAL que superaron nuestras expectativas de calidad.
+                Estamos agradecidos son un excelente proveedor que satisface todas nuestras necesidades de metrología.
+                ㅤ
+              </p>
+              <div class="testa">
+                <h3>Dr. José Luis Hideki </h3>
+                <h4>Jefe del Laboratorio de Materiales</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  
+      <!------ Footer ------>
       <div class="fot-marge">
-      <footer>
-        <div class="footer-content">
+        <footer>
+          <div class="footer-content">
             <!-- Logo de la empresa -->
             <img src="img/footer/logoiso.svg" alt="Logo de la empresa" class="logo-empresa">
 
@@ -361,20 +368,20 @@
 
             <!-- Redes sociales -->
             <div class="redes-sociales">
-                <a href="https://www.youtube.com"><img  class="yt" src="img/footer/yt.svg" alt="YouTube"></a>
-                <a href="https://www.linkedin.com"><img class="yt" src="img/footer/in.svg" alt="LinkedIn"></a>
-                <a href="https://www.facebook.com"><img class="yt" src="img/footer/fb.svg" alt="Facebook"></a>
-                <a href="https://www.instagram.com"><img class="yt" src="img/footer/ig.svg" alt="Instagram"></a>
-                <a href="https://www.instagram.com"><img class="yt" src="img/footer/tk.svg" alt="Instagram"></a>
+              <a href="https://www.youtube.com"><img class="yt" src="img/footer/yt.svg" alt="YouTube"></a>
+              <a href="https://www.linkedin.com"><img class="yt" src="img/footer/in.svg" alt="LinkedIn"></a>
+              <a href="https://www.facebook.com"><img class="yt" src="img/footer/fb.svg" alt="Facebook"></a>
+              <a href="https://www.instagram.com"><img class="yt" src="img/footer/ig.svg" alt="Instagram"></a>
+              <a href="https://www.instagram.com"><img class="yt" src="img/footer/tk.svg" alt="Instagram"></a>
             </div>
-        </div>
-      </footer>
+          </div>
+        </footer>
         <p class="footer-copyright">
           Copyright © 2024 - ISOCAL - Todos los derechos reservados.
         </p>
       </div>
-    <!------ Script ------>
-    <script src="script.js"></script>
-  </body>
-</html>
+      <!------ Script ------>
+      <script src="script.js"></script>
+</body>
 
+</html>
