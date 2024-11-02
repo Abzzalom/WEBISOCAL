@@ -794,7 +794,7 @@ h1 .iso-blg {
     padding: 0;
     margin: 20px 0;
     padding-top: 2rem;
-    width: 80%;
+    width: 85%;
 }
 
 .nab-icon-section a {
@@ -865,4 +865,129 @@ h1 .iso-blg {
 
 .nab-icon-section i {
     padding-right: 0.5rem;
+}
+
+/* RESPOSIVE DE LA BARRA DE NAVEGACION SECUNDARIA*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .nab-icon-section a {
+        width: 23%;
+    }
+
+    .nab-icon-section li img,
+    .nab-icon-section li span {
+        font-size: 1.4rem !important;
+    }
+
+    .nab-icon-section li {
+        font-size: 1.4rem !important;
+    }
+
+    .nab-icon-section .icon-nab1 {
+        width: 3rem;
+        margin-right: 1rem;
+    }
+    
+    .nab-icon-section .icon-nab2 {
+        width: 2.9rem;
+        margin-right: 1rem;
+    }
+    
+    .nab-icon-section .icon-nab3 {
+        width: 2.4rem;
+        margin-right: 1rem;
+    }
+
+    .nab-icon-section .icon-nab4 {
+        width: 2.4rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .nab-icon-section li {
+        font-size: 1.4rem;
+    }
+
+    .nab-icon-section .icon-nab1 {
+        width: 2.9rem;
+        margin-right: 1rem;
+    }
+
+    .nab-icon-section li img,
+    .nab-icon-section li span {
+        font-size: 1.4rem !important;
+    }
+    
+    .nab-icon-section .icon-nab2 {
+        width: 2.5rem;
+        margin-right: 1rem;
+    }
+    
+    .nab-icon-section .icon-nab3 {
+        width: 2rem;
+        margin-right: 1rem;
+    }
+
+    .nab-icon-section .icon-nab4 {
+        width: 2rem;
+    }
+
+}
+
+@media (max-width: 687px) {
+    .nab-icon-section li {
+        font-size: 1.5rem;
+    }
+
+    .nab-icon-section li span {
+        font-size: 1.4rem !important;
+    }
+
+    .nab-icon-section .icon-nab1 {
+        width: 2.8rem;
+        margin-right: 1rem;
+    }
+    
+    .nab-icon-section .icon-nab2 {
+        width: 2.3rem;
+        margin-right: 1rem;
+    }
+    
+    .nab-icon-section .icon-nab3 {
+        width: 1.8rem;
+        margin-right: 1rem;
+    }
+
+    .nab-icon-section .icon-nab4 {
+        width: 1.8rem;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .nab-icon-section li {
+        font-size: 1rem;
+    }
+
+    .nab-icon-section li span {
+        font-size: 0.8rem !important;
+    }
+
+    .nab-icon-section .icon-nab1 {
+        width: 2rem;
+        margin-right: 1rem;
+    }
+    
+    .nab-icon-section .icon-nab2 {
+        width: 2rem;
+        margin-right: 1rem;
+    }
+    
+    .nab-icon-section .icon-nab3 {
+        width: 1.5rem;
+        margin-right: 1rem;
+    }
+
+    .nab-icon-section .icon-nab4 {
+        width: 1.5rem;
+    }
 }
