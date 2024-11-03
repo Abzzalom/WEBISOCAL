@@ -363,9 +363,10 @@ main.seccion {
     justify-content: flex-start;
     display: flex;
     font-weight: bold;
-    margin-left: -92rem;
+    margin-left: 4rem;
     color: white;
     margin-top: 2rem;
+    width: 90%;
 }
 
 .iconos {
@@ -502,10 +503,10 @@ main{
 .contenedor-aside {
     padding: 20px;
     position: absolute;
-    
+    display: flex;
     height: auto;
     right: 100px; /* Cambia de left a right */
-    margin-top:6rem;
+    margin-top:20rem;
     width: 20%;
     box-sizing: content-box;
 }

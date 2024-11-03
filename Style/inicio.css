@@ -763,6 +763,7 @@ footer p {
   border-radius: var(--border-radius-2);
   box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.2);
   place-content: space-around center;
+  Z-INDEX: 1000;
 }
 /* logo */
 #logo {
@@ -806,6 +807,7 @@ nav {
   margin: 10px;
 
 }
+
 
 .caption {
   position: absolute;
@@ -1181,7 +1183,7 @@ button.next3 {
 /* Estilos para el formulario */
 form {
   float: right;
-  width: 50%;
+  width: 45%;
   margin-right: 50px;
   color: #ffffff;
   border: 2px solid #2a2929;
@@ -1269,16 +1271,23 @@ background: linear-gradient(90deg, rgba(133,0,7,1) 0%, rgba(186,23,35,1) 100%);
   margin-left: 13px;
 
 }
+
+
+.button-env:hover {
+  background: #c5222e;
+}
+
+
+
 /* Estilos para el video */
 .video-container {
   float: left;
-  width: 43%;
+  width: 50%;
   border-radius: 20px;
 
 }
 .video-container iframe {
-  width: 100%;
-
+  
 }
 
 .fba{
@@ -1722,6 +1731,8 @@ body {
     appearance: none; /* Para otros navegadores */
 }
 
+
+
 select{
   color: white;
   outline: none; /* Eliminar el borde azul */
@@ -1783,7 +1794,6 @@ select option:checked {
       }
 
   }
-
 
 
 
