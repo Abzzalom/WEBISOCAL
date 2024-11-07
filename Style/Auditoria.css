@@ -121,15 +121,15 @@ body {
     justify-content: center;
     align-items: center;
     background: rgb(42, 41, 41);
-    border-radius: 35px;
+    border-radius: 43px;
     width: 128rem;
     height: 56rem;
     max-width: 90%;
   }
 
 .cont-red{
-  width: 130rem;
-  height: 58rem;
+  width: 129rem;
+  height: 57rem;
   max-width: 92%;
 }
 

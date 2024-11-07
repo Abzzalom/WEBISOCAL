@@ -88,3 +88,34 @@ document.getElementById('services').addEventListener('change', function() {
   const selectedOption = this.options[this.selectedIndex].text;
   document.getElementById('selected-service-btn').innerText = selectedOption;
 });
+
+
+
+
+/* formulario*/
+
+const frmEmail = document.getElementById('frm-Email')
+frmEmail.addEventListener('submit', sendEmail)
+
+const serviceId = 'service_2daiohp'
+const templateId = 'template_lfezfgc'
+const apikey = 'kFMQC0Xjce242RaTH'
+
+
+function sendEmail(event) {
+  event.preventDefault()
+  emailjs.init(serviceId)
+
+  emailjs.sendForm(serviceId,templateId,frmEmail,apikey)
+ .then( result => Swal.fire( 'Su mensaje se ha enviado correctamente.') )
+ .catch( error => {
+        Swal.fire({
+        icon:  'error',
+        title: 'Oops...',
+        text: 'Algo salió mal, por favor intenta de nuevo.',
+
+        });
+});
+
+ 
+}
