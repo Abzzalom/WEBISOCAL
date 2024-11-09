@@ -14,11 +14,9 @@ body {
 
 main.seccion {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Centrar el contenido horizontalmente */
-    width: 100%;
-
-    box-sizing: border-box; /* Incluir padding y border en el ancho total */
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
 }
 
 
@@ -313,17 +311,25 @@ main.seccion {
     flex-direction: column;
 }
 
-.contenedor-principal {
-    background:linear-gradient(359deg, rgba(70, 13, 17, 1) 0%, rgba(255, 6, 23, 1) 65%);
-    padding: 5px;
+.tarjet{
+    flex: 4;
     border-radius: 30px;
     color: white;
     display: flex;
     flex-direction: column; /* Cambiar a columna para que las secciones se apilen verticalmente */
     align-items: flex-start; /* Alinea todo a la izquierda */
-    flex: 1;
-    width: 62%;
-    margin-left: 5%;
+    margin-left: 3%;
+}
+
+.contenedor-principal {
+    background:linear-gradient(359deg, rgba(70, 13, 17, 1) 0%, rgba(255, 6, 23, 1) 65%);
+    padding: 4px;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column; /* Cambiar a columna para que las secciones se apilen verticalmente */
+    width: 100%;
+    margin-bottom: 5rem;
 }
 
 .contenido {
@@ -339,10 +345,10 @@ main.seccion {
 }
 
 .contenedor-interno img {
-    width: 70%;
+    width: 87%;
     display: block;
     margin: 0 auto;
-    margin-bottom: -6px;
+    padding-top: 3rem;
 }
 
 
@@ -363,29 +369,29 @@ main.seccion {
     justify-content: flex-start;
     display: flex;
     font-weight: bold;
-    margin-left: -92rem;
+    margin-left: -105rem;
     color: white;
     margin-top: 2rem;
 }
 
+
+/*SECCION DE SUBTILOS EN ROJO*/
+
 .iconos {
-    margin-top: 10px;
     justify-content: flex-start;
     display: flex;
-    padding: 2px 60px;
-    margin-bottom: -15px;
+    padding: 0px 60px;
 }
-
-
 
 .icono {
     display: flex;
     align-items: center;
+    margin-top: -0.5rem;
 }
 
 .icono img {
-    width: 19px;
-    height: 18px;
+    width: 2rem;
+    height: 5rem;
     margin-right: 3px;
 }
 
@@ -400,9 +406,16 @@ main.seccion {
     margin-left: 0.8rem;
 }
 
+/*FIN DE LA SECCION*/
+
+.titulo-imagen i {
+    width: 3.4rem;
+    margin-top: -1.7rem;
+}
+
 .icono span{
     color: red;
-    margin-bottom: -10px;
+    margin-top: 3rem;
 }
 
 .la-roja{
@@ -502,119 +515,13 @@ main{
 .contenedor-aside {
     padding: 20px;
     position: absolute;
-    
     height: auto;
     right: 100px; /* Cambia de left a right */
-    margin-top:6rem;
     width: 20%;
     box-sizing: content-box;
 }
 
-@media (max-width: 1488px) {
-    .contenedor-aside {
-        margin-top: 11%;
-    }
-}
-
-@media (max-width: 1420px) {
-    .contenedor-aside {
-        margin-top: 16%;
-    }
-}
-
-@media (max-width: 1360px) {
-    .contenedor-aside {
-        margin-top: 18%;
-    }
-}
-
-@media (max-width: 1340px) {
-    .contenedor-aside {
-        margin-top: 24%;
-    }
-}
-
-@media (max-width: 1270px) {
-    .contenedor-aside {
-        margin-top: 29%;
-    }
-
-    .titulo-one h1{
-        margin-left: 10%;
-    }
-}
-
-@media (max-width: 1225px) {
-    .contenedor-aside {
-        margin-top: 43%;
-    }
-
-    .titulo-one h1{
-        margin-left: 16%;
-    }
-}
-
-@media (max-width: 1165px) {
-    .contenedor-aside {
-        margin-top: 54%;
-    }
-
-    .titulo-one h1{
-        margin-left: 25%;
-    }
-}
-
-@media (max-width: 1065px) {
-    .contenedor-aside {
-        margin-top: 58%;
-    }
-
-    .titulo-one h1{
-        margin-left: 50%;
-    }
-}
-
-@media (max-width: 1110px) {
-    .contenedor-aside {
-        margin-top: 61%;
-    }
-
-    .titulo-one h1{
-        margin-left: 60%;
-    }
-}
-
-@media (max-width: 980px) {
-    .contenedor-aside {
-        margin-top: 49%;
-    }
-
-    .titulo-one h1{
-        margin-left: 65%;
-    }
-
-    .bloque-contenido-ti h2{
-        font-size: 2.4rem;
-    }
-
-    .texto-lateral h3{
-        font-size: 1.8rem;
-    }
-
-    .bloque-contenido img {
-        width: 40% !important;
-        height: 40% !important;
-    }
-}
-
-@media (max-width: 768px) {
-    .titulo-one h1{
-        margin-left: 100%;
-    }
-}
-
 .barra-lateral {
-    width: 90%; /* Ajusta según sea necesario */
     background-color: #272727; /* Fondo oscuro */
     color: #fff; /* Texto blanco */
     padding: 20px;
@@ -624,6 +531,8 @@ main{
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 100%;
+    flex: 1;
 }
 
 .bloque-contenido {
@@ -666,6 +575,23 @@ main{
 
 .texto-lateral {
     flex: 1;
+}
+
+.contenido-comp {
+    margin-top: 4rem;
+}
+/*CONTENIDO INFERIOR*/
+.contenido-comp img{
+    width: 100%;
+}
+
+.contenido-comp h3 {
+    text-align: start;
+    color: #fff;
+}
+
+.contenido-comp p {
+    font-size: 1.1rem;
 }
 
 
