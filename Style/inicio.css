@@ -277,7 +277,7 @@ nav a#logo {
 }
 nav ul a {
   color: var(--white-shade-1);
-  font-size: 25px;
+  font-size: 22.1px;
 }
 
 /*-- SideMenu --*/
@@ -1548,8 +1548,8 @@ p a[href="/terminos-y-condiciones"] {
 }
 
 .whatsapp-button img {
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
   border-radius: 50%;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   animation: jump 3s infinite;
@@ -1558,7 +1558,7 @@ p a[href="/terminos-y-condiciones"] {
 /* Estilos de la caja de chat */
 .chat-box {
   bottom: 90px;
-  right: 90px;
+  right: 120px;
   width: 300px;
   background-color: #fff;
   border: 1px solid #777777;
@@ -1761,77 +1761,3 @@ select option:checked {
     appearance: none; /* Para otros navegadores */
   }
 
-  
-  /* Mediaqueries */
-
-  
-  @media screen and (max-width:400px) {
-
-    .main {
-      width: 100%;
-    }
-
-    header {
-      width: 100%;
-      background: blue;
-    }
-
-    body {
-      width: 100%;
-      background: yellow;
-    }
-
-    section {
-      width: 100%;
-    }
-
-    aside {
-      width: 100%;
-      }
-
-      footer {
-        width: 100%;
-      }
-
-  }
-
-
-
-
-
-
-
-  @media screen and (max-width:800px) {
-
-    header {
-      width: 100%;
-      background: greenyellow;
-      display: flex;
-      flex-direction: column;
-    }
-    
-    header nav{
-      width: 100%;
-      background: greenyellow;
-      display: flex;
-      flex-direction: column;
-    }
-
-
-    .main {
-      width: 100%;
-    }
-
-    section {
-      width: 100%;
-    }
-
-    aside {
-      width: 100%;
-      }
-
-      footer {
-        width: 100%;
-      }
-
-  }
