@@ -97,8 +97,8 @@ document.getElementById('services').addEventListener('change', function() {
 const frmEmail = document.getElementById('frm-Email')
 frmEmail.addEventListener('submit', sendEmail)
 
-const serviceId = 'service_2daiohp'
-const templateId = 'template_lfezfgc'
+const serviceId = 'service_40d0xtj'
+const templateId = 'template_m5y4ttq'
 const apikey = 'kFMQC0Xjce242RaTH'
 
 

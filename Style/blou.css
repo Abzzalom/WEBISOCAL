@@ -369,9 +369,10 @@ main.seccion {
     justify-content: flex-start;
     display: flex;
     font-weight: bold;
-    margin-left: -105rem;
+    margin-left: 4rem;
     color: white;
     margin-top: 2rem;
+    width: 90%;
 }
 
 
@@ -515,8 +516,10 @@ main{
 .contenedor-aside {
     padding: 20px;
     position: absolute;
+    display: flex;
     height: auto;
     right: 100px; /* Cambia de left a right */
+    margin-top:20rem;
     width: 20%;
     box-sizing: content-box;
 }
@@ -851,6 +854,7 @@ h1 .iso-blg {
     margin-top: 0.2rem;
     overflow: hidden;
     position: relative;
+    font-weight: 600;
 }
 
 .nab-icon-section li img,

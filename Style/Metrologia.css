@@ -22,6 +22,7 @@ header {
 .contenedor-metro img{
   max-width: 95%; /* La imagen no será más ancha que el contenedor */
             height: auto; /* Mantiene la proporción de la imagen */
+            border-radius: 51px;
 }
 
 
@@ -109,7 +110,7 @@ header {
   /* box-shadow: 4px 4px 4px;  */
   border-radius: 65px;
   width:90%;
-  margin-left: 10rem;
+  margin-left: 7rem;
   margin-top: 40px;
 }
 
@@ -200,7 +201,7 @@ header {
   background: rgba(39.3, 39.14, 39.14, 0.93);
   border-radius: 65px;
   border: 4px #df0707 solid;
-  margin-left: 10rem;
+  margin-left: 7rem;
   margin-top: 40px;
 }
 

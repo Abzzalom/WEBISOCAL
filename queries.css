@@ -68,6 +68,8 @@
 @media only screen and (max-width: 767px) {
   html {
     font-size: 50%;
+   
+   
   }
   header {
     padding: 2rem 4rem;
@@ -81,7 +83,7 @@
     font-size: var(--heading-font-size-2);
   }
   nav ul {
-    background-color: var(--black-shade-1);
+    background-color: #2a2929;;
     position: fixed;
     left: -100vw;
     top: 70.4px;
@@ -110,23 +112,194 @@
 @media only screen and (max-width: 575px) {
   html {
     font-size: 46.87%;
+
   }
   header {
-    padding: 2rem 3rem;
+    padding: 2rem 5rem;
+    width: 100%;
   }
+
+  #logo {
+    width: 70%;
+   
+  }
+  .sticky{
+  width: 100%;
+
+  }
+
+  body{ 
+    content: ''; 
+    width: 100%;
+    top: 0; 
+    left: 0; 
+    height: 100%;
+ }
   .slider{
-    padding: 5rem 3rem;
+    padding: 6rem 1rem 1rem;
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+
   }
-  section,
+  section, .features .slides .slide
   footer {
-    padding: 7.5rem 3rem;
+    padding: 1.5rem;
   }
+  .logo-empresa {
+    display: flex;
+  }
+  .redes-sociales{
+  display: flex;
+  }
+  .slide {
+    min-width: 100%;
+    position: relative; 
+   }
+  .slide img {
+    padding: 3.5rem 2rem 2rem;
+        margin: 2px;
+        width: 103%;
+        height: 240px;
+        overflow: hidden;
+}
+.section-desc {
+ justify-content: center;
+}
+.section-descT{
+  text-align: justify;
+  margin: 1rem 1rem 1rem;
+  justify-content: center;
+  display: flex;
+}
+.testimonial-imagestre {
+  position: absolute;
+  transform: translate(-22%, -50%);
+  z-index: 10;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.testimonial-imagestre img{
+  justify-content: center;
+  width: 33%;
+}
+.testimonial-imagestre2 {
+  position: absolute;
+  transform: translate(-43%, -50%);
+  z-index: 10;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.testimonial-imagestre2 img{
+  justify-content: center;
+  width: 33%;
+}
+.testimonial-imagestre3 {
+  position: absolute;
+  transform: translate(-43%, -50%);
+  z-index: 10;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.testimonial-imagestre3 img{
+  justify-content: center;
+  width: 33%;
+}
+.testimonial-image {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8rem;
+
+}
+.testimonial-image img {
+  justify-content: center;
+  width: 100%;
+}
+.courses .row {
+  align-items: stretch;
+  padding: 1rem 1rem; 
+ }
+
+.navigation, .prev .prev2 .next .next2 .next3 {
+  color: transparent;
+  display: flex;
+            flex-direction: column;
+ }
+ .frame-parent4 {
+  padding: 1rem 3rem;
+  justify-content: center;
+  display: flex;
+}
+.nuestros-servicios-wrapper{
+  display: flex;
+}
+.nuestros-servicios1{
+display:flex;
+}
+.logo-fondo-transparente-mesa-d {
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+  left: 2%;
+  width: 30px;
+  height: 24px;
+  top: 7px;
+
+}
+
+  .footer-content {
+    background-color: #2A2A2A;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    -webkit-box-shadow: -4px 4px 19px 2px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: -4px 4px 19px 2px rgba(0, 0, 0, 0.38);
+    box-shadow: -4px 4px 19px 2px rgb(0 0 0 / 17%);
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+form {
+  float: left;
+  width: 100%;
+  padding: 17px;
+  display: flex;
+  flex-direction: column;
+}
+.video-container {
+  float: left;
+  width: 100%;
+  border-radius: 20px;
+  }
+  .contacc {
+    padding: 0rem 0.1rem; 
+   }
+  
+  iframe{
+width: 100%;
+  }
+
   .features .column {
     padding: 4rem 2rem;
   }
   nav ul {
-    top: 65.18px;
+    top: 80.18px;
     height: calc(65vh - 65.18px);
     border-radius:13px;
   }
-}
+  
