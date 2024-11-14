@@ -1,0 +1,19 @@
+/*LAPTOPS Y TABLETS GRANDES*/
+@media screen and (max-width: 1024px){
+    
+}
+
+/*TABLETS MEDIANAS*/
+@media screen and (max-width: 768px){
+    
+}
+
+/*TELEFONOS CELULARES*/
+@media screen and (max-width: 480px){
+    
+}
+
+/*DISPOSITIVOS MAS PEQUEÑOS EN CASO SUCEDA*/
+@media screen and (max-width: 320px){
+    
+}
