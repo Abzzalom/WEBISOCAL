@@ -96,6 +96,7 @@ h1 .iso-blg {
     margin-top: 0.2rem;
     overflow: hidden;
     position: relative;
+    cursor: url(/img/curso.png), auto;
 }
 
 .nab-icon-section li img,
@@ -103,6 +104,7 @@ h1 .iso-blg {
     position: relative;
     z-index: 1;
     font-weight: 600;
+    cursor: url(/img/curso.png), auto;
 }
 
 .nab-icon-section li::before {
@@ -115,6 +117,7 @@ h1 .iso-blg {
     background: linear-gradient(to right, #4A0000, #a50606);
     transition: left 0.5s ease-in-out;
     z-index: 1;
+    cursor: url(/img/curso.png), auto;
 }
 
 .nab-icon-section li:hover::before {
@@ -251,6 +254,7 @@ h1 .iso-blg {
     background: linear-gradient(to right, #940808, #d42d2d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    cursor: url(/img/curso.png), auto;
 }
 
 .webinar {
@@ -312,7 +316,9 @@ h1 .iso-blg {
     border-radius: 5px;
     cursor: pointer;
     font-weight: 600;
+    cursor: url(/img/curso.png), auto;
     margin-top: -30px
+
 }
 
 .btn-inscribete:hover {
@@ -401,12 +407,14 @@ footer {
     border-radius: 10px;
     width: 100%;
     height: 100%;
+    cursor: url(/img/curso.png), auto;
 }
 
 .sub_curso img {
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    cursor: url(/img/curso.png), auto;
 }
 
 .categoria {
@@ -457,6 +465,7 @@ footer {
 
 .sub_curso button:hover {
     background: linear-gradient(to right, #561717, #a42a2a);
+    cursor: url(/img/curso.png), auto;
 }
 
 /*SECCION PRINCIPAL DE SESIONES*/

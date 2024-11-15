@@ -480,11 +480,13 @@ main.seccion {
     border-radius: 5px;
     cursor: pointer;
     font-size: 12px;
+    cursor: url(/img/curso.png), auto;
 }
 
 .boton a {
     text-decoration: none;
     color: #fff;
+    cursor: url(/img/curso.png), auto;
 }
 
 .boton-c {
@@ -824,6 +826,7 @@ h1 .iso-blg {
     overflow: hidden;
     position: relative;
     font-weight: 600;
+    cursor: url(/img/curso.png), auto;
 }
 
 .nab-icon-section li img,
@@ -831,6 +834,7 @@ h1 .iso-blg {
     position: relative;
     z-index: 1;
     font-size: 2.3rem !important;
+    cursor: url(/img/curso.png), auto;
 }
 
 .nab-icon-section li::before {
