@@ -71,7 +71,23 @@
     }
 
     .caja-v {
-        margin-bottom: -1rem
+        margin-bottom: -3rem;
+        width: 590px;
+        height: 290px; 
+        overflow: hidden; /* Esconde cualquier parte de la imagen que sobresalga */
+        position: relative; /* Establece una posición relativa para el contenedor */
+        margin-left: 21.5rem;
+        border-radius: 15px;
+    }
+    
+    .caja-v1 {
+        width: 60%;
+        height: 75%; /* Ajusta la altura al 100% del contenedor */
+        object-fit: cover; /* La imagen se escala y recorta para llenar el contenedor */
+        position: absolute; 
+        top: 0;
+        left: 0;
+        border-radius: 25px;
     }
 
 }
