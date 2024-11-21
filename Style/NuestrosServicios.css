@@ -235,7 +235,9 @@ body {
     font-weight: bold;
 }
 
-
+.mob-cont {
+    display: none;
+}
 
 
 .image-iso {
@@ -436,8 +438,6 @@ footer {
         font-size: 1rem;
         /* Tamaño de fuente base */
         height: 100%;
-        background-color: #ccc
-        ;
     }
 
     .text-section h1 {
@@ -461,71 +461,164 @@ footer {
     .banner-container {
         height: 100% !important;
         width: 100%;
+        display: none;
     }
 
-    .banner img {
-        width: 93%;
-        margin-left: 1.8rem;
-        border-radius: 3rem;
+    .mob-cont {
+        width: 92%;
+        display: block;
+        margin-top: 4rem;
+        align-items: center;
+        text-align: center;
+        background-color: #2A2929;
+        border-radius: 20px;
+        padding-bottom: 5rem;
     }
 
-    .content {
+    .mob-cont img {
+        width: 85%;
+        height: auto;
+        padding: 3rem 0;
+    }
+
+    .contenido-tex {
+        width: 85%;
+        height: auto;
+    }
+
+    .contenido-tex h2 {
+        font-size: 4rem;
+        color: #fff;
+        font-weight: 600;
+        text-align: start;
+        padding-bottom: 2rem;
+        margin-left: 3.5rem;
         width: 100%;
-        margin-top: -7rem;
     }
 
-    .image-section {
-        margin-top: 7rem;
-        padding: 0 !important;
-        width: 100% !important;
-
-    }
-
-    .image-section img {
-        margin: 0;
-        padding: 0 !important ;
+    .contenido-tex p {
+        font-size: 1.8rem;
         width: 100%;
-        border-radius: 2rem;
+        text-align: start;
+        font-weight: 400;
+        margin-left: 3.5rem;
+        padding-bottom: 3rem;
     }
 
-    .image-iso {
-        margin-top: 5rem;
-        /* Mueve la sección de imagen 20px hacia abajo */
-        margin-left: 1rem;
-        width: 5%;
+    .mob-subcont{
+        width: 105%;
+        margin-left: 3rem;
+        height: auto;
+        margin-top: -2rem;
+    }
+
+    .mob-subcont img {
+        width: 10%;
+        margin-bottom: -4rem;
+        margin-left: 11rem;
+
+    }
+
+
+    .cta-button-mob {
+        background-color: #222222;
+        color: white;
+        padding: 10px 10px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 1.9rem;
+        border: 3px solid #c5222e;
+        box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.15);
+
     }
     
-    .image-iso img {
-        margin-top: 20px;
-        max-width: 100%;
-        padding: 0 !important;
+    .cta-button-mob:hover {
+        background: linear-gradient(34deg, rgba(74, 0, 0, 1) 0%, rgba(176, 1, 1, 1) 61%);
+        border: none;
+        box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.15);
     }
 
-    .text-section {
+    .fondoti {
+        width: 100%;
+        margin-top: -1rem;
+    }
+
+    .fondoti img {
+        width: 100%;
+    }
+
+    .fondoti h1 {
+        font-size: 3.2rem;
+        text-align: center;
+        margin-top: -11rem;
+        margin-left: 5.5rem;
+    }
+
+    .banner5 {
+        width: 100%;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .banner5 img {
+        width: 92%;
+        border-radius: 50px;
+        height: 85%;
+    }
+
+    .content-3 {
+        display: block;
+        width: 90%;
+        text-align: center;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .container-Por {
+        margin-bottom: 2rem;
+        top: 1rem;
+        
+    }
+
+    .image-sectionpor {
+        width: 100%;
+    }
+
+    .image-sectionpor img {
+        width: 90%;
+        margin-left: -1.5rem;
+        height: 85%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .circle {
+        width: 50%;
+        margin-top: -11.5rem;
+        margin-left: 14rem;
+    }
+
+    .circle img {
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .card h2 {
+        font-size: 4rem;
+        width: 100%;
+        margin-left: 3rem;
         margin-top: 3rem;
     }
 
-    .text-section h1 {
+    .card p {
         font-size: 1.8rem;
-    }
-
-    .text-section p {
         width: 100%;
-        font-size: 0.9rem;
-        margin-top: -3rem;
-        margin-left: 2rem;
+        margin-left: 3rem;
     }
-    
-    .text-section a {
-        font-size: 0.8rem;
-        padding: 1rem;
-        margin-top: 3.5rem;
-    }
-    
 
-    .image-isotip {
-        margin-top: -2.5rem;
-        float: left;
-        margin-right: 3rem;
-    }
+
 }
