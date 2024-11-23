@@ -11,6 +11,11 @@ body {
     overflow: auto; /* Permite el scroll si el contenido es más grande que la ventana */
 }
 
+header {
+    background-color: #2A2929;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
 
 main.seccion {
     display: flex;
@@ -1000,27 +1005,61 @@ h1 .iso-blg {
 }
 
 @media (max-width: 480px) {
+
+    body {
+        margin: 0;
+    }
+
+    /* BANNER DE EL BLOG */
+    .container-principal {
+        width: 100% !important;
+    }
+
+    .img {
+        width: 95%;
+        height: 95%;
+        border-radius: 20px;
+        margin-left: 1.3rem;
+        margin-top: 13rem;
+    }
+
+
+    .nab-icon-section ul {
+        padding-top: 1.5rem;
+        width: 94%;
+    }
+    
+    .nab-icon-section a {
+        width: 23%;
+        border-radius: 10px;
+        justify-items: center;
+    }
+    
     .nab-icon-section li {
-        font-size: 1rem;
+        padding: 6px 8px;
+        border-radius: 9px;
+        width: 97%;
+        margin-left: 0.012rem;
+        font-weight: 500;
     }
 
     .nab-icon-section li span {
-        font-size: 0.8rem !important;
+        font-size: 1.2rem !important;
     }
 
     .nab-icon-section .icon-nab1 {
         width: 2rem;
-        margin-right: 1rem;
+        margin-right: 0.5rem;
     }
     
     .nab-icon-section .icon-nab2 {
         width: 2rem;
-        margin-right: 1rem;
+        margin-right: 0.5rem;
     }
     
     .nab-icon-section .icon-nab3 {
         width: 1.5rem;
-        margin-right: 1rem;
+        margin-right: 0.5rem;
     }
 
     .nab-icon-section .icon-nab4 {

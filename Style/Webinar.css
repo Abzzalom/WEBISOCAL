@@ -222,28 +222,69 @@ h1 .iso-blg {
 }
 
 @media (max-width: 480px) {
+
+    body {
+        margin: 0;
+    }
+
+    /* BANNER DE EL BLOG */
+    .container-principal {
+        width: 100% !important;
+        margin: 0;
+        padding: 0;
+    }
+
+    .img {
+        width: 95%;
+        height: 95%;
+        border-radius: 20px;
+        margin-left: 1.3rem;
+        margin-top: 16rem;
+    }
+
+
+    .nab-icon-section ul {
+        padding-top: 1.5rem;
+        width: 94%;
+    }
+    
+    .nab-icon-section a {
+        width: 23%;
+        border-radius: 10px;
+        justify-items: center;
+    }
+    
     .nab-icon-section li {
-        font-size: 1.3rem;
+        padding: 14px 8px;
+        border-radius: 9px;
+        width: 97%;
+        margin-left: 0.012rem;
+        font-weight: 500;
+    }
+
+    .nab-icon-section li span {
+        font-size: 1.2rem !important;
     }
 
     .nab-icon-section .icon-nab1 {
-        width: 2.8rem;
-        margin-right: 1rem;
+        width: 2rem;
+        margin-right: 0.5rem;
     }
     
     .nab-icon-section .icon-nab2 {
-        width: 2.3rem;
-        margin-right: 1rem;
+        width: 2rem;
+        margin-right: 0.5rem;
     }
     
     .nab-icon-section .icon-nab3 {
-        width: 1.8rem;
-        margin-right: 1rem;
+        width: 1.5rem;
+        margin-right: 0.5rem;
     }
 
     .nab-icon-section .icon-nab4 {
-        width: 1.8rem;
+        width: 1.5rem;
     }
+
 }
 
 /*TITULO WEBINARS*/
@@ -470,11 +511,6 @@ h4 {
     font-size: 1.5em;
 }
 
-footer {
-    background-color: #222;
-    padding: 4rem 4rem;
-    text-align: center;
-}
 
 
 /*CURSOS MODULO*/
