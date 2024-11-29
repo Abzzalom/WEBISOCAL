@@ -42,7 +42,7 @@
             <i class="fas fa-bars" id="ham-menu"></i>
             <ul id="nav-bar">
                 <li>
-                    <a href="../index.html" class="active">INICIO</a>
+                    <a href="../index.html">INICIO</a>
                 </li>
                 <li>
                     <a href="./Pages/QuienesSomos.html">QUIÉNES SOMOS</a>
@@ -51,7 +51,7 @@
                     <a href="./Pages/NuestrosServicios.html">NUESTROS SERVICIOS</a>
                 </li>
                 <li>
-                    <a href="./Pages/blou.html">BLOG</a>
+                    <a href="./Pages/blou.html" class="active" >BLOG</a>
                 </li>
             </ul>
         </nav>
@@ -80,7 +80,7 @@
     </div>
     <div class="titulo-one">
         <h1>NOVEDADES</h1><i class="icono2"><img src="../img/ISOTIPO.png" alt=""></i>
-        <h1></h1>
+        <button class="toggle-btn Ra" >RELEVANTE</button>
     </div>
     <main class="seccion">
         <!-- Columna principal -->
@@ -89,7 +89,7 @@
                 <div class="contenedor-interno">
                     <img src="../img/blou/fam.webp" alt="Imagen">
                     <div class="titulo-imagen">
-                        <i><img src="../img/ISOTIPO.png" alt=""></i>FAMILIA ISOCAL
+                        <i><img src="../img/ISOTIPO.png" alt=""> </i> &nbsp; FAMILIA ISOCAL
                     </div>
                     <div class="iconos">
                         <div class="icono">
@@ -123,7 +123,7 @@
                 <div class="contenedor-interno">
                     <img src="../img/blou/equipos.webp" alt="Imagen">
                     <div class="titulo-imagen">
-                        <i><img src="../img/ISOTIPO.png" alt=""></i>DESCUBRE NUESTROS EQUIPOS
+                        <i><img src="../img/ISOTIPO.png" alt=""></i>&nbsp; DESCUBRE NUESTROS EQUIPOS
                     </div>
                     <div class="iconos">
                         <div class="icono">
@@ -157,7 +157,7 @@
                 <div class="contenedor-interno">
                     <img src="../img/blou/equipos.webp" alt="Imagen">
                     <div class="titulo-imagen">
-                        <i><img src="../img/ISOTIPO.png" alt=""></i>FAMILIA ISOCAL
+                        <i><img src="../img/ISOTIPO.png" alt=""></i>&nbsp; FAMILIA ISOCAL
                     </div>
                     <div class="iconos">
                         <div class="icono">
@@ -187,7 +187,6 @@
                 </div>
             </div>
         </div>
-
 
         <!-- Barra lateral -->
         <aside class="barra-lateral">
@@ -314,6 +313,25 @@
 
     <script src="../blou.js"></script>
     <script src="../script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const toggleBtn = document.querySelector('.toggle-btn');
+            const barraLateral = document.querySelector('.barra-lateral');
+
+            toggleBtn.addEventListener('click', () => {
+                barraLateral.classList.toggle('show');
+            });
+
+            // Close sidebar when clicking outside
+            document.addEventListener('click', (event) => {
+                if (barraLateral.classList.contains('show') && 
+                    !barraLateral.contains(event.target) && 
+                    !toggleBtn.contains(event.target)) {
+                    barraLateral.classList.remove('show');
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

@@ -64,6 +64,7 @@
     <div class="titulo-one">
         <h1>ARTICULOS</h1>
         <i class="icono2"><img src="../img/ISOTIPO.png" alt=""></i>
+        <button class="toggle-btn Re">RELEVANTE</button>
     </div>
 
     <!--SECCION CONTENDORA DE LAS COLUMNAS-->
@@ -285,6 +286,25 @@
 
     <script src="../script.js"></script>
     <script src="../blou.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const toggleBtn = document.querySelector('.toggle-btn');
+            const barraLateral = document.querySelector('.barra-lateral');
+
+            toggleBtn.addEventListener('click', () => {
+                barraLateral.classList.toggle('show');
+            });
+
+            // Close sidebar when clicking outside
+            document.addEventListener('click', (event) => {
+                if (barraLateral.classList.contains('show') && 
+                    !barraLateral.contains(event.target) && 
+                    !toggleBtn.contains(event.target)) {
+                    barraLateral.classList.remove('show');
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
