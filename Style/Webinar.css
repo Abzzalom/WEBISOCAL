@@ -285,6 +285,42 @@ h1 .iso-blg {
         width: 1.5rem;
     }
 
+    .principal-dos {
+        width: 93%;
+        margin-left: 2.1rem;
+    }
+
+    .title-w h1 {
+        margin-left: 0.5rem;
+        font-size: 3.3rem;
+    }
+
+    .principal-tres {
+        display: block !important;
+        width: 93% !important;
+        margin-left: 2.1rem;
+    }
+
+    .bloque-izquierdo {
+        display: none;
+    }
+
+    .bloque-derecho {
+        margin-bottom: 8rem;
+    }
+
+    /*CURSOS*/
+    .principal-cursos {
+        justify-items: center;
+        margin-bottom: 8rem;
+    }
+
+    .curso {
+        width: 93%;
+        padding: 0.6rem !important;
+        border-radius: 14px !important;
+    }
+
 }
 
 /*TITULO WEBINARS*/
