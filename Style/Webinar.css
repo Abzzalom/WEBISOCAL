@@ -290,8 +290,18 @@ h1 .iso-blg {
         margin-left: 2.1rem;
     }
 
-    .title-w h1 {
+    .title-w {
+        justify-items: center;
+        width: 90%;
+        margin-bottom: 2rem;
         margin-left: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .title-w h1 {
+        margin-left: 0.2rem;
         font-size: 3.3rem;
     }
 
@@ -302,7 +312,20 @@ h1 .iso-blg {
     }
 
     .bloque-izquierdo {
-        display: none;
+        position: absolute;
+        width: 55%;
+        transform: translateX(-150%);
+        transition: transform 0.8s ease;
+        z-index: 100;
+        overflow-y: auto;
+        height: auto !important;
+        margin-top: -76%;
+        margin-left: 0.1rem;
+
+    }
+
+    .bloque-izquierdo.show {
+        transform: translateX(0);
     }
 
     .bloque-derecho {
@@ -321,7 +344,41 @@ h1 .iso-blg {
         border-radius: 14px !important;
     }
 
+    .info h3 {
+        font-size: 2.2rem !important;
+        text-align: start;
+        margin-bottom: 2rem;
+    }
+
+    .btn-inscribete {
+        font-size: 1.2rem;
+    }
+
+    .toggle-btn {
+        cursor: pointer;
+        position: relative;
+        display: block;
+        padding: 0 2rem;
+        height:5.2rem;
+        margin-top: -4.3rem;
+        margin-left: auto;
+        font-size: 3.9rem;
+        background: #0066cc00;
+        color: #d70f0f;
+        /*background: linear-gradient(to right, #4A0000, #a50606);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;*/
+    }
+
+    .toggle-btn:hover {
+        color: #b04040;
+        /*background: linear-gradient(to right, #7b2828, #bc4c4c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;*/
+    }
+
 }
+
 
 /*TITULO WEBINARS*/
 .title-w {

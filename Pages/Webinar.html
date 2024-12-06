@@ -75,6 +75,7 @@
         </div>
         <div class="title-w">
             <h1>WEBINARS <img class="iso-webinars" src="../img/ISOTIPO-V2.png" alt=""></h1>
+            <button class="toggle-btn Ra" ><i class="fas fa-calendar-alt"></i></button>
         </div>
         <div class="principal-dos">
             <div class="p2-fondo">
@@ -275,6 +276,26 @@
 
     <script src="../QuienesSomos.js"></script>
     <script src="../script.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const toggleBtn = document.querySelector('.toggle-btn');
+            const barraLateral = document.querySelector('.bloque-izquierdo');
+
+            toggleBtn.addEventListener('click', () => {
+                barraLateral.classList.toggle('show');
+            });
+
+            // Close sidebar when clicking outside
+            document.addEventListener('click', (event) => {
+                if (barraLateral.classList.contains('show') && 
+                    !barraLateral.contains(event.target) && 
+                    !toggleBtn.contains(event.target)) {
+                    barraLateral.classList.remove('show');
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
