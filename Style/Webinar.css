@@ -305,6 +305,16 @@ h1 .iso-blg {
         font-size: 3.3rem;
     }
 
+    .title-w .tw2 {
+        font-size: 4.7rem;
+        margin-bottom: 0rem;
+    }
+
+    .tw2 img {
+        width: 4.5rem;
+        margin-bottom: -0.2rem;
+    }
+
     .principal-tres {
         display: block !important;
         width: 93% !important;
@@ -377,8 +387,95 @@ h1 .iso-blg {
         -webkit-text-fill-color: transparent;*/
     }
 
+
+    /*SESIONES*/
+    .principal-sesion {
+        width: 92% !important;
+        height: auto !important;
+        margin-bottom: 10rem;
+        margin-left: 2.2rem !important;
+    }
+
+    .principal-sesion .encabezado {
+        display: block !important;
+        width: 100% !important;
+        margin: 0;
+    }
+
+    .encabezado .categoria-2 {
+        font-size: 2.3rem;
+    }
+
+    .encabezado .cci {
+        font-size: 5rem;
+        padding: 0;
+    }
+
+    .img22 {
+        display: none;
+    }
+
+    .img23 {
+        display: block !important;
+        margin-top: 5rem;
+        width: 100% !important;
+        height: auto;
+    }
+
+    .hr {
+        width: 85% !important;
+        margin-left: 7% !important;
+        margin-top: 5rem;
+    }
+
+    .sesiones h2 {
+        font-size: 5rem !important;
+        padding: 0 !important;
+        text-align: start !important;
+    }
+
+    .contenido-curso {
+        display: block !important;
+    }
+
+    .tiempo-total {
+        margin-bottom: 2rem;
+    }
+
+    .sesion-video {
+        width: 33rem !important;
+        height: auto !important;
+        background-color: #0066cc00 !important;
+    }
+    
+    .sesion-video iframe {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .sesiones-columna .sesion {
+        margin-bottom: 3.5rem
+    }
+
+    .sesion-detalle h3 {
+        width: 33% !important;
+    }
+
+    .sesion-detalle p {
+        margin-bottom: 2rem;
+    }
+
+    .sesion a {
+        margin-bottom: -6rem;
+        margin-left: -8rem;
+    }
+
+
 }
 
+.img23{
+    display: none;
+}
 
 /*TITULO WEBINARS*/
 .title-w {
