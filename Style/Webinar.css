@@ -470,6 +470,72 @@ h1 .iso-blg {
         margin-left: -8rem;
     }
 
+    /*FAMILIA ISOCAL >>>>>>>>*/
+
+    .principal-fam {
+        width: 92% !important;
+        margin-left: 2.5rem !important;
+    }
+
+    .title-fam h1{
+        font-size: 5rem !important;
+
+    }
+
+    .imgfm {
+        width:4.5rem !important;
+    }
+
+    .principal-fam img {
+        width: 100%;
+        height: auto;
+    }
+
+    .line-2 {
+        width: 80% !important;
+        margin-left: 10% !important;
+        margin-bottom: 3rem;
+    }
+
+    .principal-fam ul {
+        margin: 0 !important;
+        width: 100% !important;
+    }
+
+    .principal-fam ul{
+        font-size: 2rem;
+        text-align: center !important;
+        margin-top: 6rem !important;
+    }
+
+    .principal-fam ul li p {
+        text-align: start;
+        font-size: 1.8rem;
+
+    }
+
+    .principal-post {
+        width: 92% !important;
+        margin-left: 2.5rem !important;
+        display: block !important;
+        margin-bottom: 8rem;
+        margin-top: 7rem !important;
+    }
+
+    .posts-container {
+        display: block !important;
+    }
+
+    .cont-post {
+        margin-bottom: 3rem;
+        border-bottom: 3px solid #4E4E4E;
+        border-right: none !important;
+    }
+
+    .conenido-postR p {
+        font-size: 1.4rem !important;
+    }
+
 
 }
 
