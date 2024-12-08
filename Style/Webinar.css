@@ -864,7 +864,11 @@ footer {
 }
 
 .principal-fam ul li p {
-    margin: 2rem 1rem 2rem 5rem;
+  
+    font-size: larger;
+    justify-content: center;
+    display: flex
+;
 }
 
 .share-section {
@@ -901,3 +905,9 @@ footer {
     height: 4rem;
 }
 /*--------------------*/
+
+.fondee {
+
+    max-width: 90%;
+    border-radius: 50px;
+}

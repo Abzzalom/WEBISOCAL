@@ -343,6 +343,7 @@ main.seccion {
     display: block;
     margin: 0 auto;
     margin-bottom: -6px;
+    border-radius: 19px;
 }
 
 
