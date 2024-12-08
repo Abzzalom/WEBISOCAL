@@ -1786,9 +1786,6 @@ select option:checked {
   color: white;
   outline: none; /* Eliminar el borde azul */
 }
-
-
-
   .fon{
     background:#444444;
     color: white;

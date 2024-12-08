@@ -8,20 +8,36 @@
     <link rel="icon" href="../img/ISOTIPO.png" type="image/png">
     <link rel="stylesheet" href="../Style/blou.css">
     <link rel="stylesheet" href="../Style/inicio.css">
-
+    <link rel="stylesheet" href="../queries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
 
+<a href="#" class="whatsapp-button" onclick="toggleChat()">
+    <img src="../img/WSP.png" alt="WhatsApp Chat" />
+</a>
+
+<!-- Caja de chat -->
+<div class="chat-box" id="chatBox">
+    <div class="chat-header">WhatsApp ISOCAL</div>
+    <div class="chat-content">
+        <p class="boxx">Hola, ¿en qué te podemos ayudar?</p>
+    </div>
+    <div class="chat-footer">
+        <a href="https://wa.me/+51963558137" target="_blank" class="whatsapp-button2">Chatea con nosotros en
+            WhatsApp</a>
+    </div>
+</div>
+
 <body>
-      <!------ Scroll To Top Button ------>
-  <button id="scroll-top">
-    <i class="fas fa-arrow-up"></i>
-  </button>
+    <!------ Scroll To Top Button ------>
+    <button id="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
-
-    <header class="sticky">
+    <header>
         <nav>
-            <a href="/index.html">
-            <img src="../img/CAL.png" alt="Logo" id="logo" />
+            <a href="../index.html">
+                <img src="../img/CAL.png" alt="Logo" id="logo">
             </a>
             <i class="fas fa-bars" id="ham-menu"></i>
             <ul id="nav-bar">
@@ -29,20 +45,21 @@
                     <a href="../index.html">INICIO</a>
                 </li>
                 <li>
-                    <a href="../Pages/QuienesSomos.html">QUIÉNES SOMOS</a>
+                    <a href="./Pages/QuienesSomos.html">QUIÉNES SOMOS</a>
                 </li>
                 <li>
-                    <a href="../Pages/NuestrosServicios.html">NUESTROS SERVICIOS</a>
+                    <a href="./Pages/NuestrosServicios.html">NUESTROS SERVICIOS</a>
                 </li>
                 <li>
-                    <a href="../Pages/blou.html" class="active">BLOG</a>
+                    <a href="./Pages/blou.html" class="active" >BLOG</a>
                 </li>
             </ul>
         </nav>
     </header>
     <div class="container-principal">
         <div class="img">
-            <img src="https://res.cloudinary.com/dn4c6ixfx/image/upload/v1730587119/BANNERS/i0balf1dxwo6ttrnbaww.jpg" alt="" />
+            <img src="https://res.cloudinary.com/dn4c6ixfx/image/upload/v1730587119/BANNERS/i0balf1dxwo6ttrnbaww.jpg"
+                alt="banner blog" />
         </div>
         <div class="nab-icon-section">
             <ul>
@@ -50,7 +67,7 @@
                     <li><img class="icon-nab3" src="../img/webinars/home.png" alt=""><span>INICIO</span></li>
                 </a>
                 <a href="../Pages/Articulo.html">
-                    <li><img src="../img/webinars/lista.png" alt=""><span>ARTÍCULOS</span></li>
+                    <li><img class="icon-nab3" src="../img/webinars/lista.png" alt=""><span>ARTÍCULOS</span></li>
                 </a>
                 <a href="../Pages/Webinar.html">
                     <li><img class="icon-nab1" src="../img/webinars/webinars.png" alt=""><span>WEBINARS</span></li>
@@ -61,27 +78,40 @@
             </ul>
         </div>
     </div>
-    <div class="titulo-one"><h1>NOVEDADES</h1><i class="icono2"><img src="../img/ISOTIPO.png" alt=""></i><h1></h1></div>
+    <div class="titulo-one">
+        <h1>NOVEDADES</h1><i class="icono2"><img src="../img/ISOTIPO.png" alt=""></i>
+        <button class="toggle-btn Ra" >RELEVANTE</button>
+    </div>
     <main class="seccion">
-        <div class="seccion">
+        <!-- Columna principal -->
+        <div class="tarjet">
             <div class="contenedor-principal">
                 <div class="contenedor-interno">
                     <img src="https://res.cloudinary.com/dn4c6ixfx/image/upload/v1731983709/BANNERS/dba6nuufjotzwvlrgmse.jpg" alt="Imagen">
-                    <div class="titulo-imagen"><i class="icono2"><img src="../img/ISOTIPO.png" alt=""></i>FAMILIA ISOCAL
+                    <div class="titulo-imagen">
+                        <i><img src="../img/ISOTIPO.png" alt=""> </i> &nbsp; FAMILIA ISOCAL
                     </div>
                     <div class="iconos">
                         <div class="icono">
                             <img src="../img/can.png" alt="Icono 1">
-                            <span>10 de Noviembre de 2024</span>
+                            <span>10 de Noviembre de 2024 </span>
                         </div>
-                        &nbsp;&nbsp;
-                        <div class="icono">
+                        <div class="icono" style="margin-left: 1.5rem;">
                             <img src="../img/come.png" alt="Icono 2">
                             <span> comentarios</span>
                         </div>
                     </div>
                     <div class="la-roja">
                         <div class="linea-roja"></div>
+                    </div>
+                    <div class="descripcion-seccion">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Ultricies ac est ante luctus nulla amet neque
+                            tincidunt nibh.
+                            Ultricies ac est ante luctus nulla amet neque tincidunt nibh.Urna non viverra viverra
+                            adipiscing
+                            tristique lobortis tellus convallis tellus.
+                        </p>
                     </div>
                     <div class="descripcion-seccion">Construíamos momentos que nos fortalezcan como equipo. 
                         Las decisiones correctas no solo se apoyan en nuestra pasión por las   mediciones, 
@@ -91,21 +121,19 @@
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-        <div class="seccion">
+            <!--SE REPITE PARA AGREGAR OTRAS NOVEDADES-->
             <div class="contenedor-principal">
                 <div class="contenedor-interno">
                     <img src="../img/blou/equipos.webp" alt="Imagen">
-                    <div class="titulo-imagen"><i class="icono2"><img src="../img/ISOTIPO.png" alt=""></i>DESCUBRE NUESTROS EQUIPOS
+                    <div class="titulo-imagen">
+                        <i><img src="../img/ISOTIPO.png" alt=""></i>&nbsp; DESCUBRE NUESTROS EQUIPOS
                     </div>
                     <div class="iconos">
                         <div class="icono">
                             <img src="../img/can.png" alt="Icono 1">
                             <span>29 de marzo de 2023</span>
                         </div>
-                        &nbsp;&nbsp;
-                        <div class="icono">
+                        <div class="icono" style="margin-left: 1.5rem;">
                             <img src="../img/come.png" alt="Icono 2">
                             <span>1 comentario</span>
                         </div>
@@ -113,48 +141,57 @@
                     <div class="la-roja">
                         <div class="linea-roja"></div>
                     </div>
-                    <div class="descripcion-seccion">Lorem ipsum dolor sit amet consectetur. Ultricies ac est ante
-                        luctus nulla amet neque tincidunt nibh. Ultricies ac est ante luctus nulla amet neque tincidunt
-                        nibh.Urna non viverra viverra adipiscing tristique lobortis tellus convallis tellus.</div>
+                    <div class="descripcion-seccion">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Ultricies ac est ante luctus nulla amet neque
+                            tincidunt nibh.
+                            Ultricies ac est ante luctus nulla amet neque tincidunt nibh.Urna non viverra viverra
+                            adipiscing
+                            tristique lobortis tellus convallis tellus.
+                        </p>
+                    </div>
                     <div class="boton-c">
-                        <button class="boton">LEER MAS</button>
+                        <button class="boton"><a href="../Pages/familia.html">LEER MAS</a></button>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="seccion">
+            <!-- END-->
             <div class="contenedor-principal">
                 <div class="contenedor-interno">
                     <img src="../img/blou/equipos.webp" alt="Imagen">
-                    <div class="titulo-imagen"><i class="icono2"><img src="../img/ISOTIPO.png" alt=""></i>FAMILIA ISOCAL
+                    <div class="titulo-imagen">
+                        <i><img src="../img/ISOTIPO.png" alt=""></i>&nbsp; FAMILIA ISOCAL
                     </div>
                     <div class="iconos">
                         <div class="icono">
                             <img src="../img/can.png" alt="Icono 1">
                             <span>29 de marzo de 2023</span>
                         </div>
-                        <div class="icono">
+                        <div class="icono" style="margin-left: 1.5rem;">
                             <img src="../img/come.png" alt="Icono 2">
-                            <span>Comentarios</span>
+                            <span>1 comentario</span>
                         </div>
                     </div>
                     <div class="la-roja">
                         <div class="linea-roja"></div>
                     </div>
-                    <div class="descripcion-seccion">Lorem ipsum dolor sit amet consectetur. Ultricies ac est ante
-                        luctus nulla amet neque tincidunt nibh. Ultricies ac est ante luctus nulla amet neque tincidunt
-                        nibh.Urna non viverra viverra adipiscing tristique lobortis tellus convallis tellus.</div>
+                    <div class="descripcion-seccion">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Ultricies ac est ante luctus nulla amet neque
+                            tincidunt nibh.
+                            Ultricies ac est ante luctus nulla amet neque tincidunt nibh.Urna non viverra viverra
+                            adipiscing
+                            tristique lobortis tellus convallis tellus.
+                        </p>
+                    </div>
                     <div class="boton-c">
-                        <button class="boton">LEER MAS</button>
+                        <button class="boton"><a href="../Pages/familia2.html">LEER MAS</a></button>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
 
-    </main>
-    <div class="contenedor-aside">
+        <!-- Barra lateral -->
         <aside class="barra-lateral">
             <div class="bloque-contenido-ti">
                 <h2>RELEVANTE</h2>
@@ -181,10 +218,9 @@
                         nibh.</p>
                 </div>
             </div>
-            <div class="la-roja-3">
-                <div class="linea-roja-3"></div>
+            <div class="la-roja-2">
+                <div class="linea-roja-2"></div>
             </div>
-
             <div class="bloque-contenido">
                 <img src="../img/three.png" alt="Descripción de la imagen">
                 <div class="texto-lateral">
@@ -196,7 +232,6 @@
             <div class="la-roja-b">
                 <div class="linea-roja-b"></div>
             </div>
-
             <div class="bloque-contenido">
                 <img src="../img/foor.png" alt="Descripción de la imagen">
                 <div class="texto-lateral">
@@ -205,65 +240,101 @@
                         nibh.</p>
                 </div>
             </div>
-            <div class="la-roja-3">
-                <div class="linea-roja-3"></div>
+            <div class="la-roja-2">
+                <div class="linea-roja-2"></div>
             </div>
-            <div class="bloque-contenido3">
-                <img src="../img/rec1.webp" alt="Descripción de la imagen">
-                <div class="texto-lateral3">
-                    <h3>TÍTULO</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur. Ultricies ac est ante luctus nulla amet neque tincidunt
-                        nibh. Urna non viverra viverra adipiscing tristique lobortis.</p>
+            <div class="contenido-comp">
+                <img src="../img/rec1.webp" alt="imagen x">
+                <div>
+                    <h3>
+                        TÍTULO
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur.
+                        Ultricies ac est ante luctus nulla amet neque tincidunt nibh. Urna non viverra
+                        viverra adipiscing tristique lobortis.
+                    </p>
                 </div>
             </div>
-            <div class="la-roja-b-2">
-                <div class="linea-roja-b-2"></div>
+            <div class="la-roja-b" style="margin-top: 0.2rem;">
+                <div class="linea-roja-b"></div>
             </div>
-            <div class="bloque-contenido3">
-                <img src="../img/rec1.webp" alt="Descripción de la imagen">
-                <div class="texto-lateral3">
-                    <h3>TÍTULO</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur. Ultricies ac est ante luctus nulla amet neque tincidunt
-                        nibh. Urna non viverra viverra adipiscing tristique lobortis.</p>
+            <div class="contenido-comp">
+                <img src="../img/rec1.webp" alt="imagen x">
+                <div>
+                    <h3>
+                        TÍTULO
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur.
+                        Ultricies ac est ante luctus nulla amet neque tincidunt nibh. Urna non viverra
+                        viverra adipiscing tristique lobortis.
+                    </p>
                 </div>
             </div>
+            <!-- Repite para otros elementos de "Relevante" -->
+            <!-- ... -->
         </aside>
-    </div>
-
+    </main>
 
     <!------ Footer ------>
+    <div class="fot-marge">
+        <footer>
+            <!---->
+            <div class="footer-content">
+                <!-- Logo de la empresa -->
+                <a href="../index.html">
+                    <img src="../img/footer/logoiso.svg" alt="Logo de la empresa" class="logo-empresa">
+                </a>
+                <!-- Términos y condiciones -->
+                <p>
+                    <a class="terminos" href="">TÉRMINOS Y CONDICIONES</a>
+                    <a class="politica" href="">POLÍTICA DE PRIVACIDAD</a>
+                </p>
+                <!-- Logo del libro de reclamaciones -->
+                <img src="../img/footer/recla.svg" alt="Libro de reclamaciones" class="libro-reclamaciones">
 
-    <footer>
-        <div class="footer-content">
-            <!-- Logo de la empresa -->
-            <img src="../img/footer/logoiso.svg" alt="Logo de la empresa" class="logo-empresa">
-
-            <!-- Términos y condiciones -->
-            <p><a class="terminos" href="">TÉRMINOS Y CONDICIONES</a>
-                <a class="politica" href="">POLÍTICA DE PRIVACIDAD</a>
-            </p>
-            <!-- Logo del libro de reclamaciones -->
-            <img src="../img/footer/recla.svg" alt="Libro de reclamaciones" class="libro-reclamaciones">
-
-            <!-- Redes sociales -->
-            <div class="redes-sociales">
-                <a href="https://www.youtube.com/@IsocalPeru"><img class="yt" src="../img/footer/yt.svg" alt="YouTube"></a>
-                <a href="https://www.linkedin.com/company/isocalperu/"><img class="yt" src="../img/footer/in.svg" alt="LinkedIn"></a>
-                <a href="https://www.facebook.com/profile.php?id=61558369539142"><img class="yt" src="../img/footer/fb.svg" alt="Facebook"></a>
-                <a href="https://www.instagram.com/isocal.pe/"><img class="yt" src="../img/footer/ig.svg" alt="Instagram"></a>
-                <a href="https://www.tiktok.com/@Isocal.pe"><img class="yt" src="../img/footer/tk.svg" alt="Instagram"></a>
+                <!-- Redes sociales -->
+                <div class="redes-sociales">
+                    <a href="https://www.youtube.com/@IsocalPeru"> <img class="yt" src="../img/footer/yt.svg"
+                            alt="YouTube"></a>
+                    <a href="https://www.linkedin.com/company/isocalperu/"> <img class="yt" src="../img/footer/in.svg"
+                            alt="LinkedIn"></a>
+                    <a href="https://www.facebook.com/profile.php?id=61558369539142"> <img class="yt"
+                            src="../img/footer/fb.svg" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/isocal.pe/"><img class="yt" src="../img/footer/ig.svg"
+                            alt="Instagram"></a>
+                    <a href="https://www.tiktok.com/@Isocal.pe"> <img class="yt" src="../img/footer/tk.svg"
+                            alt="Tiktok"></a>
+                </div>
             </div>
-        </div>
-    </footer>
-    <p class="footer-copyright">
-        Copyright © 2024 - ISOCAL - Todos los derechos reservados.
-    </p>
-
-
-
-
+        </footer>
+        <p class="footer-copyright">
+            Copyright © 2024 - ISOCAL - Todos los derechos reservados.
+        </p>
+    </div>
 
     <script src="../blou.js"></script>
+    <script src="../script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const toggleBtn = document.querySelector('.toggle-btn');
+            const barraLateral = document.querySelector('.barra-lateral');
+
+            toggleBtn.addEventListener('click', () => {
+                barraLateral.classList.toggle('show');
+            });
+
+            // Close sidebar when clicking outside
+            document.addEventListener('click', (event) => {
+                if (barraLateral.classList.contains('show') && 
+                    !barraLateral.contains(event.target) && 
+                    !toggleBtn.contains(event.target)) {
+                    barraLateral.classList.remove('show');
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

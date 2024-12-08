@@ -8,7 +8,8 @@
     <link rel="icon" href="../img/ISOTIPO.png" type="image/png">
     <link rel="stylesheet" href="../Style/blou.css">
     <link rel="stylesheet" href="../Style/inicio.css">
-
+    <link rel="stylesheet" href="../queries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
 
 <body>
@@ -49,7 +50,7 @@
                     <li><img class="icon-nab3" src="../img/webinars/home.png" alt=""><span>INICIO</span></li>
                 </a>
                 <a href="../Pages/Articulo.html">
-                    <li><img src="../img/webinars/lista.png" alt=""><span>ARTÍCULOS</span></li>
+                    <li><img class="icon-nab3" src="../img/webinars/lista.png" alt=""><span>ARTÍCULOS</span></li>
                 </a>
                 <a href="../Pages/Webinar.html">
                     <li><img class="icon-nab1" src="../img/webinars/webinars.png" alt=""><span>WEBINARS</span></li>
@@ -60,20 +61,29 @@
             </ul>
         </div>
     </div>
-    <div class="titulo-one"><h1>ARTICULOS</h1><i class="icono2"><img src="../img/ISOTIPO.png" alt=""></i></div>
+    <div class="titulo-one">
+        <h1>ARTICULOS</h1>
+        <i class="icono2"><img src="../img/ISOTIPO.png" alt=""></i>
+        <button class="toggle-btn Re">RELEVANTE</button>
+    </div>
+
+    <!--SECCION CONTENDORA DE LAS COLUMNAS-->
+
     <main class="seccion">
-        <div class="seccion">
+        <!-- Columna principal -->
+        <div class="tarjet">
             <div class="contenedor-principal">
                 <div class="contenedor-interno">
                     <img src="../img/QUE ES.webp" alt="Imagen">
-                    <div class="titulo-imagen"><i class="icono2"><img src="../img/ISOTIPO.png" alt=""></i>Qué es la
-                        calibración?</div>
+                    <div class="titulo-imagen">
+                        <i><img src="../img/ISOTIPO.png" alt=""></i>Qué es la calibración?
+                    </div>
                     <div class="iconos">
                         <div class="icono">
                             <img src="../img/can.png" alt="Icono 1">
                             <span>29 de marzo de 2023</span>
                         </div>
-                        <div class="icono">
+                        <div class="icono" style="margin-left: 1rem;">
                             <img src="../img/come.png" alt="Icono 2">
                             <span>Comentarios</span>
                         </div>
@@ -81,28 +91,31 @@
                     <div class="la-roja">
                         <div class="linea-roja"></div>
                     </div>
-                    <div class="descripcion-seccion">Lorem ipsum dolor sit amet consectetur. Ultricies ac est ante
-                        luctus nulla amet neque tincidunt nibh. Ultricies ac est ante luctus nulla amet neque tincidunt
-                        nibh.Urna non viverra viverra adipiscing tristique lobortis tellus convallis tellus.</div>
+                    <div class="descripcion-seccion">
+                        <P>
+                            Lorem ipsum dolor sit amet consectetur. Ultricies ac est ante
+                            luctus nulla amet neque tincidunt nibh. Ultricies ac est ante luctus nulla amet neque tincidunt
+                            nibh.Urna non viverra viverra adipiscing tristique lobortis tellus convallis tellus.
+                        </P>
+                    </div>
                     <div class="boton-c">
                         <button class="boton">LEER MAS</button>
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-        <div class="seccion">
+
             <div class="contenedor-principal">
                 <div class="contenedor-interno">
-                    <img src="../img/webinars/paramCal.webp" alt="Imagen">
-                    <div class="titulo-imagen"><i class="icono2"><img src="../img/ISOTIPO.png" alt=""></i>PARAMETROS DE CALIBRACION
+                    <img src="../img/QUE ES 2.webp" alt="Imagen">
+                    <div class="titulo-imagen">
+                        <i><img src="../img/ISOTIPO.png" alt=""></i>PARAMETROS DE CALIBRACION
                     </div>
                     <div class="iconos">
                         <div class="icono">
                             <img src="../img/can.png" alt="Icono 1">
                             <span>29 de marzo de 2023</span>
                         </div>
-                        <div class="icono">
+                        <div class="icono" style="margin-left: 1rem;">
                             <img src="../img/come.png" alt="Icono 2">
                             <span>Comentarios</span>
                         </div>
@@ -110,28 +123,31 @@
                     <div class="la-roja">
                         <div class="linea-roja"></div>
                     </div>
-                    <div class="descripcion-seccion">Lorem ipsum dolor sit amet consectetur. Ultricies ac est ante
-                        luctus nulla amet neque tincidunt nibh. Ultricies ac est ante luctus nulla amet neque tincidunt
-                        nibh.Urna non viverra viverra adipiscing tristique lobortis tellus convallis tellus.</div>
+                    <div class="descripcion-seccion">
+                        <P>
+                            Lorem ipsum dolor sit amet consectetur. Ultricies ac est ante
+                            luctus nulla amet neque tincidunt nibh. Ultricies ac est ante luctus nulla amet neque tincidunt
+                            nibh.Urna non viverra viverra adipiscing tristique lobortis tellus convallis tellus.
+                        </P>
+                    </div>
                     <div class="boton-c">
                         <button class="boton">LEER MAS</button>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="seccion">
             <div class="contenedor-principal">
                 <div class="contenedor-interno">
-                    <img src="../img/webinars/paramCal.webp" alt="Imagen">
-                    <div class="titulo-imagen"><i class="icono2"><img src="../img/ISOTIPO.png" alt=""></i>FAMILIA ISOCAL
+                    <img src="../img/QUE ES 2.webp" alt="Imagen">
+                    <div class="titulo-imagen">
+                        <i><img src="../img/ISOTIPO.png" alt=""></i>Qué es la calibración?
                     </div>
                     <div class="iconos">
                         <div class="icono">
                             <img src="../img/can.png" alt="Icono 1">
                             <span>29 de marzo de 2023</span>
                         </div>
-                        <div class="icono">
+                        <div class="icono" style="margin-left: 1rem;">
                             <img src="../img/come.png" alt="Icono 2">
                             <span>Comentarios</span>
                         </div>
@@ -139,19 +155,23 @@
                     <div class="la-roja">
                         <div class="linea-roja"></div>
                     </div>
-                    <div class="descripcion-seccion">Lorem ipsum dolor sit amet consectetur. Ultricies ac est ante
-                        luctus nulla amet neque tincidunt nibh. Ultricies ac est ante luctus nulla amet neque tincidunt
-                        nibh.Urna non viverra viverra adipiscing tristique lobortis tellus convallis tellus.</div>
+                    <div class="descripcion-seccion">
+                        <P>
+                            Lorem ipsum dolor sit amet consectetur. Ultricies ac est ante
+                            luctus nulla amet neque tincidunt nibh. Ultricies ac est ante luctus nulla amet neque tincidunt
+                            nibh.Urna non viverra viverra adipiscing tristique lobortis tellus convallis tellus.
+                        </P>
+                    </div>
                     <div class="boton-c">
                         <button class="boton">LEER MAS</button>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
+        
 
-    </main>
-    <div class="contenedor-aside">
+        <!-- COTENEDOR DE LA SECCION IZQUIERDA -->
+
         <aside class="barra-lateral">
             <div class="bloque-contenido-ti">
                 <h2>RELEVANTE</h2>
@@ -225,42 +245,66 @@
                 </div>
             </div>
         </aside>
+    </main>
+        
+    <!------ Footer ------>
+    <div class="fot-marge">
+        <footer>
+            <!---->
+            <div class="footer-content">
+                <!-- Logo de la empresa -->
+                <a href="../index.html">
+                    <img src="../img/footer/logoiso.svg" alt="Logo de la empresa" class="logo-empresa">
+                </a>
+                <!-- Términos y condiciones -->
+                <p>
+                    <a class="terminos" href="">TÉRMINOS Y CONDICIONES</a>
+                    <a class="politica" href="">POLÍTICA DE PRIVACIDAD</a>
+                </p>
+                <!-- Logo del libro de reclamaciones -->
+                <img src="../img/footer/recla.svg" alt="Libro de reclamaciones" class="libro-reclamaciones">
+
+                <!-- Redes sociales -->
+                <div class="redes-sociales">
+                    <a href="https://www.youtube.com/@IsocalPeru"> <img class="yt" src="../img/footer/yt.svg"
+                            alt="YouTube"></a>
+                    <a href="https://www.linkedin.com/company/isocalperu/"> <img class="yt" src="../img/footer/in.svg"
+                            alt="LinkedIn"></a>
+                    <a href="https://www.facebook.com/profile.php?id=61558369539142"> <img class="yt"
+                            src="../img/footer/fb.svg" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/isocal.pe/"><img class="yt" src="../img/footer/ig.svg"
+                            alt="Instagram"></a>
+                    <a href="https://www.tiktok.com/@Isocal.pe"> <img class="yt" src="../img/footer/tk.svg"
+                            alt="Tiktok"></a>
+                </div>
+            </div>
+        </footer>
+        <p class="footer-copyright">
+            Copyright © 2024 - ISOCAL - Todos los derechos reservados.
+        </p>
     </div>
 
-
-    <!------ Footer ------>
-
-    <footer>
-        <div class="footer-content">
-            <!-- Logo de la empresa -->
-            <img src="../img/footer/logoiso.svg" alt="Logo de la empresa" class="logo-empresa">
-
-            <!-- Términos y condiciones -->
-            <p><a class="terminos" href="">TÉRMINOS Y CONDICIONES</a>
-                <a class="politica" href="">POLÍTICA DE PRIVACIDAD</a>
-            </p>
-            <!-- Logo del libro de reclamaciones -->
-            <img src="../img/footer/recla.svg" alt="Libro de reclamaciones" class="libro-reclamaciones">
-
-            <!-- Redes sociales -->
-            <div class="redes-sociales">
-                <a href="https://www.youtube.com/@IsocalPeru"><img class="yt" src="../img/footer/yt.svg" alt="YouTube"></a>
-                <a href="https://www.linkedin.com/company/isocalperu/"><img class="yt" src="../img/footer/in.svg" alt="LinkedIn"></a>
-                <a href="https://www.facebook.com/profile.php?id=61558369539142"><img class="yt" src="../img/footer/fb.svg" alt="Facebook"></a>
-                <a href="https://www.instagram.com/isocal.pe/"><img class="yt" src="../img/footer/ig.svg" alt="Instagram"></a>
-                <a href="https://www.tiktok.com/@Isocal.pe"><img class="yt" src="../img/footer/tk.svg" alt="Tiktok"></a>
-            </div>
-        </div>
-    </footer>
-    <p class="footer-copyright">
-        Copyright © 2024 - ISOCAL - Todos los derechos reservados.
-    </p>
-
-
-
-
-
+    <script src="../script.js"></script>
     <script src="../blou.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const toggleBtn = document.querySelector('.toggle-btn');
+            const barraLateral = document.querySelector('.barra-lateral');
+
+            toggleBtn.addEventListener('click', () => {
+                barraLateral.classList.toggle('show');
+            });
+
+            // Close sidebar when clicking outside
+            document.addEventListener('click', (event) => {
+                if (barraLateral.classList.contains('show') && 
+                    !barraLateral.contains(event.target) && 
+                    !toggleBtn.contains(event.target)) {
+                    barraLateral.classList.remove('show');
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

@@ -68,7 +68,7 @@ h1 .iso-blg {
     padding: 0;
     margin: 20px 0;
     padding-top: 2rem;
-    width: 80%;
+    width: 85%;
 }
 
 .nab-icon-section a {
@@ -91,7 +91,7 @@ h1 .iso-blg {
     border-radius: 6px;
     width: 97%;
     height: 93.5%;
-    font-size: 2.3rem;
+    font-size: 2rem;
     margin-left: 0.4rem;
     margin-top: 0.2rem;
     overflow: hidden;
@@ -124,24 +124,426 @@ h1 .iso-blg {
     left: 0;
 }
 
-
 .nab-icon-section .icon-nab1 {
-    width: 4.4rem;
+    width: 4.1rem;
     margin-right: 1rem;
 }
 
 .nab-icon-section .icon-nab2 {
-    width: 3.6rem;
+    width: 3.4rem;
     margin-right: 1rem;
 }
 
 .nab-icon-section .icon-nab3 {
-    width: 3.1rem;
+    width: 2.9rem;
     margin-right: 1rem;
 }
 
 .nab-icon-section i {
     padding-right: 0.5rem;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .nab-icon-section a {
+        width: 23%;
+    }
+
+    .nab-icon-section li {
+        font-size: 1.5rem;
+    }
+
+    .nab-icon-section .icon-nab1 {
+        width: 3.5rem;
+        margin-right: 1rem;
+    }
+    
+    .nab-icon-section .icon-nab2 {
+        width: 3rem;
+        margin-right: 1rem;
+    }
+    
+    .nab-icon-section .icon-nab3 {
+        width: 2.5rem;
+        margin-right: 1rem;
+    }
+
+    .nab-icon-section .icon-nab4 {
+        width: 2.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .nab-icon-section li {
+        font-size: 1.5rem;
+    }
+
+    .nab-icon-section .icon-nab1 {
+        width: 3rem;
+        margin-right: 1rem;
+    }
+    
+    .nab-icon-section .icon-nab2 {
+        width: 2.5rem;
+        margin-right: 1rem;
+    }
+    
+    .nab-icon-section .icon-nab3 {
+        width: 2rem;
+        margin-right: 1rem;
+    }
+
+    .nab-icon-section .icon-nab4 {
+        width: 2rem;
+    }
+
+}
+
+@media (max-width: 687px) {
+    .nab-icon-section li {
+        font-size: 1.5rem;
+    }
+
+    .nab-icon-section .icon-nab1 {
+        width: 2.8rem;
+        margin-right: 1rem;
+    }
+    
+    .nab-icon-section .icon-nab2 {
+        width: 2.3rem;
+        margin-right: 1rem;
+    }
+    
+    .nab-icon-section .icon-nab3 {
+        width: 1.8rem;
+        margin-right: 1rem;
+    }
+
+    .nab-icon-section .icon-nab4 {
+        width: 1.8rem;
+    }
+    
+}
+
+@media (max-width: 480px) {
+
+    body {
+        margin: 0;
+    }
+
+    /* BANNER DE EL BLOG */
+    .container-principal {
+        width: 100% !important;
+        margin: 0;
+        padding: 0;
+    }
+
+    .img {
+        width: 95%;
+        height: 95%;
+        border-radius: 20px;
+        margin-left: 1.3rem;
+        margin-top: 16rem;
+    }
+
+
+    .nab-icon-section ul {
+        padding-top: 1.5rem;
+        width: 94%;
+    }
+    
+    .nab-icon-section a {
+        width: 23%;
+        border-radius: 10px;
+        justify-items: center;
+    }
+    
+    .nab-icon-section li {
+        padding: 14px 8px;
+        border-radius: 9px;
+        width: 97%;
+        margin-left: 0.012rem;
+        font-weight: 500;
+    }
+
+    .nab-icon-section li span {
+        font-size: 1.2rem !important;
+    }
+
+    .nab-icon-section .icon-nab1 {
+        width: 2rem;
+        margin-right: 0.5rem;
+    }
+    
+    .nab-icon-section .icon-nab2 {
+        width: 2rem;
+        margin-right: 0.5rem;
+    }
+    
+    .nab-icon-section .icon-nab3 {
+        width: 1.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .nab-icon-section .icon-nab4 {
+        width: 1.5rem;
+    }
+
+    .principal-dos {
+        width: 93%;
+        margin-left: 2.1rem;
+    }
+
+    .title-w {
+        justify-items: center;
+        width: 90%;
+        margin-bottom: 2rem;
+        margin-left: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .title-w h1 {
+        margin-left: 0.2rem;
+        font-size: 3.3rem;
+    }
+
+    .title-w .tw2 {
+        font-size: 4.7rem;
+        margin-bottom: 0rem;
+    }
+
+    .tw2 img {
+        width: 4.5rem;
+        margin-bottom: -0.2rem;
+    }
+
+    .principal-tres {
+        display: block !important;
+        width: 93% !important;
+        margin-left: 2.1rem;
+    }
+
+    .bloque-izquierdo {
+        position: absolute;
+        width: 55%;
+        transform: translateX(-150%);
+        transition: transform 0.8s ease;
+        z-index: 100;
+        overflow-y: auto;
+        height: auto !important;
+        margin-top: -76%;
+        margin-left: 0.1rem;
+
+    }
+
+    .bloque-izquierdo.show {
+        transform: translateX(0);
+    }
+
+    .bloque-derecho {
+        margin-bottom: 8rem;
+    }
+
+    /*CURSOS*/
+    .principal-cursos {
+        justify-items: center;
+        margin-bottom: 8rem;
+    }
+
+    .curso {
+        width: 93%;
+        padding: 0.6rem !important;
+        border-radius: 14px !important;
+    }
+
+    .info h3 {
+        font-size: 2.2rem !important;
+        text-align: start;
+        margin-bottom: 2rem;
+    }
+
+    .btn-inscribete {
+        font-size: 1.2rem;
+    }
+
+    .toggle-btn {
+        cursor: pointer;
+        position: relative;
+        display: block;
+        padding: 0 2rem;
+        height:5.2rem;
+        margin-top: -4.3rem;
+        margin-left: auto;
+        font-size: 3.9rem;
+        background: #0066cc00;
+        color: #d70f0f;
+        /*background: linear-gradient(to right, #4A0000, #a50606);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;*/
+    }
+
+    .toggle-btn:hover {
+        color: #b04040;
+        /*background: linear-gradient(to right, #7b2828, #bc4c4c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;*/
+    }
+
+
+    /*SESIONES*/
+    .principal-sesion {
+        width: 92% !important;
+        height: auto !important;
+        margin-bottom: 10rem;
+        margin-left: 2.2rem !important;
+    }
+
+    .principal-sesion .encabezado {
+        display: block !important;
+        width: 100% !important;
+        margin: 0;
+    }
+
+    .encabezado .categoria-2 {
+        font-size: 2.3rem;
+    }
+
+    .encabezado .cci {
+        font-size: 5rem;
+        padding: 0;
+    }
+
+    .img22 {
+        display: none;
+    }
+
+    .img23 {
+        display: block !important;
+        margin-top: 5rem;
+        width: 100% !important;
+        height: auto;
+    }
+
+    .hr {
+        width: 85% !important;
+        margin-left: 7% !important;
+        margin-top: 5rem;
+    }
+
+    .sesiones h2 {
+        font-size: 5rem !important;
+        padding: 0 !important;
+        text-align: start !important;
+    }
+
+    .contenido-curso {
+        display: block !important;
+    }
+
+    .tiempo-total {
+        margin-bottom: 2rem;
+    }
+
+    .sesion-video {
+        width: 33rem !important;
+        height: auto !important;
+        background-color: #0066cc00 !important;
+    }
+    
+    .sesion-video iframe {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .sesiones-columna .sesion {
+        margin-bottom: 3.5rem
+    }
+
+    .sesion-detalle h3 {
+        width: 33% !important;
+    }
+
+    .sesion-detalle p {
+        margin-bottom: 2rem;
+    }
+
+    .sesion a {
+        margin-bottom: -6rem;
+        margin-left: -8rem;
+    }
+
+    /*FAMILIA ISOCAL >>>>>>>>*/
+
+    .principal-fam {
+        width: 92% !important;
+        margin-left: 2.5rem !important;
+    }
+
+    .title-fam h1{
+        font-size: 5rem !important;
+
+    }
+
+    .imgfm {
+        width:4.5rem !important;
+    }
+
+    .principal-fam img {
+        width: 100%;
+        height: auto;
+    }
+
+    .line-2 {
+        width: 80% !important;
+        margin-left: 10% !important;
+        margin-bottom: 3rem;
+    }
+
+    .principal-fam ul {
+        margin: 0 !important;
+        width: 100% !important;
+    }
+
+    .principal-fam ul{
+        font-size: 2rem;
+        text-align: center !important;
+        margin-top: 6rem !important;
+    }
+
+    .principal-fam ul li p {
+        text-align: start;
+        font-size: 1.8rem;
+
+    }
+
+    .principal-post {
+        width: 92% !important;
+        margin-left: 2.5rem !important;
+        display: block !important;
+        margin-bottom: 8rem;
+        margin-top: 7rem !important;
+    }
+
+    .posts-container {
+        display: block !important;
+    }
+
+    .cont-post {
+        margin-bottom: 3rem;
+        border-bottom: 3px solid #4E4E4E;
+        border-right: none !important;
+    }
+
+    .conenido-postR p {
+        font-size: 1.4rem !important;
+    }
+
+
+}
+
+.img23{
+    display: none;
 }
 
 /*TITULO WEBINARS*/
@@ -210,7 +612,7 @@ h1 .iso-blg {
 }
 
 .bloque-sesiones {
-    background: linear-gradient(to right, #4A0000, #a50606);
+    background: linear-gradient(to top, #4A0000, #a50606);
     border-radius: 20px;
     padding: 4px;
     margin-bottom: 4rem;
@@ -371,11 +773,6 @@ h4 {
     font-size: 1.5em;
 }
 
-footer {
-    background-color: #222;
-    padding: 4rem 4rem;
-    text-align: center;
-}
 
 
 /*CURSOS MODULO*/

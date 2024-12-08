@@ -14,81 +14,81 @@ body {
     background-color: #212121;
     color: #ffffff;
     display: flex;
-    flex-direction: column; /* Cambia a columna para apilar verticalmente */
+    flex-direction: column;
+    /* Cambia a columna para apilar verticalmente */
     justify-content: center;
     align-items: center;
     /*height: 520vh;  Asegura que el contenido esté centrado verticalmente */
-    overflow: auto; /* Permite el scroll si el contenido es más grande que la ventana */
+    overflow: auto;
+    /* Permite el scroll si el contenido es más grande que la ventana */
     padding: 0;
-    font-size: 1rem; /* Tamaño de fuente base */
+    font-size: 1rem;
+    /* Tamaño de fuente base */
 
 }
 
 
 
-  
-  /* Contenedor principal */
-  .container {
+
+/* Contenedor principal */
+.container {
     display: flex;
-    flex-wrap: wrap; /* Permite que los elementos se acomoden en cascada */
+    flex-wrap: wrap;
+    /* Permite que los elementos se acomoden en cascada */
     justify-content: center;
-    width: 100%; /* Ancho completo */
+    width: 100%;
+    /* Ancho completo */
     margin: 0 auto;
-    padding: 2vh; /* Padding relativo a la altura de la ventana */
+    padding: 2vh;
+    /* Padding relativo a la altura de la ventana */
     box-sizing: border-box;
-  }
-  
-  /* Div contenedores */
-  .div-container {
-    flex: 1 1 300px; /* Crece, encoge y tiene un tamaño base de 300px */
+}
+
+/* Div contenedores */
+.div-container {
+    flex: 1 1 300px;
+    /* Crece, encoge y tiene un tamaño base de 300px */
     margin: 1vh;
-    padding: 2vh; /* Padding relativo a la altura de la ventana */
+    padding: 2vh;
+    /* Padding relativo a la altura de la ventana */
     border: 1px solid #ccc;
     box-sizing: border-box;
-    font-size: 1rem; /* Tamaño de fuente relativo al tamaño base */
-  }
-  
-
-
-
-
-
-
-
-
-
+    font-size: 1rem;
+    /* Tamaño de fuente relativo al tamaño base */
+}
 
 .banner-container {
     position: relative;
-    width: 100%; /* Ajusta el ancho según sea necesario */
-    max-width: 1200px; /* Limita el ancho máximo */
+    width: 100%;
+    /* Ajusta el ancho según sea necesario */
+    max-width: 1200px;
+    /* Limita el ancho máximo */
     overflow: hidden;
     margin-top: 8%;
 
 }
 
 .banner-container-0 {
-    width: 100%; /* Ajusta el ancho según sea necesario */
-    max-width: 1200px; /* Limita el ancho máximo */
+    width: 100%;
+    /* Ajusta el ancho según sea necesario */
+    max-width: 1200px;
+    /* Limita el ancho máximo */
     height: 100%;
     overflow: hidden;
-   margin-top: 5.2%;
-   max-width: 100%;
+    margin-top: 5.2%;
+    max-width: 100%;
 }
 
 .banner-container-1 {
     position: relative;
-    width: 100%; /* Ajusta el ancho según sea necesario */
-    max-width: 1200px; /* Limita el ancho máximo */
+    width: 100%;
+    /* Ajusta el ancho según sea necesario */
+    max-width: 1200px;
+    /* Limita el ancho máximo */
     height: 100%;
-   /* overflow: hidden;*/
-        margin-top: 20px;
+    /* overflow: hidden;*/
+    margin-top: 20px;
 }
-
-
-
-
-
 
 .banner {
     position: absolute;
@@ -96,7 +96,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-   /* z-index: -1;  Asegura que el banner esté detrás del contenido */
+    /* z-index: -1;  Asegura que el banner esté detrás del contenido */
 }
 
 .banner2 {
@@ -104,8 +104,8 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
- /*   z-index: 1;  Asegura que el banner esté detrás del contenido */
-   
+    /*   z-index: 1;  Asegura que el banner esté detrás del contenido */
+
 }
 
 .banner2 img {
@@ -122,7 +122,8 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1; /* Asegura que el banner esté detrás del contenido */
+    z-index: -1;
+    /* Asegura que el banner esté detrás del contenido */
 }
 
 .banner img {
@@ -144,13 +145,15 @@ body {
 
 .content {
     position: relative;
-    z-index: 1; /* Asegura que el contenido esté por encima del banner */
+    z-index: 1;
+    /* Asegura que el contenido esté por encima del banner */
     width: 100%;
 }
 
 .content-3 {
     position: relative;
-    z-index: 1; /* Asegura que el contenido esté por encima del banner */
+    z-index: 1;
+    /* Asegura que el contenido esté por encima del banner */
     width: 100%;
     margin-top: 80px;
     display: flex;
@@ -177,7 +180,7 @@ body {
 .container-Por {
     display: flex;
     justify-content: flex-start;
-    
+
 }
 
 
@@ -186,7 +189,8 @@ body {
 .image-section {
     flex: 1;
     padding: 20px;
-    margin-top: 60px; /* Mueve la sección de imagen 20px hacia abajo */
+    margin-top: 60px;
+    /* Mueve la sección de imagen 20px hacia abajo */
 }
 
 .image-section img {
@@ -205,7 +209,7 @@ body {
     width: 200px;
     box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.15);
     border-radius: 35px;
-   
+
 }
 
 
@@ -220,22 +224,25 @@ body {
     margin-left: -28px;
 }
 
-.card h2{
+.card h2 {
     font-size: 1.6rem;
     font-weight: bold;
 }
 
-.card p{
+.card p {
     font-size: 10px;
     padding: 20px;
     font-weight: bold;
 }
 
-
+.mob-cont {
+    display: none;
+}
 
 
 .image-iso {
-    margin-top: 30px; /* Mueve la sección de imagen 20px hacia abajo */
+    margin-top: 30px;
+    /* Mueve la sección de imagen 20px hacia abajo */
 }
 
 .image-iso img {
@@ -244,7 +251,8 @@ body {
 }
 
 .image-iso2 {
-    margin-top: 30px; /* Mueve la sección de imagen 20px hacia abajo */
+    margin-top: 30px;
+    /* Mueve la sección de imagen 20px hacia abajo */
     margin-left: 20px;
 
 }
@@ -256,7 +264,8 @@ body {
 
 
 .image-isotip {
-    margin-bottom: 5%; /* Mueve la sección de imagen 20px hacia abajo */
+    margin-bottom: 5%;
+    /* Mueve la sección de imagen 20px hacia abajo */
 }
 
 .image-isotip img {
@@ -266,7 +275,8 @@ body {
 }
 
 .image-isotip2 {
-    margin-bottom: 5%; /* Mueve la sección de imagen 20px hacia abajo */
+    margin-bottom: 5%;
+    /* Mueve la sección de imagen 20px hacia abajo */
 }
 
 .image-isotip2 img {
@@ -313,7 +323,8 @@ body {
 }
 
 .cta-button:hover {
-    background :  linear-gradient(34deg, rgba(74,0,0,1) 0%, rgba(176,1,1,1) 61%);;
+    background: linear-gradient(34deg, rgba(74, 0, 0, 1) 0%, rgba(176, 1, 1, 1) 61%);
+    ;
     border: none;
     box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.15);
 }
@@ -327,11 +338,9 @@ body {
 
 }
 
-.fondoti {
+.fondoti {}
 
-}
-
-.fondoti img{
+.fondoti img {
     padding: 20px;
     margin-top: 50px;
     width: 50rem;
@@ -339,11 +348,11 @@ body {
     display: flex;
 }
 
-.fondoti h1{
-margin-top: -102px;
-margin-left: 30px;
-display: flex;
-font-size: 35px;
+.fondoti h1 {
+    margin-top: -102px;
+    margin-left: 30px;
+    display: flex;
+    font-size: 35px;
 }
 
 
@@ -364,65 +373,253 @@ footer {
 
 
 
-  /* Ajustes para pantallas medianas */
-  @media (max-width: 1200px) {
+/* Ajustes para pantallas medianas */
+@media (max-width: 1200px) {
     .div-container {
-      flex: 1 1 45%; /* Ajuste para pantallas medianas */
+        flex: 1 1 45%;
+        /* Ajuste para pantallas medianas */
     }
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, sans-serif;
-        font-size: 1rem; /* Tamaño de fuente base */
-        height: 500vh;
-      }
 
-    
-  }
-  
-  /* Ajustes para pantallas pequeñas */
-  @media (max-width: 768px) {
-    .div-container {
-      flex: 1 1 100%; /* Ajuste para pantallas pequeñas */
-      padding: 1.5vh; /* Ajuste del padding relativo a la altura de la ventana */
-      font-size: 0.9rem; /* Tamaño de fuente más pequeño */
-    }
     body {
         margin: 0;
         padding: 0;
         font-family: Arial, sans-serif;
-        font-size: 1rem; /* Tamaño de fuente base */
+        font-size: 1rem;
+        /* Tamaño de fuente base */
         height: 500vh;
-      }
-      .text-section h1 {
+    }
+
+
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .div-container {
+        flex: 1 1 100%;
+        /* Ajuste para pantallas pequeñas */
+        padding: 1.5vh;
+        /* Ajuste del padding relativo a la altura de la ventana */
+        font-size: 0.9rem;
+        /* Tamaño de fuente más pequeño */
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        font-size: 1rem;
+        /* Tamaño de fuente base */
+        height: 500vh;
+    }
+
+    .text-section h1 {
         font-size: 2em;
     }
 
     .text-section p {
         font-size: 1em;
     }
-  }
-  
-  /* Ajustes para pantallas muy pequeñas */
-  @media (max-width: 480px) {
+}
+
+/* Ajustes para pantallas muy pequeñas */
+@media (max-width: 480px) {
     .div-container {
-      flex: 1 2 100%; /* Ajuste para pantallas muy pequeñas */
-      padding: 1vh; /* Ajuste del padding relativo a la altura de la ventana */
-      font-size: 0.8rem; /* Tamaño de fuente más pequeño */
+        flex: 1 2 100%;
+        /* Ajuste para pantallas muy pequeñas */
+        padding: 1vh;
+        /* Ajuste del padding relativo a la altura de la ventana */
+        font-size: 0.8rem;
+        /* Tamaño de fuente más pequeño */
     }
+
     body {
         margin: 0;
         padding: 0;
         font-family: Arial, sans-serif;
-        font-size: 1rem; /* Tamaño de fuente base */
-        height: 500vh;
-      }
-      .text-section h1 {
+        font-size: 1rem;
+        /* Tamaño de fuente base */
+        height: 100%;
+    }
+
+    .text-section h1 {
         font-size: 3em;
     }
 
     .text-section p {
         font-size: 1em;
     }
-  }
-  
+
+    .banner-container-0 {
+        margin-top: 14rem;
+    }
+
+    .banner2 img {
+        border-radius: 3rem;
+        width: 93%;
+        margin-left: 1.8rem;
+    }
+
+    .banner-container {
+        height: 100% !important;
+        width: 100%;
+        display: none;
+    }
+
+    .mob-cont {
+        width: 92%;
+        display: block;
+        margin-top: 4rem;
+        align-items: center;
+        text-align: center;
+        background-color: #2A2929;
+        border-radius: 20px;
+        padding-bottom: 5rem;
+    }
+
+    .mob-cont img {
+        width: 85%;
+        height: auto;
+        padding: 3rem 0;
+    }
+
+    .contenido-tex {
+        width: 85%;
+        height: auto;
+    }
+
+    .contenido-tex h2 {
+        font-size: 4rem;
+        color: #fff;
+        font-weight: 600;
+        text-align: start;
+        padding-bottom: 2rem;
+        margin-left: 3.5rem;
+        width: 100%;
+    }
+
+    .contenido-tex p {
+        font-size: 1.8rem;
+        width: 100%;
+        text-align: start;
+        font-weight: 400;
+        margin-left: 3.5rem;
+        padding-bottom: 3rem;
+    }
+
+    .mob-subcont{
+        width: 105%;
+        margin-left: 3rem;
+        height: auto;
+        margin-top: -2rem;
+    }
+
+    .mob-subcont img {
+        width: 10%;
+        margin-bottom: -4rem;
+        margin-left: 11rem;
+
+    }
+
+
+    .cta-button-mob {
+        background-color: #222222;
+        color: white;
+        padding: 10px 10px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 1.9rem;
+        border: 3px solid #c5222e;
+        box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.15);
+
+    }
+    
+    .cta-button-mob:hover {
+        background: linear-gradient(34deg, rgba(74, 0, 0, 1) 0%, rgba(176, 1, 1, 1) 61%);
+        border: none;
+        box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.15);
+    }
+
+    .fondoti {
+        width: 100%;
+        margin-top: -1rem;
+    }
+
+    .fondoti img {
+        width: 100%;
+    }
+
+    .fondoti h1 {
+        font-size: 3.2rem;
+        text-align: center;
+        margin-top: -11rem;
+        margin-left: 5.5rem;
+    }
+
+    .banner5 {
+        width: 100%;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .banner5 img {
+        width: 92%;
+        border-radius: 50px;
+        height: 85%;
+    }
+
+    .content-3 {
+        display: block;
+        width: 90%;
+        text-align: center;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .container-Por {
+        margin-bottom: 2rem;
+        top: 1rem;
+        
+    }
+
+    .image-sectionpor {
+        width: 100%;
+    }
+
+    .image-sectionpor img {
+        width: 90%;
+        margin-left: -1.5rem;
+        height: 85%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .circle {
+        width: 50%;
+        margin-top: -11.5rem;
+        margin-left: 14rem;
+    }
+
+    .circle img {
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .card h2 {
+        font-size: 4rem;
+        width: 100%;
+        margin-left: 3rem;
+        margin-top: 3rem;
+    }
+
+    .card p {
+        font-size: 1.8rem;
+        width: 100%;
+        margin-left: 3rem;
+    }
+
+
+}

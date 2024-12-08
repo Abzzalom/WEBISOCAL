@@ -8,23 +8,28 @@ body {
     flex-direction: column;
     margin: 4%;
     display: flex;
-    overflow: auto; /* Permite el scroll si el contenido es más grande que la ventana */
+    overflow: auto;
+    /* Permite el scroll si el contenido es más grande que la ventana */
 }
 
+header {
+    background-color: #2A2929;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
 
 main.seccion {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Centrar el contenido horizontalmente */
-    width: 100%;
-
-    box-sizing: border-box; /* Incluir padding y border en el ancho total */
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
 }
 
 
 .button-container {
     display: flex;
-    gap: 8%; /* Aumentado el espacio entre los botones */
+    gap: 8%;
+    /* Aumentado el espacio entre los botones */
     justify-content: center;
     margin-top: 6%;
     margin-bottom: 4%;
@@ -115,8 +120,9 @@ main.seccion {
 
 
 .btn-behind {
-    background:linear-gradient(34deg, rgba(74,0,0,1) 0%, rgba(176,1,1,1) 61%);;
-    border:none;
+    background: linear-gradient(34deg, rgba(74, 0, 0, 1) 0%, rgba(176, 1, 1, 1) 61%);
+    ;
+    border: none;
     color: white;
     padding: 14px 60px;
     cursor: pointer;
@@ -130,10 +136,11 @@ main.seccion {
 }
 
 .btn-behind-1 {
-    background:linear-gradient(34deg, rgba(74,0,0,1) 0%, rgba(176,1,1,1) 61%);;
-    border:none;
+    background: linear-gradient(34deg, rgba(74, 0, 0, 1) 0%, rgba(176, 1, 1, 1) 61%);
+    ;
+    border: none;
     color: white;
-    padding:20px 60px;
+    padding: 20px 60px;
     cursor: pointer;
     font-size: 16px;
     display: flex;
@@ -146,10 +153,11 @@ main.seccion {
 
 
 .btn-behind-2 {
-    background:linear-gradient(34deg, rgba(74,0,0,1) 0%, rgba(176,1,1,1) 61%);;
-    border:none;
+    background: linear-gradient(34deg, rgba(74, 0, 0, 1) 0%, rgba(176, 1, 1, 1) 61%);
+    ;
+    border: none;
     color: white;
-    padding:20px 60px;
+    padding: 20px 60px;
     cursor: pointer;
     font-size: 16px;
     display: flex;
@@ -161,10 +169,11 @@ main.seccion {
 }
 
 .btn-behind-3 {
-    background:linear-gradient(34deg, rgba(74,0,0,1) 0%, rgba(176,1,1,1) 61%);;
-    border:none;
+    background: linear-gradient(34deg, rgba(74, 0, 0, 1) 0%, rgba(176, 1, 1, 1) 61%);
+    ;
+    border: none;
     color: white;
-    padding:20px 71px;
+    padding: 20px 71px;
     cursor: pointer;
     font-size: 16px;
     display: flex;
@@ -176,8 +185,9 @@ main.seccion {
 }
 
 .btn-behind-4 {
-    background:linear-gradient(34deg, rgba(74,0,0,1) 0%, rgba(176,1,1,1) 61%);;
-    border:none;
+    background: linear-gradient(34deg, rgba(74, 0, 0, 1) 0%, rgba(176, 1, 1, 1) 61%);
+    ;
+    border: none;
     color: white;
     padding: 19px 60px;
     cursor: pointer;
@@ -195,8 +205,10 @@ main.seccion {
 }
 
 .btn .icon img {
-    width: 25px; /* Ajusta el tamaño del logo */
-    height: auto; /* Mantiene la proporción del logo */
+    width: 25px;
+    /* Ajusta el tamaño del logo */
+    height: auto;
+    /* Mantiene la proporción del logo */
 }
 
 
@@ -218,112 +230,157 @@ main.seccion {
 
 
 .btn-1 .icon-1 img {
-    width: 25px; /* Ajusta el tamaño del logo */
-    height: auto; /* Mantiene la proporción del logo */
+    width: 25px;
+    /* Ajusta el tamaño del logo */
+    height: auto;
+    /* Mantiene la proporción del logo */
 }
+
 .btn-1 .icon-1 img {
-   
-    height: auto; /* Mantiene la proporción del logo */
+
+    height: auto;
+    /* Mantiene la proporción del logo */
 }
 
 
 .btn-2 .icon-2 img {
-    width: 25px; /* Ajusta el tamaño del logo */
-    height: auto; /* Mantiene la proporción del logo */
+    width: 25px;
+    /* Ajusta el tamaño del logo */
+    height: auto;
+    /* Mantiene la proporción del logo */
 }
+
 .btn-2 .icon-2 img {
- 
-    height: auto; /* Mantiene la proporción del logo */
+
+    height: auto;
+    /* Mantiene la proporción del logo */
 }
 
 
 .btn-3 .icon-3 img {
-    width: 25px; /* Ajusta el tamaño del logo */
-    height: auto; /* Mantiene la proporción del logo */
+    width: 25px;
+    /* Ajusta el tamaño del logo */
+    height: auto;
+    /* Mantiene la proporción del logo */
 }
+
 .btn-3 .icon-3 img {
-    width: 45px; /* Ajusta el tamaño del logo */
-    height: auto; /* Mantiene la proporción del logo */
+    width: 45px;
+    /* Ajusta el tamaño del logo */
+    height: auto;
+    /* Mantiene la proporción del logo */
 }
 
 
 .btn-4 .icon-4 img {
-    width: 25px; /* Ajusta el tamaño del logo */
-    height: auto; /* Mantiene la proporción del logo */
+    width: 25px;
+    /* Ajusta el tamaño del logo */
+    height: auto;
+    /* Mantiene la proporción del logo */
 }
+
 .btn-4 .icon-4 img {
-    width: 36px; /* Ajusta el tamaño del logo */
-    height: auto; /* Mantiene la proporción del logo */
+    width: 36px;
+    /* Ajusta el tamaño del logo */
+    height: auto;
+    /* Mantiene la proporción del logo */
 }
 
 .btn-behind .icon img {
-    width: 25px; /* Ajusta el tamaño del logo */
-    height: auto; /* Mantiene la proporción del logo */
+    width: 25px;
+    /* Ajusta el tamaño del logo */
+    height: auto;
+    /* Mantiene la proporción del logo */
 }
 
 
 .btn-behind-1 .icon-1 img {
-    width: 25px; /* Ajusta el tamaño del logo */
-    height: auto; /* Mantiene la proporción del logo */
+    width: 25px;
+    /* Ajusta el tamaño del logo */
+    height: auto;
+    /* Mantiene la proporción del logo */
 }
 
 .btn-behind-2 .icon-2 img {
-    width: 25px; /* Ajusta el tamaño del logo */
-    height: auto; /* Mantiene la proporción del logo */
+    width: 25px;
+    /* Ajusta el tamaño del logo */
+    height: auto;
+    /* Mantiene la proporción del logo */
 }
 
 .btn-behind-3 .icon-3 img {
-    width: 25px; /* Ajusta el tamaño del logo */
-    height: auto; /* Mantiene la proporción del logo */
+    width: 25px;
+    /* Ajusta el tamaño del logo */
+    height: auto;
+    /* Mantiene la proporción del logo */
 }
 
 .btn-behind-4 .icon-4 img {
-    width: 25px; /* Ajusta el tamaño del logo */
-    height: auto; /* Mantiene la proporción del logo */
+    width: 25px;
+    /* Ajusta el tamaño del logo */
+    height: auto;
+    /* Mantiene la proporción del logo */
 }
 
 .btn:hover {
-    background:linear-gradient(34deg, rgba(74,0,0,1) 0%, rgba(176,1,1,1) 61%);;
+    background: linear-gradient(34deg, rgba(74, 0, 0, 1) 0%, rgba(176, 1, 1, 1) 61%);
+    ;
 }
 
 
 
 .btn-1:hover {
-    background:linear-gradient(34deg, rgba(74,0,0,1) 0%, rgba(176,1,1,1) 61%);;
+    background: linear-gradient(34deg, rgba(74, 0, 0, 1) 0%, rgba(176, 1, 1, 1) 61%);
+    ;
 }
 
 .btn-2:hover {
-    background:linear-gradient(34deg, rgba(74,0,0,1) 0%, rgba(176,1,1,1) 61%);;
+    background: linear-gradient(34deg, rgba(74, 0, 0, 1) 0%, rgba(176, 1, 1, 1) 61%);
+    ;
 }
 
 .btn-3:hover {
-    background:linear-gradient(34deg, rgba(74,0,0,1) 0%, rgba(176,1,1,1) 61%);;
+    background: linear-gradient(34deg, rgba(74, 0, 0, 1) 0%, rgba(176, 1, 1, 1) 61%);
+    ;
 }
 
 .btn-4:hover {
-    background:linear-gradient(34deg, rgba(74,0,0,1) 0%, rgba(176,1,1,1) 61%);;
+    background: linear-gradient(34deg, rgba(74, 0, 0, 1) 0%, rgba(176, 1, 1, 1) 61%);
+    ;
 }
 
 
 
 .seccion {
     padding-bottom: 25px;
-    clear: both; /* Asegura que la sección se coloque debajo de otros elementos */
+    clear: both;
+    /* Asegura que la sección se coloque debajo de otros elementos */
     display: flex;
     flex-direction: column;
 }
 
-.contenedor-principal {
-    background:linear-gradient(359deg, rgba(70, 13, 17, 1) 0%, rgba(255, 6, 23, 1) 65%);
-    padding: 5px;
+.tarjet {
+    flex: 4;
     border-radius: 30px;
     color: white;
     display: flex;
-    flex-direction: column; /* Cambiar a columna para que las secciones se apilen verticalmente */
-    align-items: flex-start; /* Alinea todo a la izquierda */
-    flex: 1;
-    width: 62%;
-    margin-left: 5%;
+    flex-direction: column;
+    /* Cambiar a columna para que las secciones se apilen verticalmente */
+    align-items: flex-start;
+    /* Alinea todo a la izquierda */
+    margin-left: 3%;
+}
+
+.contenedor-principal {
+    background: linear-gradient(359deg, rgba(70, 13, 17, 1) 0%, rgba(255, 6, 23, 1) 65%);
+    padding: 4px;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* Cambiar a columna para que las secciones se apilen verticalmente */
+    width: 100%;
+    margin-bottom: 5rem;
 }
 
 .contenido {
@@ -335,14 +392,14 @@ main.seccion {
     background: #272626;
     padding: 18px 10px;
     border-radius: 30px;
-    text-align:left;
+    text-align: left;
 }
 
 .contenedor-interno img {
-    width: 70%;
+    width: 87%;
     display: block;
     margin: 0 auto;
-    margin-bottom: -6px;
+    padding-top: 3rem;
     border-radius: 19px;
 }
 
@@ -359,7 +416,7 @@ main.seccion {
 }
 
 
-.titulo-one{
+.titulo-one {
     text-align: left;
     justify-content: flex-start;
     display: flex;
@@ -370,24 +427,24 @@ main.seccion {
     width: 90%;
 }
 
+
+/*SECCION DE SUBTILOS EN ROJO*/
+
 .iconos {
-    margin-top: 10px;
     justify-content: flex-start;
     display: flex;
-    padding: 2px 60px;
-    margin-bottom: -15px;
+    padding: 0px 60px;
 }
-
-
 
 .icono {
     display: flex;
     align-items: center;
+    margin-top: -0.5rem;
 }
 
 .icono img {
-    width: 19px;
-    height: 18px;
+    width: 2rem;
+    height: 5rem;
     margin-right: 3px;
 }
 
@@ -402,33 +459,40 @@ main.seccion {
     margin-left: 0.8rem;
 }
 
-.icono span{
-    color: red;
-    margin-bottom: -10px;
+/*FIN DE LA SECCION*/
+
+.titulo-imagen i {
+    width: 3.4rem;
+    margin-top: -1.7rem;
 }
 
-.la-roja{
+.icono span {
+    color: red;
+    margin-top: 3rem;
+}
+
+.la-roja {
     padding: 2px 60px;
     margin-bottom: -10px;
 }
 
-.la-roja-2{
+.la-roja-2 {
     padding: 1px 6px;
 
 }
 
-.la-roja-3{
+.la-roja-3 {
     padding: 1px 6px;
     padding-bottom: 35px;
 }
 
-.la-roja-b{
+.la-roja-b {
     padding: 4px 4px;
     margin-top: -45px;
 
 }
 
-.la-roja-b-2{
+.la-roja-b-2 {
     padding: 4px 4px;
 
 
@@ -473,8 +537,8 @@ main.seccion {
 }
 
 .boton {
-    background: rgb(74,0,0);
-    background: linear-gradient(20deg, rgba(74,0,0,1) 0%, rgba(176,1,1,1) 71%);
+    background: rgb(74, 0, 0);
+    background: linear-gradient(20deg, rgba(74, 0, 0, 1) 0%, rgba(176, 1, 1, 1) 71%);
     color: white;
     padding: 4px 15px;
     border: none;
@@ -498,7 +562,7 @@ main.seccion {
     margin-bottom: -6px;
 }
 
-main{
+main {
     display: flex;
 }
 
@@ -508,23 +572,28 @@ main{
     position: absolute;
     display: flex;
     height: auto;
-    right: 100px; /* Cambia de left a right */
-    margin-top:20rem;
+    right: 100px;
+    /* Cambia de left a right */
+    margin-top: 20rem;
     width: 20%;
     box-sizing: content-box;
 }
 
 .barra-lateral {
-    width: 90%; /* Ajusta según sea necesario */
-    background-color: #272727; /* Fondo oscuro */
-    color: #fff; /* Texto blanco */
+    background-color: #272727;
+    /* Fondo oscuro */
+    color: #fff;
+    /* Texto blanco */
     padding: 20px;
     border-radius: 25px;
     position: sticky;
-    height: auto; /* Ajusta la altura según el contenido */
+    height: auto;
+    /* Ajusta la altura según el contenido */
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 100%;
+    flex: 1;
 }
 
 .bloque-contenido {
@@ -544,9 +613,11 @@ main{
 }
 
 .bloque-contenido img {
-    width: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
+    width: 100px;
+    /* Ajusta el tamaño de la imagen según sea necesario */
     height: 95px;
-    border-radius: 10%; /* Imágenes circulares */
+    border-radius: 10%;
+    /* Imágenes circulares */
     margin-right: 10px;
     margin-top: -20px;
 
@@ -569,33 +640,53 @@ main{
     flex: 1;
 }
 
+.contenido-comp {
+    margin-top: 4rem;
+}
+
+/*CONTENIDO INFERIOR*/
+.contenido-comp img {
+    width: 100%;
+}
+
+.contenido-comp h3 {
+    text-align: start;
+    color: #fff;
+}
+
+.contenido-comp p {
+    font-size: 1.1rem;
+}
+
 
 .texto-lateral3 {
     text-align: initial;
 }
 
-.texto-lateral3 h3{
+.texto-lateral3 h3 {
     text-align: initial;
     margin-bottom: -1px;
     color: white;
 }
 
-.texto-lateral3 p{
+.texto-lateral3 p {
     text-align: initial;
     font-size: 12px;
 }
 
-span{
-font-size: 10px;
+span {
+    font-size: 10px;
 
 }
 
-h2{
-    text-align: center; 
+h2 {
+    text-align: center;
 
 }
+
 .bloque-contenido-ti h2 {
-    color: rgb(255, 255, 255); /* Título en rojo */
+    color: rgb(255, 255, 255);
+    /* Título en rojo */
     margin: 0;
     text-align: center;
 }
@@ -608,15 +699,16 @@ h2{
 }
 
 .texto-lateral p {
-    color: #ffffff; /* Texto en gris claro */
+    color: #ffffff;
+    /* Texto en gris claro */
     font-size: 10px;
     margin-left: 2px;
     margin-top: -3px;
 }
 
-.later{
+.later {
 
-display: flex;
+    display: flex;
 
 }
 
@@ -645,11 +737,12 @@ display: flex;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1; /* Asegura que el banner esté detrás del contenido */
+    z-index: -1;
+    /* Asegura que el banner esté detrás del contenido */
 }
 
 .banner img {
-   
+
     height: auto;
     display: flex;
     border-radius: 40px;
@@ -730,8 +823,10 @@ footer p {
 
 .yt:hover {
 
-    border-radius: 100%; /* Círculo */
-    background-color: #c5222e; /* Color rojo al pasar el cursor */
+    border-radius: 100%;
+    /* Círculo */
+    background-color: #c5222e;
+    /* Color rojo al pasar el cursor */
 }
 
 .footer-copyright {
@@ -776,10 +871,16 @@ a {
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 /*isotipo en el banner principal*/
 h1 .iso-blg {
     width: 10rem;
     margin-right: 2rem;
+}
+
+/*oculta el boton*/
+.toggle-btn {
+    display: none;
 }
 
 
@@ -798,7 +899,7 @@ h1 .iso-blg {
     padding: 0;
     margin: 20px 0;
     padding-top: 2rem;
-    width: 80%;
+    width: 85%;
 }
 
 .nab-icon-section a {
@@ -808,7 +909,7 @@ h1 .iso-blg {
     border-radius: 7px;
 }
 
-.nab-icon-section img{
+.nab-icon-section img {
     width: 3rem;
     margin-right: 1rem;
 }
@@ -872,4 +973,287 @@ h1 .iso-blg {
 
 .nab-icon-section i {
     padding-right: 0.5rem;
+}
+
+/* RESPOSIVE DE LA BARRA DE NAVEGACION SECUNDARIA*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .nab-icon-section a {
+        width: 23%;
+    }
+
+    .nab-icon-section li img,
+    .nab-icon-section li span {
+        font-size: 1.4rem !important;
+    }
+
+    .nab-icon-section li {
+        font-size: 1.4rem !important;
+    }
+
+    .nab-icon-section .icon-nab1 {
+        width: 3rem;
+        margin-right: 1rem;
+    }
+
+    .nab-icon-section .icon-nab2 {
+        width: 2.9rem;
+        margin-right: 1rem;
+    }
+
+    .nab-icon-section .icon-nab3 {
+        width: 2.4rem;
+        margin-right: 1rem;
+    }
+
+    .nab-icon-section .icon-nab4 {
+        width: 2.4rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .nab-icon-section li {
+        font-size: 1.4rem;
+    }
+
+    .nab-icon-section .icon-nab1 {
+        width: 2.8rem;
+        margin-right: 1rem;
+    }
+
+    .nab-icon-section li img,
+    .nab-icon-section li span {
+        font-size: 1.3rem !important;
+    }
+
+    .nab-icon-section .icon-nab2 {
+        width: 2.4rem;
+        margin-right: 1rem;
+    }
+
+    .nab-icon-section .icon-nab3 {
+        width: 1.9rem;
+        margin-right: 1rem;
+    }
+
+    .nab-icon-section .icon-nab4 {
+        width: 1.9rem;
+    }
+
+}
+
+@media (max-width: 687px) {
+    .nab-icon-section li {
+        font-size: 1.5rem;
+    }
+
+    .titulo-one h1 {
+        margin-left: 120%;
+    }
+
+    .nab-icon-section li span {
+        font-size: 1.2rem !important;
+    }
+
+    .nab-icon-section .icon-nab1 {
+        width: 2rem;
+    }
+
+    .nab-icon-section .icon-nab2 {
+        width: 2.2rem;
+        margin-right: 1rem;
+    }
+
+    .nab-icon-section .icon-nab3 {
+        width: 1.6rem;
+        margin-right: 1rem;
+    }
+
+    .nab-icon-section .icon-nab4 {
+        width: 1.6rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    body {
+        margin: 0;
+    }
+
+    /* BANNER DE EL BLOG */
+    .container-principal {
+        width: 100% !important;
+    }
+
+    .img {
+        width: 95%;
+        height: 95%;
+        border-radius: 20px;
+        margin-left: 1.3rem;
+        margin-top: 13rem;
+    }
+
+    .nab-icon-section ul {
+        padding-top: 1.5rem;
+        width: 94%;
+    }
+
+    .nab-icon-section a {
+        width: 23%;
+        border-radius: 10px;
+        justify-items: center;
+    }
+
+    .nab-icon-section li {
+        padding: 6px 8px;
+        border-radius: 9px;
+        width: 97%;
+        margin-left: 0.012rem;
+        font-weight: 500;
+    }
+
+    .nab-icon-section li span {
+        font-size: 1.1rem !important;
+    }
+
+    .nab-icon-section .icon-nab1 {
+        width: 2rem;
+        margin-right: 0.5rem;
+    }
+
+    .nab-icon-section .icon-nab2 {
+        width: 2rem;
+        margin-right: 0.5rem;
+    }
+
+    .nab-icon-section .icon-nab3 {
+        width: 1.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .nab-icon-section .icon-nab4 {
+        width: 1.5rem;
+    }
+
+    .titulo-one {
+        justify-items: center;
+        width: 90%;
+        margin-bottom: 2rem;
+        margin-left: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .titulo-one h1 {
+        margin: 0;
+        margin-left: 0.5rem;
+        font-size: 3.3rem;
+    }
+
+    .icono2 img {
+        width: 4.4rem;
+        margin-top: 0.3rem;
+    }
+
+    .seccion {
+        justify-items: center;
+        padding-bottom: 25px;
+        display: flex !important;
+        position: relative;
+    }
+
+    .tarjet {
+        margin-left: 0;
+        justify-items: center;
+        text-align: center;
+        align-items: center;
+        position: relative;
+    }
+
+    /*CONTENDORES PRICIPALES TANTO EL QUE FORMA EL BORDE Y EL FONDO*/
+    .contenedor-principal {
+        padding: 2px;
+        margin-bottom: 5rem;
+        width: 91%;
+    }
+
+    .contenedor-interno {
+        padding: 18px 10px;
+        border-radius: 30px;
+    }
+
+    .titulo-imagen {
+        margin: 0;
+        padding: 0;
+        font-size: 3.3rem;
+        margin-left: 2.5rem;
+        margin-top: 1rem;
+    }
+
+    .titulo-imagen i img {
+        width: 3.5rem;
+        margin-top: -0.5rem;
+    }
+
+    .iconos {
+        width: 100%;
+        margin-left: 2.5rem;
+        padding: 0;
+    }
+
+    .la-roja {
+        padding: 0 2.5rem;
+    }
+
+    .descripcion-seccion {
+        padding: 2.5rem;
+    }
+
+    .boton-c {
+        padding: 0 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .barra-lateral {
+        width: 92%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        transform: translateX(-150%);
+        transition: transform 0.8s ease;
+        z-index: 100;
+        overflow-y: auto;
+        height: auto !important;
+        padding-bottom: 5rem;
+        margin-left: 2.2rem;
+    }
+    .barra-lateral.show {
+        transform: translateX(0);
+    }
+
+    .toggle-btn {
+        cursor: pointer;
+        position: relative;
+        display: block;
+        padding: 0 2rem;
+        height:5.2rem;
+        margin-left: auto;
+        margin-top: 0.1rem;
+        font-weight: 600;
+        background: linear-gradient(34deg, rgba(74,0,0,1) 0%, rgba(176,1,1,1) 61%);
+    }
+
+    .toggle-btn:hover {
+        background: linear-gradient(34deg, rgb(98, 20, 20) 0%, rgb(155, 48, 48) 61%);
+    }
+}
+
+.fot-marge {
+    width: 100% !important;
+}
+
+footer {
+    width: 100% !important;
 }
