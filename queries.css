@@ -160,6 +160,7 @@
     width: 100%;
     top: 0;
     left: 0;
+    right: 0;
     height: 100%;
   }
 
@@ -172,9 +173,20 @@
 
   }
 
-  section,
-  .features .slides .slide footer {
-    padding: 1.5rem;
+  section{
+    width: 100%;
+    padding: 3.8rem;
+  }
+
+  
+  .features{
+    width: 100%;
+    padding: 0;
+  }
+  
+  .slides, .slide, footer {
+    padding: 0;
+    width: 100% !important;
   }
 
   .logo-empresa {
