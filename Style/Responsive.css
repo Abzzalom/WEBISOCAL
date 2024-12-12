@@ -47,26 +47,35 @@
     }
 
     .carousel {
-        width: 20%;
-        gap: 50px;
+        width: 100%;
+        display: block;
+    }
+
+    .container-carousel-item {
+        margin-bottom: 15rem;
+    }
+
+    .m333 {
+        margin-bottom: 0rem !important; /*REDUCIR EL ESPACIO ENTRE EL FOOTER Y LA FOTO DE ARMANDO*/
     }
 
     .carousel-item {
-        width: 110px;
-        height: 110px;
+        width: 210px;
+        height: 210px;
         margin: 0;
         padding: 0;
         
     }
 
     .carousel-item img {
-        width: 103px;
-        height: 103px;
+        width: 203px;
+        height: 203px;
         margin: 0.43rem;
     }
 
     .letters-carousel h2 {
         font-size: 2.5rem;
+        margin-top: 3rem;
     }
 
     .letters-carousel h3 {
@@ -132,6 +141,11 @@
     .caja img {
         border-radius: 12px;
     }
+
+    .carousel-container {
+        display: block;
+    }
+
 
 }
 
