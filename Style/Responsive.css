@@ -13,6 +13,17 @@
         margin-top: 14rem;
     }
 
+    .cuatro iframe {
+        width: 100%;
+        border-radius: 14px;
+        height: auto;
+    }
+
+    .cuatro {
+        width: 90%;
+    }
+
+
     .dos img {
         border-radius: 10px;
     }
@@ -75,13 +86,34 @@
     }
 
     .caja-v {
-        margin-bottom: -3rem;
-        width: 590px;
-        height: 290px; 
+        width: 100% !important;
+        height: auto; 
         overflow: hidden; /* Esconde cualquier parte de la imagen que sobresalga */
         position: relative; /* Establece una posición relativa para el contenedor */
-        margin-left: 21.5rem;
-        border-radius: 15px;
+        margin-left: 0;
+        border-radius: 0;
+    }
+
+    .caja-v2 {
+        width: 100%;
+        border-radius: 20px !important;
+        height: 90rem !important;
+    }
+
+    .imagen1 {
+        width: 85%;
+        height: auto;
+        margin: 0 !important;
+        top: 0;
+        left: 10%;
+    }
+
+    .imagen2 {
+        width: 85%;
+        top: 42rem;
+        left: 10%;
+        height: auto;
+
     }
     
     .caja-v1 {
@@ -92,6 +124,14 @@
         top: 0;
         left: 0;
         border-radius: 25px;
+    }
+
+    .caja {
+        width: 100%;
+    }
+
+    .caja img {
+        border-radius: 12px;
     }
 
 }
