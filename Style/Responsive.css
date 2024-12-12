@@ -13,6 +13,10 @@
         margin-top: 14rem;
     }
 
+    .dos img {
+        border-radius: 10px;
+    }
+
     .container-principal .img1 {
         border-radius: 15px;
     }
