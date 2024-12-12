@@ -256,6 +256,10 @@ header {
     height: 780px;
   }
 
+  .f4444 {
+    margin-bottom: 13rem;
+  }
+
   .list_aud_diag {
     margin-right: 0;
     justify-items: center;
@@ -263,7 +267,6 @@ header {
 
   .list {
     width: 95%;
-    height: 11.2rem;
   }
 
   .list_aud_inter {
@@ -281,7 +284,10 @@ header {
   }
 
   .letters_list p {
-    width: 94%;
+    width: 90%;
+    margin-right: 2.5rem;
+    font-size: 1.8rem;
+    line-height: 1.4;
   }
 
   .image_aud_diag {
