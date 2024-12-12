@@ -140,6 +140,14 @@
 
   }
 
+  .courses {
+    margin-top: -8rem;
+  }
+
+  .courses .row .column {
+    margin-left: 0.7rem;
+  }
+
   header {
     padding: 2rem 5rem;
     width: 100%;
@@ -175,7 +183,7 @@
 
   section{
     width: 100%;
-    padding: 3.8rem;
+    padding: 3.9rem;
   }
 
   
