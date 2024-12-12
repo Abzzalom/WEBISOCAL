@@ -39,7 +39,7 @@ header {
 }
 
 .fbo{
-    width: 1000px;
+    width: 989px;
     height: 56rem;
     display: flex;
     border-radius: 40px;
@@ -55,7 +55,6 @@ header {
 .tres img{
     max-width: 89%;
     height: auto;
-    margin-left: 5.5%;
     border-radius: 50px;
 }
 
@@ -67,9 +66,45 @@ header {
 .cuatro img{
     max-width: 89%;
     height: auto;
-    margin-left: 5.5%;
     border-radius: 50px;
 }
+.valora { 
+    position: relative; 
+    width: 100%; 
+    height: 100%;
+}
+
+.fondo10{
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    background-size: cover; 
+    background-position: center; 
+    z-index: -1; /* Coloca el fondo detrás de otras imágenes */
+
+}
+
+.imagen-superior {
+ position: absolute; 
+ width: 150px; 
+ height: auto; 
+ border-radius: 8px; 
+
+}
+ 
+.imagen1 { 
+    top: 5%;
+    left: 21%;
+    width: 30%;
+} 
+.imagen2 { 
+    top: 20%;
+    left: 52%;
+    width: 30%;
+ }
+
+
+
 .letter {
     position: absolute;
     top: 0;
@@ -120,6 +155,7 @@ header {
     margin-top: 72px;
     margin-right: 6%;
     width: 92%;
+    justify-content: center;
 }
 
 .caja {
@@ -152,6 +188,18 @@ header {
     border-radius: 50px;
 
 }
+.caja-v2 {
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+    /* margin-left: 6%; */
+    /* text-align: center; */
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px;
+
+}
+
 
 
 .caja:nth-child(1) {
