@@ -48,6 +48,10 @@ a {
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+.toggle-btn {
+    display: none;
+}
 /*isotipo en el banner principal*/
 h1 .iso-blg {
     width: 10rem;
@@ -376,18 +380,15 @@ h1 .iso-blg {
         margin-top: -4.3rem;
         margin-left: auto;
         font-size: 3.9rem;
-        background: #0066cc00;
-        color: #d70f0f;
-        /*background: linear-gradient(to right, #4A0000, #a50606);
+        background: linear-gradient(to right, #4A0000, #a50606);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;*/
+        -webkit-text-fill-color: transparent;
     }
 
     .toggle-btn:hover {
-        color: #b04040;
-        /*background: linear-gradient(to right, #7b2828, #bc4c4c);
+        background: linear-gradient(to right, #7b2828, #be3f3f);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;*/
+        -webkit-text-fill-color: transparent;
     }
 
 
@@ -539,6 +540,11 @@ h1 .iso-blg {
         font-size: 1.4rem !important;
     }
 
+    .etiqueta::after {
+        right: -16px !important;
+        top: 50,9% !important;
+        border-width: 13px 0 13px 17px !important;
+    }
 
 }
 
