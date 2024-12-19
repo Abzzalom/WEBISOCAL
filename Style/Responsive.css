@@ -16,13 +16,13 @@
     .cuatro iframe {
         width: 100%;
         border-radius: 14px;
-        height: auto;
+        height: 129%;
     }
 
     .cuatro {
         width: 90%;
+        margin-bottom: 4rem;
     }
-
 
     .dos img {
         border-radius: 10px;
@@ -36,6 +36,7 @@
         padding: 0;
         width: 100%;
         margin-top: 6rem;
+        height: auto;
     }
 
     .tit-2 h1{
