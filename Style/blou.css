@@ -1183,23 +1183,42 @@ h1 .iso-blg {
         border-radius: 30px;
     }
 
+    .contenedor-interno img{
+        padding-top: 0;
+        margin-top: 3rem;
+        border-radius: 15px;
+    }
+
     .titulo-imagen {
         margin: 0;
         padding: 0;
         font-size: 3.3rem;
         margin-left: 2.5rem;
         margin-top: 1rem;
+        border-radius: 3px;
     }
 
     .titulo-imagen i img {
         width: 3.5rem;
-        margin-top: -0.5rem;
+        margin-top: 2.4rem;
     }
 
     .iconos {
         width: 100%;
         margin-left: 2.5rem;
-        padding: 0;
+        padding: 0 ;
+    }
+
+    .icono {
+        height: 40px;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .icono img {
+        width: 20px;
+        height: 20px;
+        border-radius: 0;
     }
 
     .la-roja {
