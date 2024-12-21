@@ -195,6 +195,7 @@
   .slides, .slide, footer {
     padding: 0;
     width: 100% !important;
+    right: 1rem;
   }
 
   .logo-empresa {
@@ -346,15 +347,18 @@
     float: left;
     width: 100%;
     padding: 17px;
-    margin-top: -7rem;
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
   }
 
   .video-container {
-    float: left;
     width: 100%;
     border-radius: 20px;
+  }
+
+  .video-container iframe{
+    height: 49rem;
   }
 
   .contacc {
@@ -449,6 +453,13 @@
   }
 }
 
+@media screen and (max-width: 380px){
+
+  .video-container iframe{
+    height: 40rem;
+  }
+}
+
 @media screen and (max-width: 350px){
   form {
     margin-top: 7rem;
@@ -475,5 +486,5 @@
     gap: 5px;
     margin-left: 0;
   }
-
 }
+
