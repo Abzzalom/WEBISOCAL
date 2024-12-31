@@ -23,8 +23,8 @@
   }
 
   nav ul {
-    width:100%;
-    gap:2rem;
+    width: 100%;
+    gap: 2rem;
 
   }
 
@@ -37,7 +37,7 @@
 
   }
 
-  nav ul li a{ 
+  nav ul li a {
     font-size: 1.5rem;
   }
 
@@ -116,10 +116,45 @@
     width: 50%;
   }
 
-  .nuestros-servicios1 {
+  .nuestros-servicios1, .nuestros-contac {
     margin-left: -7rem;
+    font-size: 3rem;
   }
 
+  .logo-fondo-transparente-mesa-d {
+    width: 3.7rem;
+  }
+
+  .courses {
+    margin-top: -9rem;
+  }
+  
+
+  .video-container {
+    margin-left: -7rem;
+    width: 55%;
+  }
+
+  .fba {
+    width: 100%;
+    background-color: blue;
+  }
+
+  form {
+    margin-right: -8rem;
+    margin-top: 0rem;
+    height: 53.5rem;
+    width: 55%;
+  }
+
+  #selected-service-btn {
+    font-size: 1.4rem;
+  }
+
+  .pv {
+    text-align: center ;
+    margin-bottom: 1rem;
+  }
 
 }
 
@@ -174,9 +209,6 @@
     width: 6rem;
   }
 
-  .frame-parent4 {
-
-  }
 }
 
 @media only screen and (max-width: 575px) {
@@ -226,18 +258,20 @@
 
   }
 
-  section{
+  section {
     width: 100%;
     padding: 3.9rem;
   }
 
-  
-  .features{
+
+  .features {
     width: 100%;
     padding: 0;
   }
-  
-  .slides, .slide, footer {
+
+  .slides,
+  .slide,
+  footer {
     padding: 0;
     width: 100% !important;
     right: 1rem;
@@ -402,7 +436,7 @@
     border-radius: 20px;
   }
 
-  .video-container iframe{
+  .video-container iframe {
     height: 49rem;
   }
 
@@ -428,13 +462,13 @@
     border-radius: 13px;
   }
 
-  .fot-marge{
+  .fot-marge {
     width: 102%;
     padding: 0;
     margin-left: -0.45rem;
   }
 
-  .fot-marge footer{
+  .fot-marge footer {
     width: 100%;
     padding: 0;
   }
@@ -463,7 +497,7 @@
     margin-top: 2rem;
     margin-left: 2.4rem;
     margin-bottom: 1rem;
-    
+
   }
 
   .redes-sociales {
@@ -478,7 +512,7 @@
     width: 100%;
   }
 
-  .politica{
+  .politica {
     margin-left: 1.9rem;
     margin-top: -0.014rem;
   }
@@ -493,22 +527,24 @@
   }
 
   .row {
-    width: 110%; /*CAMBIAR EL TAMAÑO DEL CONTENEDOR uWu*/
+    width: 110%;
+    /*CAMBIAR EL TAMAÑO DEL CONTENEDOR uWu*/
     margin-left: -2.8rem;
   }
 }
 
-@media screen and (max-width: 380px){
+@media screen and (max-width: 380px) {
 
-  .video-container iframe{
+  .video-container iframe {
     height: 40rem;
   }
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 350px) {
   form {
     margin-top: 7rem;
   }
+
   .logo-empresa {
     width: 200px;
     margin-left: 0.6rem;
@@ -524,7 +560,7 @@
     font-size: 1.4rem;
     margin-top: 2rem;
     margin-left: 3rem;
-    
+
   }
 
   .redes-sociales {
@@ -532,4 +568,3 @@
     margin-left: 0;
   }
 }
-
