@@ -1,3 +1,4 @@
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< ESTYLE TABLET >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media only screen and (max-width: 991px) {
   html {
     font-size: 56.25%;
@@ -13,7 +14,43 @@
   }
 
   header {
-    padding: 2.2rem 5rem;
+    padding: 2rem 5rem;
+    width: 100%;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  nav ul {
+    width:100%;
+    gap:2rem;
+
+  }
+
+  nav ul li {
+    width: auto;
+    display: flex;
+    width: 100%;
+    align-items: start;
+    text-align: start;
+
+  }
+
+  nav ul li a{ 
+    font-size: 1.5rem;
+  }
+
+  .pppppp {
+    width: 13rem !important;
+  }
+
+  .ns-nav {
+    width: 17rem !important;
+  }
+
+  #logo {
+    width: 50%;
   }
 
   section.hero {
@@ -78,13 +115,17 @@
   .download-app a img {
     width: 50%;
   }
+
+  .nuestros-servicios1 {
+    margin-left: -7rem;
+  }
+
+
 }
 
 @media only screen and (max-width: 767px) {
   html {
     font-size: 50%;
-
-
   }
 
   header {
@@ -131,6 +172,10 @@
   #scroll-top {
     height: 6rem;
     width: 6rem;
+  }
+
+  .frame-parent4 {
+
   }
 }
 
