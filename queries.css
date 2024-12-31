@@ -156,6 +156,25 @@
     margin-bottom: 1rem;
   }
 
+  .logo-empresa {
+    width: 60%;
+  }
+
+  .footer-content p{
+    margin-left: -15rem;
+    width: 40%;
+  }
+
+  .redes-sociales a > img{
+    width: 30px;
+    height: 30px;
+  }
+
+  .redes-sociales a {
+    width: 5%;
+    height: 5%;
+  }
+
 }
 
 @media only screen and (max-width: 767px) {
